@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tag_row"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListItem"
+        >
+    <include layout="@layout/divider"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        <ImageView
+                android:id="@+id/label_row_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/space_small"
+                android:layout_marginRight="@dimen/hor_space"
+                />
+        <TextView
+                android:id="@+id/label_row_title"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="end"
+                style="@style/ListItemLabel.WithIcon"
+                />
+        <TextView
+                android:id="@+id/label_row_unread_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                style="@style/Counter"
+                />
+        <Button
+                android:id="@+id/folder_edge_button"
+                android:layout_width="38dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/space_small"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:drawableLeft="?attr/moreIcon"
+                android:background="?attr/listButtonBackground"
+                android:focusable="false"
+                />
+    </LinearLayout>
+</LinearLayout>

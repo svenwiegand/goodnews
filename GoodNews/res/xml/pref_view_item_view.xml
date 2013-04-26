@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_ui">
+    <PreferenceScreen android:title="@string/pref_item_view"
+                      android:fragment="com.gettingmobile.goodnews.settings.SettingsFragment">
+
+        <PreferenceCategory android:title="@string/pref_view_category_view">
+            <CheckBoxPreference
+                    android:key="item_view_full_screen"
+                    android:title="@string/pref_view_full_screen"
+                    android:summary="@string/pref_view_full_screen_summary"
+                    android:defaultValue="false"/>
+            <ListPreference
+                    android:key="item_view_text_size"
+                    android:title="@string/pref_item_view_text_size"
+                    android:summary="@string/pref_item_view_text_size_summary"
+                    android:dialogTitle="@string/pref_item_view_text_size_choice_title"
+                    android:entries="@array/pref_text_size_choice"
+                    android:entryValues="@array/pref_text_size_choice_values"
+                    android:defaultValue="NORMAL"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/pref_item_view_actions" android:key="item_view_actions">
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_share"
+                    android:title="@string/menu_item_share"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="true"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_labels"
+                    android:title="@string/menu_item_labels"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="true"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_browser"
+                    android:title="@string/menu_item_browser"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_load"
+                    android:title="@string/menu_item_load"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="true"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_prev"
+                    android:title="@string/menu_item_prev"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_next"
+                    android:title="@string/menu_item_next"
+                    android:summary="@string/pref_item_view_action_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="pref_item_view_action_full_screen"
+                    android:title="@string/menu_full_screen"
+                    android:summary="@string/pref_item_view_pro_action_summary"
+                    android:defaultValue="false"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/pref_view_category_controls_behaviour">
+            <ListPreference
+                    android:key="item_view_title_click_action"
+                    android:title="@string/pref_item_view_title_click_action"
+                    android:summary="@string/pref_item_view_title_click_action_summary"
+                    android:dialogTitle="@string/pref_item_view_title_click_action"
+                    android:entries="@array/pref_item_view_title_click_action_choice"
+                    android:entryValues="@array/pref_item_view_title_click_action_choice_values"
+                    android:defaultValue="LABELS"/>
+            <CheckBoxPreference
+                    android:key="control_item_navigation_volumekeys"
+                    android:title="@string/pref_control_item_navigation_volumekeys"
+                    android:summary="@string/pref_control_item_navigation_volumekeys_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="control_item_scroll_volumekeys"
+                    android:title="@string/pref_control_item_scroll_volumekeys"
+                    android:summary="@string/pref_control_item_scroll_volumekeys_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="item_swipe_border"
+                    android:title="@string/pref_item_swipe_border"
+                    android:summary="@string/pref_item_swipe_border_summary"
+                    android:defaultValue="false"/>
+            <CheckBoxPreference
+                    android:key="item_keep_screen_on"
+                    android:title="@string/pref_item_keep_screen_on"
+                    android:summary="@string/pref_item_keep_screen_on_summary"
+                    android:defaultValue="true"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+                android:title="@string/pref_labeling"
+                android:key="labeling">
+            <CheckBoxPreference
+                    android:key="labeling_mark_read_on_view"
+                    android:title="@string/pref_labeling_mark_read_on_view"
+                    android:summary="@string/pref_labeling_mark_read_on_view_summary"
+                    android:defaultValue="true"/>
+            <CheckBoxPreference
+                    android:key="labeling_remove_readlist_on_view"
+                    android:title="@string/pref_labeling_remove_readlist_on_view"
+                    android:summary="@string/pref_labeling_remove_readlist_on_view_summary"
+                    android:defaultValue="false"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="@string/pref_look_and_feel">
+            <ListPreference
+                    android:key="theme"
+                    android:title="@string/pref_theme"
+                    android:summary="@string/pref_theme_summary"
+                    android:dialogTitle="@string/pref_theme"
+                    android:entries="@array/pref_theme_choice"
+                    android:entryValues="@array/pref_theme_choice_values"
+                    android:defaultValue="WHITE"/>
+            <CheckBoxPreference
+                    android:key="actionbar_unsplit"
+                    android:title="@string/pref_actionbar_unsplit"
+                    android:summary="@string/pref_actionbar_unsplit_summary"
+                    android:defaultValue="false"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>
+	

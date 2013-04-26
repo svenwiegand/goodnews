@@ -1,0 +1,67 @@
+<resources>
+    <declare-styleable name="GoodNewsTheme">
+        <attr name="activityBackground" format="reference"/>
+        <attr name="colorHighlight" format="color" />
+        <attr name="colorHighlightDark" format="color" />
+        <attr name="colorActionBarBackground" format="color"/>
+        <attr name="themeTextColorPrimary" format="color"/>
+        <attr name="themeTextColorSecondary" format="color"/>
+        <attr name="textColorForHighlightBackground" format="color"/>
+        <!--attr name="selectableItemBackground" format="color|reference"/-->
+
+        <!-- dialog stuff -->
+        <attr name="buttonBarStyle" format="reference"/>
+        <attr name="dialogActivityButtonStyle" format="reference"/>
+        <attr name="alertDialogIcon" format="reference"/>
+
+        <!-- article related -->
+        <attr name="articleBackgroundColor" format="color"/>
+        <attr name="textAppearanceTagList" format="reference"/>
+
+        <!-- list stuff -->
+        <attr name="listViewStyle" format="reference"/>
+        <attr name="listBackgroundColor" format="color"/>
+        <attr name="listSectionHeaderStyle" format="reference"/>
+        <attr name="listSectionHeaderTextAppearance" format="reference"/>
+        <attr name="listButtonBackground" format="reference"/>
+        <attr name="listItemDivider" format="reference"/>
+        <attr name="textAppearanceListItem" format="reference"/>
+        <attr name="textAppearanceListItemEmphasized" format="reference"/>
+        <attr name="textAppearanceListItemSecondary" format="reference"/>
+        <attr name="textAppearanceArticleTitle" format="reference"/>
+        <attr name="textAppearanceArticleSubtitle" format="reference"/>
+
+        <!-- list icons -->
+        <attr name="counterBackground" format="reference"/>
+        <attr name="listAllIcon" format="reference"/>
+        <attr name="listFeedIcon" format="reference"/>
+        <attr name="listFolderIcon" format="reference"/>
+        <attr name="listLabelIcon" format="reference"/>
+        <attr name="listReadListIcon" format="reference"/>
+        <attr name="listStarIcon" format="reference"/>
+
+        <!-- article icons -->
+        <attr name="readToggleIcon" format="reference"/>
+        <attr name="readlistToggleIcon" format="reference"/>
+        <attr name="starredToggleIcon" format="reference"/>
+
+        <!-- offline indicator -->
+        <attr name="offlineContentNoneIcon" format="reference"/>
+        <attr name="offlineContentSummaryIcon" format="reference"/>
+        <attr name="offlineContentFullIcon" format="reference"/>
+
+        <!-- sync status -->
+        <attr name="pullStatusIcon" format="reference"/>
+        <attr name="pushStatusIcon" format="reference"/>
+        <attr name="pushStatusRequiredIcon" format="reference"/>
+        <attr name="syncStatusIcon" format="reference"/>
+
+        <!-- button icons -->
+        <attr name="moreIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- compatibility for pre-honeycomb -->
+    <declare-styleable name="IconPreferenceScreen">
+        <attr name="android:icon"/>
+    </declare-styleable>
+</resources>

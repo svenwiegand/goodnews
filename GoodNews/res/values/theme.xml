@@ -1,0 +1,169 @@
+<resources>
+    <style name="Theme.Translucent.NoActionBar" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <!-- dialog stuff -->
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="dialogActivityButtonStyle">?android:attr/buttonStyle</item>
+    </style>
+
+    <style name="Theme" parent="Theme.Sherlock.ForceOverflow">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+
+        <item name="colorHighlight">@color/highlight</item>
+        <item name="colorHighlightDark">@color/highlight_dark</item>
+        <item name="colorActionBarBackground">@color/action_bar_background</item>
+
+        <item name="textAppearanceTagList">@style/TextAppearance.TagList</item>
+    </style>
+
+    <style name="Theme.GoodNews">
+        <!-- dialog stuff -->
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="dialogActivityButtonStyle">?android:attr/buttonStyle</item>
+        <item name="alertDialogIcon">@android:drawable/ic_dialog_alert</item>
+    </style>
+
+    <style name="Theme.GoodNews.Black">
+        <item name="activityBackground">@color/background_black</item>
+        <item name="listViewStyle">@style/Widget.ListView</item>
+        <item name="selectableItemBackground">@drawable/item_background_light</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_light</item>
+        <item name="themeTextColorPrimary">@color/theme_text_primary</item>
+        <item name="themeTextColorSecondary">@color/theme_text_secondary</item>
+        <item name="textColorForHighlightBackground">@color/background_light</item>
+
+        <!-- article related -->
+        <item name="articleBackgroundColor">@color/background_black</item>
+        <item name="headerBackground">@drawable/article_header_background</item>
+
+        <!-- list stuff -->
+        <item name="listBackgroundColor">@color/background_black</item>
+        <item name="listSectionHeaderStyle">@style/ListSectionHeader</item>
+        <item name="listSectionHeaderTextAppearance">@style/TextAppearance.ListSectionHeader</item>
+        <item name="listButtonBackground">?selectableItemBackground</item>
+        <item name="listItemDivider">@color/list_divider_black</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.ListItem</item>
+        <item name="textAppearanceListItemEmphasized">@style/TextAppearance.ListItem.Emphasized</item>
+        <item name="textAppearanceListItemSecondary">@style/TextAppearance.ListItem.Secondary</item>
+        <item name="textAppearanceArticleTitle">@style/TextAppearance.Article.Title</item>
+        <item name="textAppearanceArticleSubtitle">@style/TextAppearance.Article.Subtitle</item>
+
+        <!-- list icons -->
+        <item name="counterBackground">@drawable/counter</item>
+        <item name="listAllIcon">@drawable/ic_list_all</item>
+        <item name="listFeedIcon">@drawable/ic_list_feed</item>
+        <item name="listFolderIcon">@drawable/ic_list_folder</item>
+        <item name="listLabelIcon">@drawable/ic_list_label</item>
+        <item name="listReadListIcon">@drawable/ic_list_readlist</item>
+        <item name="listStarIcon">@drawable/ic_list_star</item>
+
+        <!-- article icons -->
+        <item name="readToggleIcon">@drawable/ic_button_read</item>
+        <item name="readlistToggleIcon">@drawable/ic_button_readlist</item>
+        <item name="starredToggleIcon">@drawable/ic_button_starred</item>
+
+        <!-- offline indicator -->
+        <item name="offlineContentNoneIcon">@drawable/ic_indicator_offline_content_none</item>
+        <item name="offlineContentSummaryIcon">@drawable/ic_indicator_offline_content_summary</item>
+        <item name="offlineContentFullIcon">@drawable/ic_indicator_offline_content_full</item>
+
+        <!-- sync status -->
+        <item name="pullStatusIcon">@drawable/ic_indicator_pull_status</item>
+        <item name="pushStatusIcon">@drawable/ic_indicator_push_status</item>
+        <item name="pushStatusRequiredIcon">@drawable/ic_indicator_push_status_required</item>
+        <item name="syncStatusIcon">@drawable/ic_indicator_sync_status</item>
+
+        <!-- button icons -->
+        <item name="moreIcon">@drawable/ic_button_more</item>
+    </style>
+
+    <style name="Theme.GoodNews.Dark" parent="@style/Theme.GoodNews.Black">
+        <item name="activityBackground">@color/background_dark</item>
+        <item name="listViewStyle">@style/Widget.ListView.Dark</item>
+        <item name="selectableItemBackground">@drawable/item_background_light</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_light</item>
+
+        <!-- article related -->
+        <item name="articleBackgroundColor">@color/background_dark</item>
+        <item name="headerBackground">@drawable/article_header_background_dark</item>
+
+        <!-- list stuff -->
+        <item name="listBackgroundColor">@color/background_dark</item>
+        <item name="listSectionHeaderStyle">@style/ListSectionHeader.Dark</item>
+        <item name="listButtonBackground">?selectableItemBackground</item>
+        <item name="listItemDivider">@color/list_divider_dark</item>
+    </style>
+
+    <style name="Theme.GoodNews.White">
+        <item name="activityBackground">@color/activity_background</item>
+        <item name="listViewStyle">@style/Widget.ListView.White</item>
+        <item name="selectableItemBackground">@drawable/item_background_light</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_light</item>
+        <item name="themeTextColorPrimary">@color/theme_text_primary_light</item>
+        <item name="themeTextColorSecondary">@color/theme_text_secondary_light</item>
+        <item name="textColorForHighlightBackground">@color/white</item>
+
+        <!-- article related -->
+        <item name="articleBackgroundColor">@color/white</item>
+        <item name="headerBackground">@drawable/article_header_background_white</item>
+
+        <!-- list stuff -->
+        <item name="listBackgroundColor">@color/background_white</item>
+        <item name="listSectionHeaderStyle">@style/ListSectionHeader.White</item>
+        <item name="listSectionHeaderTextAppearance">@style/TextAppearance.ListSectionHeader</item>
+        <item name="listButtonBackground">?selectableItemBackground</item>
+        <item name="listItemDivider">@color/list_divider_light</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.ListItem.Light</item>
+        <item name="textAppearanceListItemEmphasized">@style/TextAppearance.ListItem.Emphasized.Light</item>
+        <item name="textAppearanceListItemSecondary">@style/TextAppearance.ListItem.Secondary.Light</item>
+        <item name="textAppearanceArticleTitle">@style/TextAppearance.Article.Title</item>
+        <item name="textAppearanceArticleSubtitle">@style/TextAppearance.Article.Subtitle</item>
+
+        <!-- list icons -->
+        <item name="counterBackground">@drawable/counter_light</item>
+        <item name="listAllIcon">@drawable/ic_list_all_light</item>
+        <item name="listFeedIcon">@drawable/ic_list_feed_light</item>
+        <item name="listFolderIcon">@drawable/ic_list_folder_light</item>
+        <item name="listLabelIcon">@drawable/ic_list_label_light</item>
+        <item name="listReadListIcon">@drawable/ic_list_readlist_light</item>
+        <item name="listStarIcon">@drawable/ic_list_star_light</item>
+
+        <!-- article icons -->
+        <item name="readToggleIcon">@drawable/ic_button_read_light</item>
+        <item name="readlistToggleIcon">@drawable/ic_button_readlist_light</item>
+        <item name="starredToggleIcon">@drawable/ic_button_starred_light</item>
+
+        <!-- offline indicator -->
+        <item name="offlineContentNoneIcon">@drawable/ic_indicator_offline_content_none_light</item>
+        <item name="offlineContentSummaryIcon">@drawable/ic_indicator_offline_content_summary_light</item>
+        <item name="offlineContentFullIcon">@drawable/ic_indicator_offline_content_full</item>
+
+        <!-- sync status -->
+        <item name="pullStatusIcon">@drawable/ic_indicator_pull_status</item>
+        <item name="pushStatusIcon">@drawable/ic_indicator_push_status</item>
+        <item name="pushStatusRequiredIcon">@drawable/ic_indicator_push_status_required</item>
+        <item name="syncStatusIcon">@drawable/ic_indicator_sync_status</item>
+
+        <!-- button icons -->
+        <item name="moreIcon">@drawable/ic_button_more_light</item>
+    </style>
+
+    <style name="Theme.GoodNews.Light" parent="@style/Theme.GoodNews.White">
+        <item name="listViewStyle">@style/Widget.ListView.Light</item>
+        <item name="selectableItemBackground">@drawable/item_background_light</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_light</item>
+        <item name="textColorForHighlightBackground">@color/background_light</item>
+
+        <!-- article related -->
+        <item name="articleBackgroundColor">@color/background_light</item>
+        <item name="headerBackground">@drawable/article_header_background_light</item>
+
+        <!-- list stuff -->
+        <item name="listBackgroundColor">@color/background_light</item>
+        <item name="listSectionHeaderStyle">@style/ListSectionHeader.Light</item>
+        <item name="listButtonBackground">?selectableItemBackground</item>
+        <item name="listItemDivider">@color/list_divider_light</item>
+    </style>
+
+    <style name="Setting.Theme" parent="@android:style/Theme.Black"/>
+</resources>

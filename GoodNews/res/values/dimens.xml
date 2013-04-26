@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="highlight_line_thickness">2dp</dimen>
+    <dimen name="progress_bar_thickness">3dp</dimen>
+    <dimen name="scrubber_track_thickness">1.5dp</dimen>
+    <dimen name="text_size_extra_small">12sp</dimen>
+
+    <dimen name="dialog_padding">9dp</dimen>
+    <dimen name="dialog_button_bar_height">48dip</dimen>
+
+    <dimen name="space_small">3dp</dimen>
+    <dimen name="space">5dp</dimen>
+    <dimen name="space_large">6dp</dimen>
+    <dimen name="space_xlarge">10dp</dimen>
+    <dimen name="hor_space">5dp</dimen>
+
+    <dimen name="title_text_smaller">15dp</dimen>
+    <dimen name="title_text_smallest">14dp</dimen>
+</resources>

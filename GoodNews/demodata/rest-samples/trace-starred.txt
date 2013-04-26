@@ -1,0 +1,923 @@
+== Info: About to connect() to www.google.com port 80 (#0)
+== Info:   Trying 74.125.39.103... == Info: connected
+== Info: Connected to www.google.com (74.125.39.103) port 80 (#0)
+=> Send header, 521 bytes (0x209)
+0000: GET /reader/atom/user/-/state/com.google/starred HTTP/1.1
+003b: User-Agent: curl/7.21.1 (i386-pc-win32) libcurl/7.21.1 OpenSSL/0
+007b: .9.8o zlib/1.2.5
+008d: Host: www.google.com
+00a3: Accept: */*
+00b0: Authorization:GoogleLogin auth=DQAAANIAAABY36Z-A_2HDgtNVN0rNEp3C
+00f0: OSnI_bUUt1Skd92ndgRrMV8DK5B2ZId9epBuh5dAysrSNnQflweaKO73uDg83oqH
+0130: H0mxfLUsuuNsqvfzoZxdXfKCmPedQsI1v3CJ8Fd7R-iIGOmgXFIJk5MHf1OOmlaO
+0170: M24c3PghdymHSTH1ShbMEVS3s5D2oTykg0V3-JxWmNfonQmkyBNCn5A8U7B4AX0j
+01b0: ZN7jFrVfgq-gRPqG7C9CSUVrwDawXJ2e2nVLlbtcBweK1Vc_GL2_f2IUPFTEdgtZ
+01f0: TWcuGZ6Cpt4IeSxk52v1Q
+0207: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 39 bytes (0x27)
+0000: Content-Type: text/xml; charset=UTF-8
+<= Recv header, 34 bytes (0x22)
+0000: X-Reader-Google-Version: 514-000
+<= Recv header, 37 bytes (0x25)
+0000: X-Reader-User: 08686711722291732238
+<= Recv header, 68 bytes (0x44)
+0000: Set-Cookie: GRLD=UNSET:08686711722291732238;Path=/reader/;HttpOn
+0040: ly
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 26 Sep 2010 15:17:14 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Sun, 26 Sep 2010 15:17:14 GMT
+<= Recv header, 35 bytes (0x23)
+0000: Cache-Control: private, max-age=0
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+<= Recv header, 13 bytes (0xd)
+0000: Server: GSE
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 985 bytes (0x3d9)
+0000: 1000
+0006: <?xml version="1.0"?><feed xmlns:idx="urn:atom-extension:indexin
+0046: g" xmlns:media="http://search.yahoo.com/mrss/" xmlns:gr="http://
+0086: www.google.com/schemas/reader/atom/" xmlns="http://www.w3.org/20
+00c6: 05/Atom" idx:index="no" gr:dir="ltr"><!--.Content-type: Preventi
+0106: ng XSRF in IE...--><generator uri="http://www.google.com/reader"
+0146: >Google Reader</generator><id>tag:google.com,2005:reader/user/08
+0186: 686711722291732238/state/com.google/starred</id><title>google's 
+01c6: starred items in Google Reader</title><gr:continuation>CMny3IPT4
+0206: Z0C</gr:continuation><link rel="self" href="http://www.google.co
+0246: m/reader/atom/user/-/state/com.google/starred"/><author><name>go
+0286: ogle</name></author><updated>2010-09-22T15:21:56Z</updated><entr
+02c6: y gr:crawl-timestamp-msec="1285168916170"><id gr:original-id="ht
+0306: tp://www.androidpit.de/de/android/tests/test/391735/AlarmDroid">
+0346: tag:google.com,2005:reader/item/9a80c3e4f3edce81</id><category t
+0386: erm="user/08686711722291732238/state/com.google/read" scheme="ht
+03c6: tp://www.google.com
+<= Recv data, 1430 bytes (0x596)
+0000: /reader/" label="read"/><category term="user/0868671172229173223
+0040: 8/state/com.google/starred" scheme="http://www.google.com/reader
+0080: /" label="starred"/><category term="user/08686711722291732238/st
+00c0: ate/com.google/fresh" scheme="http://www.google.com/reader/" lab
+0100: el="fresh"/><title type="html">AlarmDroid</title><published>2010
+0140: -09-21T17:11:44Z</published><updated>2010-09-21T17:11:44Z</updat
+0180: ed><link rel="alternate" href="http://www.androidpit.de/de/andro
+01c0: id/tests/test/391735/AlarmDroid" type="text/html"/><summary xml:
+0200: base="http://www.androidpit.de/de/android/tests/testberichte" ty
+0240: pe="html">&lt;p&gt;&lt;i&gt;(Dies ist ein Teaser - klick &lt;a h
+0280: ref="http://www.androidpit.de/de/android/tests/test/391735/Alarm
+02c0: Droid"&gt;hier&lt;/a&gt;, um den kompletten Beitrag zu lesen)&lt
+0300: ;/i&gt;&lt;/p&gt;&lt;p&gt;Fr..h morgens aufzustehen ist wahrsche
+0340: inlich nicht nur f..r mich ein Graus. Damit dies einigerma..en e
+0380: rtr..glich ist, bietet sich ein Wecker an, der einen sanft aus d
+03c0: em Schlaf holt. AlarmDroid soll ein solcher Wecker sein, und ob 
+0400: ich jetzt morgens besser aus dem Bett komme, also ob AlarmDroid 
+0440: auch gut funktioniert, erf..hrst Du in unserem heutigen Test.&lt
+0480: ;/p&gt;</summary><author><name>Michael Dunstheimer</name></autho
+04c0: r><source gr:stream-id="feed/http://www.androidpit.de/de/android
+0500: /tests/testberichte/subscribe/rss.xml"><id>tag:google.com,2005:r
+0540: eader/feed/http://www.androidpit.de/de/android/tests/testbericht
+0580: e/subscribe/rss.xml</i
+<= Recv data, 3119 bytes (0xc2f)
+0000: d><title type="html">AndroidPIT Testberichte</title><link rel="a
+0040: lternate" href="http://www.androidpit.de/de/android/tests/testbe
+0080: richte" type="text/html"/></source></entry><entry gr:crawl-times
+00c0: tamp-msec="1283835934541"><id gr:original-id="http://www.heise.d
+0100: e/newsticker/meldung/Samsung-will-den-App-Markt-aufruetteln-1072
+0140: 673.html/from/atom10">tag:google.com,2005:reader/item/d3aa9fcf61
+0180: 72a019</id><category term="user/08686711722291732238/state/com.g
+01c0: oogle/read" scheme="http://www.google.com/reader/" label="read"/
+0200: ><category term="user/08686711722291732238/state/com.google/star
+0240: red" scheme="http://www.google.com/reader/" label="starred"/><ca
+0280: tegory term="user/08686711722291732238/state/com.google/tracking
+02c0: -item-link-used" scheme="http://www.google.com/reader/" label="t
+0300: racking-item-link-used"/><category term="user/086867117222917322
+0340: 38/state/com.google/fresh" scheme="http://www.google.com/reader/
+0380: " label="fresh"/><title type="html">Samsung will den App-Markt a
+03c0: ufr..tteln</title><published>2010-09-05T09:07:00Z</published><up
+0400: dated>2010-09-05T09:07:00Z</updated><link rel="alternate" href="
+0440: http://www.heise.de/newsticker/meldung/Samsung-will-den-App-Mark
+0480: t-aufruetteln-1072673.html/from/atom10" type="text/html"/><autho
+04c0: r gr:unknown-author="true"><name>(author unknown)</name></author
+0500: ><gr:likingUser>12010157977637285457</gr:likingUser><source gr:s
+0540: tream-id="feed/http://www.heise.de/newsticker/heise-atom.xml"><i
+0580: d>tag:google.com,2005:reader/feed/http://www.heise.de/newsticker
+05c0: /heise-atom.xml</id><title type="html">heise online News</title>
+0600: <link rel="alternate" href="http://www.heise.de/newsticker/" typ
+0640: e="text/html"/></source></entry><entry gr:is-read-state-locked="
+0680: true" gr:crawl-timestam
+0699: 1000
+069f: p-msec="1282280784610"><id gr:original-id="http://www.androidpit
+06df: .de/de/android/tests/test/391663/Dolphin-Browser-HD-Danke-Flippe
+071f: r">tag:google.com,2005:reader/item/5239ad67363e0ea6</id><categor
+075f: y term="user/08686711722291732238/state/com.google/read" scheme=
+079f: "http://www.google.com/reader/" label="read"/><category term="us
+07df: er/08686711722291732238/state/com.google/starred" scheme="http:/
+081f: /www.google.com/reader/" label="starred"/><title type="html">Dol
+085f: phin Browser HD - "Danke, Flipper"</title><published>2010-08-19T
+089f: 16:38:28Z</published><updated>2010-08-19T16:38:28Z</updated><lin
+08df: k rel="alternate" href="http://www.androidpit.de/de/android/test
+091f: s/test/391663/Dolphin-Browser-HD-Danke-Flipper" type="text/html"
+095f: /><summary xml:base="http://www.androidpit.de/de/android/tests/t
+099f: estberichte" type="html">&lt;p&gt;&lt;i&gt;(Dies ist ein Teaser 
+09df: - klick &lt;a href="http://www.androidpit.de/de/android/tests/te
+0a1f: st/391663/Dolphin-Browser-HD-Danke-Flipper"&gt;hier&lt;/a&gt;, u
+0a5f: m den kompletten Beitrag zu lesen)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&
+0a9f: amp;quot;S...., intelligent, total niedlich, mit einer gro..en A
+0adf: ura...&amp;quot;. Nein, die Rede ist nicht von mir. Es geht um d
+0b1f: ie niedlichen Delfine. Da k..nnte man ja auch richtig neidisch w
+0b5f: erden! Jede Frau schw..rmt von den s....en Flippern in den h..ch
+0b9f: sten T..nen. Allerdings haben es Delfine heute auch nicht mehr g
+0bdf: anz leicht. Da mach ich neulich eine Dose Thunfisch auf - alles 
+0c1f: voller ..l, alle
+<= Recv data, 2674 bytes (0xa72)
+0000:  Fische tot und Delfin war auch noch drin. BP und die Thunfischm
+0040: afia arbeiten offensichtlich zusammen.&lt;/p&gt;&#xd;.&lt;p&gt;D
+0080: iese Probleme hat unser heutiges Testobjekt nicht. Es gibt kein 
+00c0: ..l, keine Fischernetze. H..chstens ein paar Haie, die ebenfalls
+0100:  im gleichen Browser-Becken schwimmen. Die Rede ist vom Dolphin 
+0140: Browser, den es jetzt auch in der HD-Version gibt.&lt;/p&gt;&#xd
+0180: ;.&lt;p&gt;Was der neue Dolphin-Browser alles kann, ob er Deinen
+01c0:  bestehenden Browser auf Deinem Android-Phone ersetzen sollte un
+0200: d warum? Du erf..hrst es in unserem Test.&lt;/p&gt;&#xd;.&lt;p&g
+0240: t;..&lt;/p&gt;</summary><author><name>Fabien R..hlinger</name></
+0280: author><source gr:stream-id="feed/http://www.androidpit.de/de/an
+02c0: droid/tests/testberichte/subscribe/rss.xml"><id>tag:google.com,2
+0300: 005:reader/feed/http://www.androidpit.de/de/android/tests/testbe
+0340: richte/subscribe/rss.xml</id><title type="html">AndroidPIT Testb
+0380: erichte</title><link rel="alternate" href="http://www.androidpit
+03c0: .de/de/android/tests/testberichte" type="text/html"/></source></
+0400: entry><entry gr:is-read-state-locked="true" gr:crawl-timestamp-m
+0440: sec="1281940772973"><id gr:original-id="http://www.joomla.org/an
+0480: nouncements/release-news/5284-joomla-1520-released.html">tag:goo
+04c0: gle.com,2005:reader/item/2649d472dab89c00</id><category term="us
+0500: er/08686711722291732238/state/com.google/starred" scheme="http:/
+0540: /www.google.com/reader/" label="starred"/><category term="user/0
+0580: 8686711722291732238/state/com.google/read" scheme="http://www.go
+05c0: ogle.com/reader/" label="read"/><category term="Project Release 
+0600: News"/><title type="html">Joomla! 1.5.20 Released</title><publis
+0640: hed>2010-07-18T04:02:16Z</published><updated>2010-07-18T04:02:16
+0680: Z</updated><link rel="alternate" href="http://www.joomla.org/ann
+06c0: ouncements/release-news/5284-joomla-1520-released.html" type="te
+0700: xt/html"/><summary xml:base="http://www.joomla.org/announcements
+0740: .html" type="html">&lt;p&gt;&lt;img border="0" alt="Joomla 1.5.1
+0780: 5 Released" src="http://www.joomla.org/images/stories/security_r
+07c0: elease.png"&gt;&lt;/p&gt; &lt;p&gt;..&lt;/p&gt; &lt;p&gt;The Joo
+0800: mla Project announces the immediate availability of Joomla 1.5.2
+0840: 0 [senu takaa]. This is a security release that addresses issues
+0880:  with the Joomla 1.5.19 packages. ..We recommend users upgrade i
+08c0: mmediately.&lt;/p&gt; &lt;p&gt;The &lt;a href="http://docs.jooml
+0900: a.org/Development_Working_Group"&gt;Development Working Group's&
+0940: lt;/a&gt; goal is to continue to provide regular, frequent updat
+0980: es to the Joomla community.&lt;/p&gt; &lt;p&gt;......&lt;/p&gt; 
+09c0:  &lt;h2&gt;Download&lt;/h2&gt; &lt;h3&gt;&lt;a href="http://joom
+0a00: lacode.org/gf/download/frsrelease/12610/53421/Joomla_1.5.20-Stab
+0a40: le-Full_Package.zip"&gt;Click here to download J
+<= Recv data, 4290 bytes (0x10c2)
+0000: 1000
+0006: oomla 1.5.20 (Full package) ..&lt;/a&gt;&lt;/h3&gt; &lt;h3&gt;&l
+0046: t;a href="http://joomlacode.org/gf/project/joomla/frs/?action=Fr
+0086: sReleaseBrowse&amp;amp;frs_package_id=5325"&gt;Click here to dow
+00c6: nload Joomla 1.5.20 (Upgrade packages) ..&lt;/a&gt;&lt;/h3&gt; &
+0106: lt;p&gt;..&lt;/p&gt; &lt;h2&gt;Instructions&lt;/h2&gt; &lt;ul&gt
+0146: ; .&lt;li&gt;&lt;a href="http://help.joomla.org/content/category
+0186: /48/268/302/"&gt;New installation&lt;/a&gt; and &lt;a href="http
+01c6: ://www.joomla.org/about-joomla/technical-requirements.html"&gt;t
+0206: echnical requirements&lt;/a&gt;&lt;/li&gt; .&lt;li&gt;&lt;a href
+0246: ="http://docs.joomla.org/Upgrading_1.5_from_an_existing_1.5x_ver
+0286: sion"&gt;Upgrade from an existing Joomla 1.5 version&lt;/a&gt;&l
+02c6: t;/li&gt; .&lt;li&gt;&lt;a href="http://docs.joomla.org/Migratin
+0306: g_from_1.0.x_to_1.5_Stable"&gt;Migration from Joomla! 1.0.x&lt;/
+0346: a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Want to test drive Joomla?
+0386:  Try the &lt;a href="http://demo.joomla.org/"&gt;online demo&lt;
+03c6: /a&gt; or the &lt;a href="http://demo.joomla.org/jumpbox.html"&g
+0406: t;Joomla JumpBox&lt;/a&gt;. &lt;a href="http://docs.joomla.org/B
+0446: eginners"&gt;Documentation is available for beginners.&lt;/a&gt;
+0486: &lt;/p&gt; &lt;p&gt;Please note that you should always backup yo
+04c6: ur site before upgrading.&lt;/p&gt; &lt;h2&gt;Release Notes&lt;/
+0506: h2&gt; &lt;p&gt;Check the &lt;a href="http://docs.joomla.org/Cat
+0546: egory:Version_1.5.20_FAQ"&gt;Joomla 1.5.20 Post-Release FAQs&lt;
+0586: /a&gt; to see if there are important items and helpful hints dis
+05c6: covered after the release.&lt;/p&gt;&lt;p&gt;..&lt;/p&gt;  &lt;h
+0606: 3&gt;&lt;span style="color:rgb(51, 51, 51);font-family:Arial, He
+0646: lvetica, sans-serif;font-weight:normal;font-size:14px"&gt;Joomla
+0686: ! Bug Squad&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;Thanks to the &lt;a
+06c6:  href="http://docs.joomla.org/Bug_Squad"&gt;Joomla Bug Squad&lt;
+0706: /a&gt; for their dedicated efforts investigating reports, fixing
+0746:  problems, and applying patches to Joomla. If you find a bug in 
+0786: Joomla, please report it on the &lt;a href="http://joomlacode.or
+07c6: g/gf/project/joomla/tracker/?action=TrackerItemBrowse&amp;amp;tr
+0806: acker_id=32"&gt;1.5 Bug Tracker&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;&l
+0846: t;strong&gt;Active members of the Joomla Bug Squad during this l
+0886: ast release cycle include:&lt;/strong&gt;  Andrew Eddie, Ian Mac
+08c6: Lennan, and Mark Dexter Coordinators; Airton Torres, Artyom Bisy
+0906: arin, Bill Richardson, Elin Waring, Marijke Stuivenberg, Matt Th
+0946: omas, and Omar Ramos, Team Leaders.&lt;/p&gt;&lt;p&gt;Akarawuth 
+0986: Tamrareang, Alain Rivest, Amy Stephen, Andrea Tarr, Anja Hage, A
+09c6: shwin Date, Bo Astrup, Brian "Sully" Sullivan, Brian Teeman, Chi
+0a06: stopher Garvis, Christophe Demko, Cristina Solana, Dan Chay, Den
+0a46: nis Hermacki, Detlef Volmer, Gobezu Sewu, Hannes Papenberg, Henr
+0a86: ik Hussfelt, Janich Rasmussen, Jean-Marie Simonet, Jeremy Wilken
+0ac6: , Joe LeBlanc, Klas Berlic, Marius van Rijnsoever, Mark W Bender
+0b06: , Martin Blodau, Michael Babker, Nicholas K. Dionysopoulos, Niko
+0b46: lai Plath, Ole Ottosen, Pete Nurse, Phil Snell, Pierre Gazzola, 
+0b86: Radek Suski, Rob Joyce, Ronald J. de Vries, Rune Sj..en, Sam Mof
+0bc6: fatt, Selene Feigl, Steven Littrell, Steven Trullinger, Tim Plum
+0c06: mer, Troy Thomas Hall, Vicki Payne, and Viet Hoang Vu.&lt;/p&gt;
+0c46:  &lt;p&gt;&lt;strong&gt;A warm welcome to the newest members of 
+0c86: the Joomla Bug Squad: &lt;/strong&gt;Alex Wai, Babs G..sgens, Ca
+0cc6: ssiano Faria, Dan Chay, E.Karnika Yashwant, Janich Rasmussen, Ja
+0d06: son Sponaugle, John Kouvakis, Jonathan Chang, Melissa Wetherby, 
+0d46: Michael Babker, Nikolai Plath, Olivier Nolbert, Pablo Centuri..n
+0d86: , Phil Snell, Rick Stubblebine, Rune V. Sj..en, Sam Carecho, San
+0dc6: dino Nu..ez, Selene Feigl, Steve Hanlon, and Tim Plummer.&lt;str
+0e06: ong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;..&lt;/p&gt;&
+0e46: lt;h3 style="font-weight:bold;font-family:Helvetica, Arial, sans
+0e86: -serif;font-size:13px;color:rgb(19, 92, 174)"&gt;&lt;span style=
+0ec6: "color:rgb(51, 51, 51);font-family:Arial, Helvetica, sans-serif;
+0f06: font-weight:normal;font-size:14px"&gt;Joomla! Security Strike Te
+0f46: am&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Thanks to the..&lt;a style="c
+0f86: olor:rgb(27, 87, 177);text-decoration:none;font-weight:normal" h
+0fc6: ref="http://developer.joomla.org/security.html"&gt;Joomla Securi
+1008: 1000
+100e: ty Strike Team..&lt;/a&gt;for their dedicated efforts investigat
+104e: ing reports, and fixing security issues in Joomla. Current activ
+108e: e members of the Joomla! Security Strike Team are: A
+<= Recv data, 7150 bytes (0x1bee)
+0000: lan Langford, Claire Mandville, Ian MacLenn, Jason Kendall,..Mar
+0040: ijke Stuivenberg, Mark Dexter, Omar Ramos, Pierre Gazzola and Sa
+0080: m Moffatt.&lt;/p&gt;&lt;p&gt;..&lt;/p&gt;</summary><author><name
+00c0: >joomla@ianmaclennan.org (Ian MacLennan)</name></author><source 
+0100: gr:stream-id="feed/http://www.joomla.org/announcements.feed?type
+0140: =rss"><id>tag:google.com,2005:reader/feed/http://www.joomla.org/
+0180: announcements.feed?type=rss</id><title type="html">Joomla Announ
+01c0: cements</title><link rel="alternate" href="http://www.joomla.org
+0200: /announcements.html" type="text/html"/></source></entry><entry g
+0240: r:is-read-state-locked="true" gr:crawl-timestamp-msec="127165600
+0280: 8889"><id gr:original-id="http://www.androidpolice.com/2010/04/1
+02c0: 7/detailed-mega-review-of-android-2-1-on-our-htc-hero-discover-a
+0300: ll-the-new-features-with-lots-of-screenshots/">tag:google.com,20
+0340: 05:reader/item/40f317d4492cde69</id><category term="user/0868671
+0380: 1722291732238/state/com.google/read" scheme="http://www.google.c
+03c0: om/reader/" label="read"/><category term="user/08686711722291732
+0400: 238/state/com.google/starred" scheme="http://www.google.com/read
+0440: er/" label="starred"/><category term="user/08686711722291732238/
+0480: state/com.google/tracking-item-link-used" scheme="http://www.goo
+04c0: gle.com/reader/" label="tracking-item-link-used"/><category term
+0500: ="Applications"/><category term="HTC"/><category term="Hacks"/><
+0540: category term="Hero"/><category term="Hero (Sprint)"/><category 
+0580: term="Sprint"/><category term="3D gallery"/><category term="andr
+05c0: oid 2.1"/><category term="browser"/><category term="calendar"/><
+0600: category term="camera"/><category term="DamageControl"/><categor
+0640: y term="desk clock"/><category term="detailed"/><category term="
+0680: features"/><category term="HTC Hero"/><category term="keyboard"/
+06c0: ><category term="live wallpapers"/><category term="market"/><cat
+0700: egory term="multiple"/><category term="navigation"/><category te
+0740: rm="navigator"/><category term="planetandroid"/><category term="
+0780: preview"/><category term="rom"/><category term="screenshots"/><c
+07c0: ategory term="security"/><category term="Sense"/><category term=
+0800: "sync"/><category term="text-to-speech"/><category term="tts"/><
+0840: category term="visual voicemail"/><category term="vpn"/><title t
+0880: ype="html">Detailed Mega Review Of Android 2.1 On Our HTC Hero .
+08c0: .. Discover All The New Features (With Lots Of Screenshots)</tit
+0900: le><published>2010-04-17T16:00:00Z</published><updated>2010-04-1
+0940: 7T16:00:00Z</updated><link rel="alternate" href="http://feedprox
+0980: y.google.com/~r/PlanetAndroidCom/~3/ht_b0XzW9Hw/" type="text/htm
+09c0: l"/><summary xml:base="http://www.planetandroid.com/" xml:lang="
+0a00: en" type="html">&lt;div&gt;&lt;span&gt;&lt;/span&gt;&lt;h2&gt;&l
+0a40: t;a href="http://www.androidpolice.com/wp-content/uploads/2010/0
+0a80: 4/image85.png" rel="gallery[1052]" title="Sprint HTC Hero Androi
+0ac0: d 2.1"&gt;&lt;img alt="Sprint HTC Hero Android 2.1" height="150"
+0b00:  src="http://www.androidpolice.com/wp-content/uploads/2010/04/im
+0b40: age_thumb86.png" style="display:inline" title="Sprint HTC Hero A
+0b80: ndroid 2.1" width="150"&gt;&lt;/a&gt;Introduction&lt;/h2&gt;.&lt
+0bc0: ;p&gt;Us, Hero owners, have been waiting for an OS upgrade for a
+0c00:  loooooong time, since the phone got released last October with 
+0c40: Android 1.5.&lt;/p&gt;.&lt;p&gt;At first, we were hoping for 1.6
+0c80: , then 2.0, and finally 2.1 was promised (&amp;quot;Totally for 
+0cc0: real this time, yo&amp;quot; ... said Sprint and HTC but we saw 
+0d00: nothing).&lt;/p&gt;.&lt;p&gt;Other phones kept getting 2.1 upgra
+0d40: des but our favorite Hero saw only promises after promises with 
+0d80: release dates pushed &lt;a href="http://www.androidpolice.com/20
+0dc0: 10/03/26/sprint-htc-hero-android-2-1-update-delayed-again-new-te
+0e00: ntative-release-date-is-now-april-9th/"&gt;further&lt;/a&gt; and
+0e40:  &lt;a href="http://www.androidpolice.com/2010/04/16/htc-hero-an
+0e80: d-samsung-moment-android-2-1-updates-delayed-again-this-time-til
+0ec0: l-early-may/"&gt;further&lt;/a&gt; back.&lt;/p&gt;.&lt;h2&gt;And
+0f00: roid 2.1 On HTC Hero&lt;/h2&gt;.&lt;p&gt;Therefore, when a Hero 
+0f40: Android 2.1 
+0f4e: 1000
+0f54: build got [inadvertently - oh, the...&lt;/p&gt;&lt;div&gt;&lt;/d
+0f94: iv&gt; &lt;a href="http://www.androidpolice.com/2010/04/17/detai
+0fd4: led-mega-review-of-android-2-1-on-our-htc-hero-discover-all-the-
+1014: new-features-with-lots-of-screenshots/"&gt;&lt;div&gt;&lt;img sr
+1054: c="http://www.androidpolice.com/wp-content/themes/ap1/images/rea
+1094: d_on.png"&gt;&lt;/div&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;img sr
+10d4: c="http://feeds.feedburner.com/~r/PlanetAndroidCom/~4/ht_b0XzW9H
+1114: w" height="1" width="1"&gt;&lt;/div&gt;</summary><author><name>A
+1154: rtem Russakovskii</name></author><source gr:stream-id="feed/http
+1194: ://feeds2.feedburner.com/PlanetAndroidCom"><id>tag:google.com,20
+11d4: 05:reader/feed/http://feeds2.feedburner.com/PlanetAndroidCom</id
+1214: ><title type="html">Planet Android</title><link rel="alternate" 
+1254: href="http://www.planetandroid.com/" type="text/html"/></source>
+1294: </entry><entry gr:is-read-state-locked="true" gr:crawl-timestamp
+12d4: -msec="1271228022181"><id gr:original-id="http://blogs.zdnet.com
+1314: /Burnette/?p=1904">tag:google.com,2005:reader/item/ffc7ab09fd7bf
+1354: 042</id><category term="user/08686711722291732238/state/com.goog
+1394: le/read" scheme="http://www.google.com/reader/" label="read"/><c
+13d4: ategory term="user/08686711722291732238/state/com.google/starred
+1414: " scheme="http://www.google.com/reader/" label="starred"/><categ
+1454: ory term="user/08686711722291732238/state/com.google/tracking-mo
+1494: bile-read" scheme="http://www.google.com/reader/" label="trackin
+14d4: g-mobile-read"/><category term="Android"/><category term="Apple"
+1514: /><category term="Games"/><category term="General"/><category te
+1554: rm="iPhone"/><title type="html">Apple&amp;#39;s new iPhone restr
+1594: ictions and the 5 stages of grief</title><published>2010-04-13T1
+15d4: 4:47:05Z</published><updated>2010-04-13T14:47:05Z</updated><link
+1614:  rel="alternate" href="http://feedproxy.google.com/~r/PlanetAndr
+1654: oidCom/~3/qI6iO28cjpQ/" type="text/html"/><content xml:base="htt
+1694: p://www.planetandroid.com/" xml:lang="en" type="html">&lt;div&gt
+16d4: ;&lt;p&gt;&lt;img alt="" height="299" src="http://i.zdnet.com/bl
+1714: ogs/bite_apple3.jpg" title="" width="470"&gt;&lt;/p&gt;.&lt;p&gt
+1754: ;A change in Apple...s new iPhone OS 4 developer...s agreement i
+1794: s putting application writers through all 5 stages of grief ever
+17d4:  since it was released last week. According to the &lt;a href="h
+1814: ttp://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model"&gt;K..bler-R
+1854: oss model&lt;/a&gt;, the 5 stages of grief are: Denial, Anger, B
+1894: argaining, Depression, Acceptance. Since the change, Anger and D
+18d4: enial have been reverberating across the net, with signs of Barg
+1914: aining and Depression to follow. Is Acceptance on the way, or wi
+1954: ll this be the final straw that drives developers to Android and
+1994:  other alternative operating systems?&lt;/p&gt;.&lt;p&gt;It star
+19d4: ted when Apple released a software developer kit for its upcomin
+1a14: g iPhone OS version 4. Before using the new SDK, developers must
+1a54:  click on one of those ...I agree... buttons indicating acceptan
+1a94: ce of pages and pages of legalese that nobody ever reads. Well, 
+1ad4: almost nobody. Daring Fireball...s John Grober read it, and (in 
+1b14: apparent defiance of Apple...s secrecy clauses) posted the inter
+1b54: esting parts &lt;a href="http://daringfireball.net/2010/04/iphon
+1b94: e_agreement_bans_flash_compiler"&gt;on his blog&lt;/a&gt;. Now A
+1bd4: pple is faced with the big
+<= Recv data, 8580 bytes (0x2184)
+0000: gest brouhaha since the App Store was created. Section 3.3.1 is 
+0040: the part that has developers up in arms:&lt;/p&gt;.&lt;blockquot
+0080: e&gt;&lt;p&gt;3.3.1 ... Applications may only use Documented API
+00c0: s in the manner prescribed by Apple and must not use or call any
+0100:  private APIs. Applications must be originally written in Object
+0140: ive-C, C, C++, or JavaScript as executed by the iPhone OS WebKit
+0180:  engine, and only code written in C, C++, and Objective-C may co
+01c0: mpile and directly link against the Documented APIs (e.g., Appli
+0200: cations that link to Documented APIs through an intermediary tra
+0240: nslation or compatibility layer or tool are prohibited).&lt;/p&g
+0280: t;&lt;/blockquote&gt;.&lt;p&gt;With that single paragraph, Apple
+02c0:  appears to have put the kibosh on &lt;a href="https://spreadshe
+0300: ets.google.com/ccc?key=0ApLAS6djiVwydGhJMmh1YjYwb0QzUDl6dEVzV1hw
+0340: Vnc&amp;amp;hl=en"&gt;hundreds of appl
+0368: 47f
+036d: ications already on the market&lt;/a&gt; or in the works, and de
+03ad: stroyed a cottage industry of companies building cross-platform 
+03ed: development tools that had hoped to bridge the gap between iPhon
+042d: e, Android, and PC programming. Let...s take a look at who stand
+046d: s to lose the most.&lt;br&gt;.&lt;span&gt;&lt;/span&gt;&lt;br&gt
+04ad: ;.Adobe is the largest, but by no means the only, company affect
+04ed: ed. Apple has always banned Flash from the iPhone, but Adobe had
+052d:  found a way around the restrictions by translating Flash progra
+056d: ms to native iPhone apps in its new CS5 suite. In iPhone OS 4, t
+05ad: hat won...t be allowed any more.  Lee Brimelow, an Adobe platfor
+05ed: m evangelist, &lt;a href="http://theflashblog.com/?p=1888"&gt;fa
+062d: mously wrote&lt;/a&gt; ...Go screw yourself Apple... on his pers
+066d: onal blog after hearing of the change. Meanwhile, Adobe...s CTO 
+06ad: was &lt;a href="http://blogs.adobe.com/conversations/2010/04/cs5
+06ed: _countdown_is_on.html"&gt;more sanguine&lt;/a&gt;: &lt;/p&gt;.&l
+072d: t;blockquote&gt;&lt;p&gt;The ability to package an application f
+076d: or the iPhone or iPad is one feature in one product in Creative 
+07ad: Suite. CS5 consists of 15 industry-leading applications, which 
+07ee: ebe
+07f3: contain hundreds of new capabilities and a ton of innovation. We
+0833:  intend to still deliver this capability in CS5 and it is up to 
+0873: Apple whether they choose to allow or disallow applications as t
+08b3: heir rules shift over time.&lt;/p&gt;&lt;/blockquote&gt;.&lt;p&g
+08f3: t;Novel, who sponsors the Mono project, is working on a system c
+0933: alled &lt;a href="http://blogs.zdnet.com/Burnette/?p=1738"&gt;Mo
+0973: noTouch&lt;/a&gt; that lets you write programs in the C# languag
+09b3: e (or port existing programs from Windows and Linux) and compile
+09f3:  them to native iPhone apps. A strict reading of the new agreeme
+0a33: nt seems to disallow that, but a Novel &lt;a href="http://www.mo
+0a73: no-project.com/newstouch/archive/2010/Apr-09.html"&gt;blog post&
+0ab3: lt;/a&gt; shows they are still in the denial phase:&lt;/p&gt;.&l
+0af3: t;blockquote&gt;&lt;p&gt;We believe that MonoTouch brings an imp
+0b33: ressive value to the Apple ecosystem. MonoTouch...s C-powered ru
+0b73: ntime blends the power of native code and Apple...s iPhoneOS API
+0bb3: s with type safety, automatic memory management, and other benef
+0bf3: its that years of runtime innovation have delivered to the ISO C
+0c33: ommon Language Infrastructure. We are reaching out to Apple for 
+0c73: clarification on their intention, and believe there is plenty of
+0cb3:  room for course-correction prior to the final release of the 4.
+0cf3: 0 SDK.&lt;/p&gt;&lt;/blockquote&gt;.&lt;p&gt;&lt;a href="http://
+0d33: anscamobile.com/"&gt;Corona&lt;/a&gt; from Ansca Mobile is a too
+0d73: l for rapidly creating iPhone games and apps without the complex
+0db3: ity of XCode or Objective-C. Instead, you use a language called 
+0df3: Lua. On their home page they brag about a developer who used the
+0e33:  toolkit to develop an iPad game in a single day. The iPhone OS 
+0e73: 4 agreement requires programs to be originally written in Object
+0eb3: ive-C, not Lua. However, on the company blog Carlos Icaza, CEO o
+0ef3: f Ansca Mobile is still &lt;a href="http://blog.anscamobile.com/
+0f33: 2010/04/corona-and-iphone-os-4-0/"&gt;holding out hope&lt;/a&gt;
+0f73: :&lt;/p&gt;.&lt;blockquote&gt;&lt;p&gt;Let me reassure all of yo
+0fb3: u that we will do whatever it takes to make this work, just like
+0ff3:  we have been doing since Corona first started shipping. ... I, 
+1033: along with my co-founder Walter Luh, have reached out to Apple b
+1073: oth officially and unofficially, and we continue to do our dilig
+10b3: ence in regards to the new TOS. We have also been in touch with 
+10f3: other companies that are in the same situation we are. To this d
+1133: ay, Apple has never officially or unofficially mentioned anythin
+1173: g to us regarding non-compliance. &lt;/p&gt;&lt;/blockquote&gt;.
+11b3: &lt;p&gt;Appcelerator makes a product called &lt;a href="http://
+11f3: www.appcelerator.com/products/"&gt;Titanium&lt;/a&gt; that lets 
+1233: you build ...native... mobile and desktop apps with web technolo
+1273: gies. You write your program in JavaScript and the tool generate
+12b3: s a native Objective-C version for you. According to the iPhone 
+12f3: OS 4 agreement, that will no longer be allowed. However, on the 
+1333: company blog, &lt;a href="http://developer.appcelerator.com/blog
+1373: /2010/04/update-on-apple-sdk-4-0-and-tos.html"&gt;Jeff Haynie wr
+13b3: ites&lt;/a&gt;: &lt;/p&gt;.&lt;blockquote&gt;&lt;p&gt;It...s our
+13f3:  belief that we are fully in compliance with iPhone OS 4.0 ToS a
+1433: s we interpret them. ... Titanium produces a valid XCode project
+1473:  at application creation, generates Objective-C (and sometimes C
+14b3: /C++) and executes the xcodebuild to compile your XCode project 
+14f3: into a native application using Apple...s published APIs.  We be
+1533: lieve Titanium adds value to the Apple Development ecosystem and
+1573:  enhances the Apple platform for many thousands of developers ar
+15b3: ound the world. As we always have, we will continue to work with
+15f3:  Apple to ensure we stay in compliance with their terms of servi
+1633: ce.&lt;/p&gt;&lt;/blockquote&gt;.&lt;p&gt;With all the fuss you 
+1673: might think Apple would simply bow to criticism and remove the
+16b3: 1000
+16b9:  offending clause. You might be wrong. Greg Slepak of the Tao Ef
+16f9: fect manged to get an email conversation going with Steve Jobs h
+1739: imself over the controversy. &lt;a href="http://www.taoeffect.co
+1779: m/blog/2010/04/steve-jobs-response-on-section-3-3-1/"&gt;The res
+17b9: ults are interesting&lt;/a&gt;.  Apparently Jobs and company mad
+17f9: e the change deliberately in order to prevent the rise of meta-p
+1839: latforms, de-facto standard software platforms on top of Cocoa T
+1879: ouch. Greg quotes Jobs as saying:&lt;/p&gt;.&lt;blockquote&gt;&l
+18b9: t;p&gt;We...ve been there before, and intermediate layers betwee
+18f9: n the platform and the developer ultimately produces sub-standar
+1939: d apps and hinders the progress of the platform &lt;/p&gt;&lt;/b
+1979: lockquote&gt;.&lt;p&gt;Not everybody is unhappy with Apple...s p
+19b9: osition. Freelance artist &lt;a href="http://sigalakos.deviantar
+19f9: t.com/"&gt;Anthony Sigalas&lt;/a&gt;, who graciously granted me 
+1a39: permission to use and modify &lt;a href="http://www.flickr.com/p
+1a79: hotos/sigalakos/847499434/"&gt;his artwork&lt;/a&gt; for this ar
+1ab9: ticle, writes:&lt;/p&gt;.&lt;blockquote&gt;&lt;p&gt;The restrict
+1af9: ions of languages and tools people can use to create Apps are ri
+1b39: ghtly imposed in my opinion, to keep the new platform clean with
+1b79:  Apps created by developers with deep understanding of the speci
+1bb9: fied platform. A create once deploy everywhere application with 
+1bf9: e.g. Flash CS5 does little or nothing at all to take advantage o
+1c39: f the amazing technologies possible exclusively to iPhone OS. I 
+1c79: know as a heavy user that I wouldn...t want those kind of Apps i
+1cb9: n my iDevice springboard. All in all it...s Apple...s platform a
+1cf9: nd they can dictate their set of rules.&lt;/p&gt;&lt;/blockquote
+1d39: &gt;.&lt;p&gt;Assuming Apple does not back down, this could sign
+1d79: al another wave of developers leaving the platform in favor of o
+1db9: thers such as Android and Windows Mobile. Or, they could just de
+1df9: cide to stay because the market for iPhone, iPad, and iPod touch
+1e39:  is too large to ignore (80 million+ devices by the last estimat
+1e79: e). It reminds me of the decision by Google to pull out of China
+1eb9: . Some will pull out on principle, but will it be enough to make
+1ef9:  a difference?&lt;/p&gt;.&lt;p&gt;Another parallel was Apple...s
+1f39:  decision years ago not to allow Mac clones. Ultimately this rel
+1f79: egated the Mac to a niche, never getting over 10% of the overall
+1fb9:  personal computer market. Apple seems content with that, but de
+1ff9: velopers betting on them to make a living might not.&lt;/p&gt;&l
+2039: t;img src="http://feeds.feedburner.com/~r/PlanetAndroidCom/~4/qI
+2079: 6iO28cjpQ" height="1" width="1"&gt;&lt;/div&gt;</content><author
+20b9: ><name>Ed Burnette</name></author><gr:likingUser>115296894174268
+20f9: 55922</gr:likingUser><source gr:stream-id="feed/http://feeds2.fe
+2139: edburner.com/PlanetAndroidCom"><id>tag:google.com,2005:reader/fe
+2179: ed/http://f
+<= Recv data, 5720 bytes (0x1658)
+0000: eeds2.feedburner.com/PlanetAndroidCom</id><title type="html">Pla
+0040: net Android</title><link rel="alternate" href="http://www.planet
+0080: android.com/" type="text/html"/></source></entry><entry gr:is-re
+00c0: ad-state-locked="true" gr:crawl-timestamp-msec="1270619534100"><
+0100: id gr:original-id="http://androidbloke.co.uk/?p=600">tag:google.
+0140: com,2005:reader/item/50743eb55c1157c7</id><category term="user/0
+0180: 8686711722291732238/state/com.google/read" scheme="http://www.go
+01c0: ogle.com/reader/" label="read"/><category term="user/08686711722
+0200: 291732238/state/com.google/starred" scheme="http://www.google.co
+0240: m/reader/" label="starred"/><category term="user/086867117222917
+0280: 32238/state/com.google/tracking-item-link-used" scheme="http://w
+02c0: ww.google.com/reader/" label="tracking-item-link-used"/><categor
+0300: y term="News"/><category term="android"/><category term="applica
+0340: tions"/><title type="html">51 of the Best Android Applications y
+0380: ou should be using</title><published>2010-04-07T07:00:39Z</publi
+03c0: shed><updated>2010-04-07T07:00:39Z</updated><link rel="alternate
+0400: " href="http://feedproxy.google.com/~r/PlanetAndroidCom/~3/IBZwc
+0440: mix2PM/" type="text/html"/><content xml:base="http://www.planeta
+0480: ndroid.com/" xml:lang="en" type="html">&lt;div&gt;&lt;blockquote
+04c0: &gt;&lt;p&gt;(Androidbloke:.. Thanks to Daniel for guest posting
+0500:  this- I hope its useful to all you new users of Andr
+0537: 1000
+053d: oid devices to help you make the best of your awesome new device
+057d: s!)&lt;/p&gt;&lt;/blockquote&gt;.&lt;p&gt;Over the past two week
+05bd: s, Google has been presenting the #&lt;a href="http://android-de
+05fd: velopers.blogspot.com/2010/01/android-developer-labs-world-tour.
+063d: html" title="Google Android Developer Labs World Tour"&gt;ADL201
+067d: 0&lt;/a&gt; events across America and Europe. They will be prese
+06bd: nting 3 more events over the next few weeks in Asia. Everyone wh
+06fd: o attended one of the #&lt;a href="http://android-developers.blo
+073d: gspot.com/2010/01/android-developer-labs-world-tour.html" title=
+077d: "Google Android Developer Labs World Tour"&gt;ADL2010&lt;/a&gt; 
+07bd: events received either a free Nexus One or a free Motorola Droid
+07fd: .&lt;/p&gt;.&lt;p&gt;&lt;a href="http://androidbloke.co.uk/wp-co
+083d: ntent/uploads/2010/04/image2.png"&gt;&lt;img align="right" alt="
+087d: image" border="0" height="177" src="http://androidbloke.co.uk/wp
+08bd: -content/uploads/2010/04/image_thumb2.png" style="display:inline
+08fd: ;margin-left:0px;margin-right:0px;border:0px" title="image" widt
+093d: h="244"&gt;&lt;/a&gt;&lt;/p&gt;.&lt;p&gt;I attended the event in
+097d:  London and it was great meeting many other android developers. 
+09bd: I noticed a few people switching from an iPhone or a Symbian bas
+09fd: ed phone to the Nexus One that they had just received. Many of w
+0a3d: hom had no idea what apps they should get, one guy on twitter as
+0a7d: ked me what apps I found useful, so I came up with a short list 
+0abd: which I then emailed to the &lt;a href="http://www.meetup.com/an
+0afd: droid/" title="London Android Group"&gt;London Android Group&lt;
+0b3d: /a&gt;. From there, I was approached by Androidbloke to make thi
+0b7d: s blog post.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt
+0bbd: ; You can purchase any app on the Market Place and use it for up
+0bfd:  to two days (although to be on the safe side, stick with 24 hou
+0c3d: rs) and still get a full refund, so you can ...test... all the p
+0c7d: aid apps out if you want. However, if you ...test... one app out
+0cbd:  by buying it then uninstalling it to get your money back, you w
+0cfd: on...t be able to ...test... it again... you only get a refund o
+0d3d: nce for each app!&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;USEFUL APPS:&
+0d7d: lt;/strong&gt;&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http
+0dbd: ://twidroid.com/"&gt;Twidroid PRO&lt;/a&gt; &lt;/strong&gt;&lt;b
+0dfd: r&gt;.A great Twitter app, I enjoyed the free one so much I deci
+0e3d: ded to go PRO. Of course for those who prefer to use free apps t
+0e7d: here...s always Seesmic which is just as good!&lt;/p&gt;.&lt;p&g
+0ebd: t;&lt;strong&gt;&lt;a href="https://snaptic.com/about_/"&gt;3ban
+0efd: ana&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;.A little note taking app,
+0f3d:  I suppose I should just stick with using &lt;strong&gt;&lt;a hr
+0f7d: ef="http://androidbloke.co.uk/wp-content/uploads/2010/04/image3.
+0fbd: png"&gt;&lt;img align="right" alt="image" border="0" height="169
+0ffd: " src="http://androidbloke.co.uk/wp-content/uploads/2010/04/imag
+103d: e_thumb3.png" style="display:inline;margin-left:0px;margin-right
+107d: :0px;border:0px" title="image" width="244"&gt;&lt;/a&gt;&lt;/str
+10bd: ong&gt;Evernote as that syncs online, this is just an app on the
+10fd:  phone ... no sync to any website, but it...s simple to use and 
+113d: I...ve found it handy when taking notes during events.&lt;/p&gt;
+117d: .&lt;p&gt;&lt;strong&gt;ASTRO&lt;/strong&gt;&lt;br&gt;.Very hand
+11bd: y file manager app. This is a must-have app!&lt;/p&gt;.&lt;p&gt;
+11fd: &lt;strong&gt;&lt;a href="https://www.wavesecure.com/wavesecure/
+123d: "&gt;WaveSecure Beta&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;.Keeps yo
+127d: ur phone ...secure,... in case it gets stolen. Blocks other SIM 
+12bd: cards from being used on your phone, tracks your phone via GPS s
+12fd: o you can view where your phone is, you can even use the website
+133d:  to delete all your data on the phone if it does get stolen. Als
+137d: o includes backup options so you can backup your contacts/call l
+13bd: ogs to the site.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Advanced Task 
+13fd: Killer Free&lt;/strong&gt;&lt;br&gt;.Handy for extending the bat
+143d: tery life, just ...kill off... those apps that you don...t want 
+147d: running the background... although the garbage collection works 
+14bd: well, it...s handy to be able to kill off one or two apps that a
+14fd: re draining your battery.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a
+153f: 1000
+1545:  href="http://weloveastrid.com/"&gt;Astrid&lt;/a&gt;&lt;a href="
+1585: http://androidbloke.co.uk/wp-content/uploads/2010/04/image4.png"
+15c5: &gt;&lt;img align="right" alt="image" border="0" height="244" sr
+1605: c="http://androidbloke.co.uk/wp-content/uploads/2010/04/image_th
+1645: umb4.png" style="di
+<= Recv data, 1430 bytes (0x596)
+0000: splay:inline;margin-left:0px;margin-right:0px;border:0px" title=
+0040: "image" width="164"&gt;&lt;/a&gt; &lt;/strong&gt;&lt;br&gt;.Hand
+0080: y task tracker tool that syncs with &lt;a href="http://www.remem
+00c0: berthemilk.com"&gt;RememberTheMilk&lt;/a&gt;, haven...t found a 
+0100: better task tracking tool yet, but if you find one let me know!&
+0140: lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.android.
+0180: com/market/#app=layar"&gt;Layar Reality Browser 2.1&lt;/a&gt;&lt
+01c0: ;/strong&gt;&lt;br&gt;.Augmented reality app, various different 
+0200: ...layars... to pick. Such as ...nearest tube station... or ...v
+0240: isual tweets... etc.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Google Sky
+0280:  Map&lt;/strong&gt;&lt;br&gt;.Great app for finding out where th
+02c0: e stars and planets are.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a 
+0300: href="http://www.biggu.com/apps/"&gt;ShopSavvy&lt;/a&gt;&lt;/str
+0340: ong&gt;&lt;br&gt;.Just scan a barcode (or QR code) and it...ll s
+0380: earch for reviews, lowest price, and closest store that sells th
+03c0: at item. Works great, almost bought a book from Waterstones but 
+0400: used this on it and found it was 60% cheaper online and it didn.
+0440: ..t have great reviews.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Speed T
+0480: est&lt;/strong&gt;&lt;br&gt;.Handy if you want to find out how f
+04c0: ast your WiFi or 3g connection is, or if you want to find out yo
+0500: ur IP.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;StopWatch&lt;/strong&gt;
+0540: &lt;br&gt;.I...ve been using the countdown feature for timing co
+0580: oking lately, I...m su
+<= Recv data, 2860 bytes (0xb2c)
+0000: re there...s probably a better app out there, but this does exac
+0040: tly what I want.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Wifi Analyzer&
+0080: lt;/strong&gt;&lt;br&gt;.Very good to double check what the best
+00c0:  connection is, or which ones are open.&lt;/p&gt;.&lt;p&gt;&lt;s
+0100: trong&gt;SEMI-USEFUL:&lt;/strong&gt;&lt;/p&gt;.&lt;p&gt;&lt;stro
+0140: ng&gt;Bump&lt;/strong&gt;&lt;br&gt;.It...s on the iPhone, pretty
+0180:  sure it...s on the Blackberry too. You basically just ...bump..
+01c0: . your phone with another phone and it exchanges contact informa
+0200: tion... handy if you don...t have a spare business card &lt;img 
+0240: alt=":)" src="http://androidbloke.co.uk/wp-includes/images/smili
+0280: es/icon_smile.gif"&gt;  ... Although&lt;a href="http://androidbl
+02c0: oke.co.uk/wp-content/uploads/2010/04/image5.png"&gt;&lt;img alig
+0300: n="right" alt="image" border="0" height="214" src="http://androi
+0340: dbloke.co.uk/wp-content/uploads/2010/04/image_thumb5.png" style=
+0380: "display:inline;margin-left:0px;margin-right:0px;border:0px" tit
+03c0: le="image" width="144"&gt;&lt;/a&gt; both phones would need Bump
+0400:  and would need it running before you can exchange info via a ..
+0440: .bump,... also I think you need 3g/WiFi connection too, since fo
+0480: r some reason it connects to the Bump network.&lt;/p&gt;.&lt;p&g
+04c0: t;&lt;strong&gt;BBC News&lt;/strong&gt;&lt;br&gt;.Read the BBC N
+0500: ews headlines and then click on them to read the full article.&l
+0540: t;/p&gt;.&lt;p&gt;&lt;strong&gt;Color Flashlight&lt;/strong&gt;&
+0580: lt;br&gt;.If it...s too dark and you can...t find the keyhole, t
+05c0: hen this turns your screen pure white (or any color you pick), c
+0600: an be set to full brightness etc.&lt;/p&gt;.&lt;p&gt;&lt;strong&
+0640: gt;BatteryTime Lite&lt;/strong&gt;&lt;br&gt;.I use it on my home
+0680:  screen so I can click on it and see how long left I have for st
+06c0: andby/web/calling etc.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;WikiMobi
+0700: le&lt;/strong&gt;&lt;br&gt;.Pretty handy if you want to Wiki som
+0740: ething on the go.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;DailyStrip&lt
+0780: ;/strong&gt;&lt;br&gt;.A bunch of free comics rolled into one ap
+07c0: p. Dilbert, xkcd and Cyanide &amp;amp; Happiness are my favourit
+0800: es!&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.pics
+0840: aypro.com/"&gt;PicSay&lt;/a&gt;&lt;a href="http://androidbloke.c
+0880: o.uk/wp-content/uploads/2010/04/image6.png"&gt;&lt;img align="ri
+08c0: ght" alt="image" border="0" height="200" src="http://androidblok
+0900: e.co.uk/wp-content/uploads/2010/04/image_thumb6.png" style="disp
+0940: lay:inline;margin-left:
+0959: 1000
+095f: 0px;margin-right:0px;border:0px" title="image" width="192"&gt;&l
+099f: t;/a&gt; &lt;/strong&gt;&lt;br&gt;.Free version, allows you to e
+09df: dit photos easily, add comments, change hue, etc.&lt;/p&gt;.&lt;
+0a1f: p&gt;&lt;strong&gt;Digital Clock Widget&lt;/strong&gt;&lt;br&gt;
+0a5f: .I use it on the home screen, 3..1 so it shows the date and time
+0a9f: .&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Barcode Scanner&lt;/strong&gt
+0adf: ;&lt;br&gt;.Can also scan QRCode, I guess I don...t need this wh
+0b1f: en I have Sho
+<= Recv data, 4290 bytes (0x10c2)
+0000: pSavvy and Google Goggles, although this one is just so easy to 
+0040: use and another app mentioned that I needed it.&lt;/p&gt;.&lt;p&
+0080: gt;&lt;strong&gt;Locale&lt;/strong&gt;&lt;br&gt;.You can set con
+00c0: ditions for things to happen, e.g. I have a night setting, so fr
+0100: om 1am till 6am, it turns off the sound, vibration and pulse lig
+0140: ht, but after that it reverts back to ...defaults... ... You can
+0180:  set conditions based on time or location, so if you...re at wor
+01c0: k, you could have the sound go off ... so whenever you get to wo
+0200: rk, the sound can go off automatically, but when you leave work 
+0240: it...ll go back on. There is a bunch of plugins for it too, so y
+0280: ou can setup even more conditions or events, like having your PC
+02c0:  turn on when you get home via WOL from your phone.&lt;/p&gt;.&l
+0300: t;p&gt;&lt;strong&gt;Draw!&lt;/strong&gt;&lt;br&gt;.Fun to just 
+0340: draw pictures with your finger, but it comes with a red vs blue 
+0380: ...mini-game... where you...re either red paint or blue paint an
+03c0: d have X amount of seconds to colour in more then the other user
+0400: /CPU.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;eBuddy&lt;/strong&gt;&lt;
+0440: br&gt;.It...s a multi-IM tool, handy for me as I...m on AIM and 
+0480: MSN a lot, also works for Facebook chat too.&lt;/p&gt;.&lt;p&gt;
+04c0: &lt;a href="http://androidbloke.co.uk/wp-content/uploads/2010/04
+0500: /image7.png"&gt;&lt;img align="right" alt="image" border="0" hei
+0540: ght="53" src="http://androidbloke.co.uk/wp-content/uploads/2010/
+0580: 04/image_thumb7.png" style="display:inline;margin-left:0px;margi
+05c0: n-right:0px;border:0px" title="image" width="200"&gt;&lt;/a&gt; 
+0600: &lt;strong&gt;&lt;a href="http://www.evernote.com/"&gt;Evernote&
+0640: lt;/a&gt;&lt;/strong&gt;&lt;br&gt;.Store notes, syncs with the o
+0680: nline website, you can store up to 2 or 3gb with a free Evernote
+06c0:  account.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Free Dictionary Org&l
+0700: t;/strong&gt;&lt;br&gt;.Can be useful if you don...t know the me
+0740: aning of a word.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;fring&lt;/stro
+0780: ng&gt;&lt;br&gt;.multi-IM tool, well it...s more for VOIP, so it
+07c0: ...s more of multi-VOIP tool, I use it for Skype, as the Skype L
+0800: ite app is terrible ... on that you have to pay for Skype-to-Sky
+0840: pe, but on here it...s free.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;GP
+0880: S Status&lt;/strong&gt;&lt;br&gt;.Shows information about how fa
+08c0: st you...re travelling, elevation level, acceleration in g, etc.
+0900: &lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http://newsrob.blo
+0940: gspot.com/"&gt;NewsRob&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;.Keep u
+0980: p to date with your RSS feeds from Google Reader, I...m just usi
+09c0: ng the free version as I don...t need the extra features the ...
+0a00: pro... one has.* (&lt;a href="http://androidbloke.co.uk/app-show
+0a40: case-newsrob-rss-reader/"&gt;checkout our Newsrob Application sh
+0a80: owcase here&lt;/a&gt;!)&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a h
+0ac0: ref="http://www.shazam.com/"&gt;Shazam&lt;/a&gt; &lt;a href="htt
+0b00: p://androidbloke.co.uk/wp-content/uploads/2010/04/image8.png"&gt
+0b40: ;&lt;img align="right" alt="image" border="0" height="62" src="h
+0b80: ttp://androidbloke.co.uk/wp-content/uploads/2010/04/image_thumb8
+0bc0: .png" style="display:inline;margin-left:0px;margin-right:0px;bor
+0c00: der:0px" title="image" width="244"&gt;&lt;/a&gt;&lt;/strong&gt;&
+0c40: lt;br&gt;.Handy if you hear a music song that you like but you d
+0c80: on...t know what it is.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;GAMES:&
+0cc0: lt;/strong&gt;&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http
+0d00: ://abductiongame.wordpress.com/"&gt;Abduction! World Attack&lt;/
+0d40: a&gt;&lt;/strong&gt;&lt;br&gt;.Great app, I paid for it but ther
+0d80: e is a free version. I used the free one for a bit then decided 
+0dc0: to buy the full one. The full one is brilliant, loads of challen
+0e00: ges, maps, characters. It...s great fun!&lt;a href=
+0e35: 1000
+0e3b: "http://androidbloke.co.uk/wp-content/uploads/2010/04/image9.png
+0e7b: "&gt;&lt;img align="right" alt="image" border="0" height="204" s
+0ebb: rc="http://androidbloke.co.uk/wp-content/uploads/2010/04/image_t
+0efb: humb9.png" style="display:inline;margin-left:0px;margin-right:0p
+0f3b: x;border:0px" title="image" width="120"&gt;&lt;/a&gt;&lt;/p&gt;.
+0f7b: &lt;p&gt;&lt;strong&gt;ArtfulBits aiMinesweeper&lt;/strong&gt;&l
+0fbb: t;br&gt;.I...m still using the free one. It...s just like Minesw
+0ffb: eeper but with a little better graphics.&lt;/p&gt;.&lt;p&gt;&lt;
+103b: strong&gt;Bebbled&lt;/strong&gt;&lt;br&gt;.Similar to Jewelled/S
+107b: ameColor, you simply have to reach the required points by clicki
+10bb: ng on t
+<= Recv data, 8580 bytes (0x2184)
+0000: he colours that are touching each other.&lt;/p&gt;.&lt;p&gt;&lt;
+0040: strong&gt;Flight Director (LITE)&lt;/strong&gt;&lt;br&gt;.Fun li
+0080: ttle game, can get quite difficult once you reach 30+ landed pla
+00c0: nes/choppers. It was very popular on the iPhone.&lt;/p&gt;.&lt;p
+0100: &gt;&lt;strong&gt;Coloroid&lt;/strong&gt;&lt;br&gt;.Spread the c
+0140: olour and complete the page under the par.&lt;/p&gt;.&lt;p&gt;&l
+0180: t;strong&gt;Frozen Bubble&lt;/strong&gt;&lt;br&gt;.I...ve always
+01c0:  liked it on PC (under a different name though), simply aim the 
+0200: bubble up and shoot to match it with the other same coloured bub
+0240: bles.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Iconic Memory&lt;/strong&
+0280: gt;&lt;br&gt;.Great memory game, worth trying out, you might get
+02c0:  hooked!&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Light Racer 3D Basic&l
+0300: t;/strong&gt;&lt;br&gt;.It...s basically TRON, if you don...t kn
+0340: ow the movie TRON, then it...s similar to playing 2-player Snake
+0380: .&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Phit Droid 3rd Edition&lt;/st
+03c0: rong&gt;&lt;br&gt;.Fun little puzzle game, where you have to fit
+0400:  the pieces into a rectangle, can get quite difficult, thousands
+0440:  of levels.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;OTHER:&lt;/strong&g
+0480: t;&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Aloqa&lt;/strong&gt;&lt;br&g
+04c0: t;.Haven...t used it yet, but it...s for local information about
+0500:  a certain city, so useful if you travel to foreign places a lot
+0540: .&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;aTrackDog&lt;/strong&gt;&lt;b
+0580: r&gt;.Keeps track of application updates, although I think if yo
+05c0: u go to the market place, then it automatically checks updates f
+0600: or all apps installed, so maybe I don...t need this app anymore.
+0640: &lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Bartender&lt;/strong&gt;&lt;br
+0680: &gt;.Handy if you want to mix up something, or if you just want 
+06c0: to look for something to buy.&lt;/p&gt;.&lt;p&gt;&lt;strong&gt;C
+0700: ompass&lt;/strong&gt;&lt;br&gt;.Does what it says on the tin.&lt
+0740: ;/p&gt;.&lt;p&gt;&lt;strong&gt;deciBel&lt;/strong&gt;&lt;br&gt;.
+0780: Figured I...d see how noisy my brother can be when he has his mu
+07c0: sic on, but haven...t used it much yet.&lt;/p&gt;.&lt;p&gt;&lt;s
+0800: trong&gt;Hoccer&lt;/strong&gt;&lt;br&gt;....Throw data via GPS..
+0840: . ... Figured I...d play around and see how it works, but haven.
+0880: ..t found anyone who uses it yet.&lt;/p&gt;.&lt;p&gt;&lt;strong&
+08c0: gt;London City&lt;/strong&gt;&lt;br&gt;.It...s the London Tube M
+0900: ap stored in one app with ...route search... ... so if you...re 
+0940: not sure how to get to a certain station, you can just use this 
+0980: and it...ll tell you the line(s) to take. It...s offline too, so
+09c0:  works underground. &lt;img alt=":)" src="http://androidbloke.co
+0a00: .uk/wp-includes/images/smilies/icon_smile.gif"&gt; &lt;/p&gt;.&l
+0a40: t;p&gt;&lt;strong&gt;Metal Detector&lt;/strong&gt;&lt;br&gt;.Nov
+0a80: elty app, it works but it can...t replace a real metal detector.
+0ac0: &lt;/p&gt;.&lt;p&gt;&lt;strong&gt;Share by QRCode&lt;/strong&gt;
+0b00: &lt;br&gt;....Add-on... type of app for other apps, so you can s
+0b40: hare by QR Code, it displays the QR Code on your screen so someo
+0b80: ne else can scan it off you, good for sharing a url or similar.&
+0bc0: lt;/p&gt;.&lt;p&gt;&lt;strong&gt;&lt;a href="http://android.word
+0c00: press.org/"&gt;WordPress&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;.If y
+0c40: ou have a WordPress blog, then check this out. I...ve only just 
+0c80: set one up so I...ll probably start blogging with this.&lt;/p&gt
+0cc0: ;.&lt;p&gt;&lt;strong&gt;Yelp&lt;/strong&gt;&lt;br&gt;.It...s li
+0d00: ke YellowPages, but it...s a community driven review of each bus
+0d40: iness, handy if you want to check a restaurant to ensure 
+0d7b: 1000
+0d81: it...s worth going to.&lt;/p&gt;.&lt;p&gt;If you have anymore ap
+0dc1: ps, feel free to add to the list!&lt;/p&gt;.&lt;p&gt;Cheers!&lt;
+0e01: /p&gt;.&lt;p&gt;&lt;a href="http://www.addtoany.com/add_to/digg?
+0e41: linkurl=http%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-best-android
+0e81: -applications-you-should-be-using%2F&amp;amp;linkname=51%20of%20
+0ec1: the%20Best%20Android%20Applications%20you%20should%20be%20using"
+0f01:  rel="nofollow" title="Digg"&gt;&lt;img alt="Digg" height="16" s
+0f41: rc="http://androidbloke.co.uk/wp-content/plugins/add-to-any/icon
+0f81: s/digg.png" width="16"&gt;&lt;/a&gt; &lt;a href="http://www.addt
+0fc1: oany.com/add_to/facebook?linkurl=http%3A%2F%2Fandroidbloke.co.uk
+1001: %2F51-of-the-best-android-applications-you-should-be-using%2F&am
+1041: p;amp;linkname=51%20of%20the%20Best%20Android%20Applications%20y
+1081: ou%20should%20be%20using" rel="nofollow" title="Facebook"&gt;&lt
+10c1: ;img alt="Facebook" height="16" src="http://androidbloke.co.uk/w
+1101: p-content/plugins/add-to-any/icons/facebook.png" width="16"&gt;&
+1141: lt;/a&gt; &lt;a href="http://www.addtoany.com/add_to/delicious?l
+1181: inkurl=http%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-best-android-
+11c1: applications-you-should-be-using%2F&amp;amp;linkname=51%20of%20t
+1201: he%20Best%20Android%20Applications%20you%20should%20be%20using" 
+1241: rel="nofollow" title="Delicious"&gt;&lt;img alt="Delicious" heig
+1281: ht="16" src="http://androidbloke.co.uk/wp-content/plugins/add-to
+12c1: -any/icons/delicious.png" width="16"&gt;&lt;/a&gt; &lt;a href="h
+1301: ttp://www.addtoany.com/add_to/slashdot?linkurl=http%3A%2F%2Fandr
+1341: oidbloke.co.uk%2F51-of-the-best-android-applications-you-should-
+1381: be-using%2F&amp;amp;linkname=51%20of%20the%20Best%20Android%20Ap
+13c1: plications%20you%20should%20be%20using" rel="nofollow" title="Sl
+1401: ashdot"&gt;&lt;img alt="Slashdot" height="16" src="http://androi
+1441: dbloke.co.uk/wp-content/plugins/add-to-any/icons/slashdot.png" w
+1481: idth="16"&gt;&lt;/a&gt; &lt;a href="http://www.addtoany.com/add_
+14c1: to/twitter?linkurl=http%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-b
+1501: est-android-applications-you-should-be-using%2F&amp;amp;linkname
+1541: =51%20of%20the%20Best%20Android%20Applications%20you%20should%20
+1581: be%20using" rel="nofollow" title="Twitter"&gt;&lt;img alt="Twitt
+15c1: er" height="16" src="http://androidbloke.co.uk/wp-content/plugin
+1601: s/add-to-any/icons/twitter.png" width="16"&gt;&lt;/a&gt; &lt;a h
+1641: ref="http://www.addtoany.com/add_to/wordpress?linkurl=http%3A%2F
+1681: %2Fandroidbloke.co.uk%2F51-of-the-best-android-applications-you-
+16c1: should-be-using%2F&amp;amp;linkname=51%20of%20the%20Best%20Andro
+1701: id%20Applications%20you%20should%20be%20using" rel="nofollow" ti
+1741: tle="WordPress"&gt;&lt;img alt="WordPress" height="16" src="http
+1781: ://androidbloke.co.uk/wp-content/plugins/add-to-any/icons/wordpr
+17c1: ess.png" width="16"&gt;&lt;/a&gt; &lt;a href="http://www.addtoan
+1801: y.com/add_to/technorati_favorites?linkurl=http%3A%2F%2Fandroidbl
+1841: oke.co.uk%2F51-of-the-best-android-applications-you-should-be-us
+1881: ing%2F&amp;amp;linkname=51%20of%20the%20Best%20Android%20Applica
+18c1: tions%20you%20should%20be%20using" rel="nofollow" title="Technor
+1901: ati Favorites"&gt;&lt;img alt="Technorati Favorites" height="16"
+1941:  src="http://androidbloke.co.uk/wp-content/plugins/add-to-any/ic
+1981: ons/technorati.png" width="16"&gt;&lt;/a&gt; &lt;a href="http://
+19c1: www.addtoany.com/add_to/newsvine?linkurl=http%3A%2F%2Fandroidblo
+1a01: ke.co.uk%2F51-of-the-best-android-applications-you-should-be-usi
+1a41: ng%2F&amp;amp;linkname=51%20of%20the%20Best%20Android%20Applicat
+1a81: ions%20you%20should%20be%20using" rel="nofollow" title="NewsVine
+1ac1: "&gt;&lt;img alt="NewsVine" height="16" src="http://androidbloke
+1b01: .co.uk/wp-content/plugins/add-to-any/icons/newsvine.png" width="
+1b41: 16"&gt;&lt;/a&gt; &lt;a href="http://www.addtoany.com/add_to/beb
+1b81: o?linkurl=http%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-best-andro
+1bc1: id-applications-you-should-be-using%2F&amp;amp;linkname=51%20of%
+1c01: 20the%20Best%20Android%20Applications%20you%20should%20be%20usin
+1c41: g" rel="nofollow" title="Bebo"&gt;&lt;img alt="Bebo" height="16"
+1c81:  src="http://androidbloke.co.uk/wp-content/plugins/add-to-any/ic
+1cc1: ons/bebo.png" width="16"&gt;&lt;/a&gt; &lt;a href="http://www.ad
+1d01: dtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Fandroidbloke.
+1d41: co.uk%2F51-of-the-best-android-applications-you-should-be-using%
+1d83: dec
+1d88: 2F&amp;amp;linkname=51%20of%20the%20Best%20Android%20Application
+1dc8: s%20you%20should%20be%20using" rel="nofollow" title="StumbleUpon
+1e08: "&gt;&lt;img alt="StumbleUpon" height="16" src="http://androidbl
+1e48: oke.co.uk/wp-content/plugins/add-to-any/icons/stumbleupon.png" w
+1e88: idth="16"&gt;&lt;/a&gt; &lt;a href="http://www.addtoany.com/add_
+1ec8: to/linkedin?linkurl=http%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-
+1f08: best-android-applications-you-should-be-using%2F&amp;amp;linknam
+1f48: e=51%20of%20the%20Best%20Android%20Applications%20you%20should%2
+1f88: 0be%20using" rel="nofollow" title="LinkedIn"&gt;&lt;img alt="Lin
+1fc8: kedIn" height="16" src="http://androidbloke.co.uk/wp-content/plu
+2008: gins/add-to-any/icons/linkedin.png" width="16"&gt;&lt;/a&gt; &lt
+2048: ;a href="http://www.addtoany.com/add_to/google_reader?linkurl=ht
+2088: tp%3A%2F%2Fandroidbloke.co.uk%2F51-of-the-best-android-applicati
+20c8: ons-you-should-be-using%2F&amp;amp;linkname=51%20of%20the%20Best
+2108: %20Android%20Applications%20you%20should%20be%20using" rel="nofo
+2148: llow" title="Google Reader"&gt;&lt;img alt="Google Reader" h
+<= Recv data, 2551 bytes (0x9f7)
+0000: eight="16" src="http://androidbloke.co.uk/wp-content/plugins/add
+0040: -to-any/icons/reader.png" width="16"&gt;&lt;/a&gt; &lt;a href="h
+0080: ttp://www.addtoany.com/share_save?linkurl=http%3A%2F%2Fandroidbl
+00c0: oke.co.uk%2F51-of-the-best-android-applications-you-should-be-us
+0100: ing%2F&amp;amp;linkname=51%20of%20the%20Best%20Android%20Applica
+0140: tions%20you%20should%20be%20using"&gt;&lt;img alt="Share/Bookmar
+0180: k" height="16" src="http://androidbloke.co.uk/wp-content/plugins
+01c0: /add-to-any/share_save_171_16.png" width="171"&gt;&lt;/a&gt;&lt;
+0200: /p&gt;..&lt;p&gt;Related posts:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt
+0240: ;a href="http://androidbloke.co.uk/android-15-update-cupcake-rel
+0280: ease-is-rolling-out-to-the-uk/" rel="bookmark" title="Permanent 
+02c0: Link: Android 1.5 Update (Cupcake Release) is rolling out to the
+0300:  UK"&gt;Android 1.5 Update (Cupcake Release) is rolling out to t
+0340: he UK&lt;/a&gt;&lt;/li&gt;.&lt;li&gt;&lt;a href="http://androidb
+0380: loke.co.uk/facebook-for-android-is-now-official/" rel="bookmark"
+03c0:  title="Permanent Link: Facebook for android is now official!"&g
+0400: t;Facebook for android is now official!&lt;/a&gt;&lt;/li&gt;.&lt
+0440: ;li&gt;&lt;a href="http://androidbloke.co.uk/android-developer-c
+0480: hallenge-2-start-your-engines/" rel="bookmark" title="Permanent 
+04c0: Link: Android Developer Challenge 2: Start your engines"&gt;Andr
+0500: oid Developer Challenge 2: Start your engines&lt;/a&gt;&lt;/li&g
+0540: t;.&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;img height="1" src="http://
+0580: feeds.feedburner.com/~r/AndroidUk/~4/GZuMtO5idIc" width="1"&gt;&
+05c0: lt;img src="http://feeds.feedburner.com/~r/PlanetAndroidCom/~4/I
+0600: BZwcmix2PM" height="1" width="1"&gt;&lt;/div&gt;</content><autho
+0640: r><name>Daniel</name></author><gr:likingUser>0312671051124283763
+0680: 2</gr:likingUser><gr:likingUser>14853375615618333308</gr:likingU
+06c0: ser><gr:likingUser>02757123201203028574</gr:likingUser><gr:likin
+0700: gUser>02352599399067363219</gr:likingUser><gr:likingUser>0607467
+0740: 8200349131788</gr:likingUser><gr:likingUser>13440859927054719372
+0780: </gr:likingUser><gr:likingUser>10174075578394652108</gr:likingUs
+07c0: er><gr:likingUser>15824790155551189144</gr:likingUser><gr:liking
+0800: User>17114834253426064375</gr:likingUser><gr:likingUser>04361880
+0840: 620451357295</gr:likingUser><gr:likingUser>00629929480369958749<
+0880: /gr:likingUser><gr:likingUser>01644319845386631154</gr:likingUse
+08c0: r><source gr:stream-id="feed/http://feeds2.feedburner.com/Planet
+0900: AndroidCom"><id>tag:google.com,2005:reader/feed/http://feeds2.fe
+0940: edburner.com/PlanetAndroidCom</id><title type="html">Planet Andr
+0980: oid</title><link rel="alternate" href="http://www.planetandroid.
+09c0: com/" type="text/html"/></source></entry></feed>
+09f2: 0
+09f5: 
+== Info: Connection #0 to host www.google.com left intact
+== Info: Closing connection #0

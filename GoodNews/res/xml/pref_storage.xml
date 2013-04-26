@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_storage">
+
+    <PreferenceCategory
+            android:title="@string/pref_sync">
+        <CheckBoxPreference
+                android:key="sync_cancel_on_low_device_storage"
+                android:title="@string/pref_sync_cancel_on_low_device_storage"
+                android:summary="@string/pref_sync_cancel_on_low_device_storage_summary"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/pref_storage_statistics">
+        <Preference
+                android:key="storage_statistics"
+                android:title="@string/pref_storage_statistics"
+                android:summary="@string/pref_storage_statistics_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/pref_database_storage"
+            android:key="database_storage">
+        <ListPreference
+                android:key="database_storage_provider"
+                android:title="@string/pref_database_storage_provider"
+                android:summary="@string/pref_database_storage_provider_summary"
+                android:dialogTitle="@string/pref_storage_provider_choice_title"
+                android:entries="@array/pref_storage_provider_choice"
+                android:entryValues="@array/pref_storage_provider_choice_values"
+                android:defaultValue="INTERNAL"/>
+        <ListPreference
+                android:key="content_storage_provider"
+                android:title="@string/pref_content_storage_provider"
+                android:summary="@string/pref_content_storage_provider_summary"
+                android:dialogTitle="@string/pref_storage_provider_choice_title"
+                android:entries="@array/pref_storage_provider_choice"
+                android:entryValues="@array/pref_storage_provider_choice_values"/>
+        <CheckBoxPreference
+                android:key="enforce_content_database_storage"
+                android:title="@string/pref_enforce_content_database_storage"
+                android:summary="@string/pref_enforce_content_database_storage_summary"
+                android:defaultValue="false"/>
+        <Preference
+                android:key="delete_unreferenced"
+                android:summary="@string/pref_delete_unreferenced_summary"
+                android:title="@string/pref_delete_unreferenced"/>
+        <Preference
+                android:key="database_clean"
+                android:summary="@string/pref_database_clean_summary"
+                android:title="@string/pref_database_clean"/>
+        <Preference
+                android:key="content_delete"
+                android:summary="@string/pref_content_delete_summary"
+                android:title="@string/pref_content_delete"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

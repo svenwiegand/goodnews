@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_code">en</string>
+
+    <!-- about the app -->
+    <string name="app_name">GoodNews</string>
+    <string name="menu_tip">Usage Tips</string>
+
+	<!-- special tags -->    
+	<string name="tag_read">Read</string>
+    <string name="tag_starred">Starred</string>
+    <string name="tag_readlist">Read list</string>
+    <string name="tag_all">All items</string>
+    <string name="tag_post">My notes</string>
+
+    <!-- home screen -->
+    <string name="subscriptions">Subscriptions</string>
+
+	<!-- content pane messages -->    
+    <string name="no_content">no items</string>
+    <string name="no_content_show_read">no unread items\ntap to show read items</string>
+    <string name="no_content_fetch_old">no items\ntap to fetch old articles from Google Reader</string>
+    <string name="no_content_sync">no items\ntap to sync with Google Reader</string>
+    <string name="content_loading">Loading content...</string>
+    <string name="wait">Please wait...</string>
+
+    <!-- changelog -->
+    <string name="changelog_title">GoodNews - What\'s new?</string>
+    <string name="changelog_auto_option">automatically show this change log after future updates</string>
+
+    <!-- synchronization -->
+    <string name="menu_sync_push">Push Changes</string>
+    <string name="menu_sync_full">Synchronize</string>
+    <string name="menu_sync_content">Download Content</string>
+
+    <string name="sync_notify_title">GoodNews Synchronization</string>
+    <string name="sync_cancel_confirmation">Do you want to cancel the synchronization?</string>
+    <string name="sync_title">Synchronization</string>
+    <string name="sync_progress">Synchronizing with Google Reader</string>
+    <string name="sync_failed_connection">Connection to Google Reader failed.</string>
+    <string name="sync_failed_storage">Storage full or write protected</string>
+    <string name="sync_failed_device_storage_low">Device storage low. See storage settings.</string>
+    <string name="sync_failed_device_storage_low_long">Device storage is low! To prevent your device storage from running full, synchronization isn\'t possible by default if the device storage is low.\n\nChange the relevant option in the storage settings to enable synchronization anyway.</string>
+    <string name="sync_failed_error">Synchronization failed.</string>
+    <string name="sync_notify_failed_title">GoodNews Sync failed</string>
+    <string name="sync_notify_unread_items_title">New Articles</string>
+    <string name="sync_notify_unread_item_msg">You have one unread article.</string>
+    <string name="sync_notify_unread_items_msg">You have %d unread articles.</string>
+
+    <string name="sync_content_notify_title">GoodNews Offline Sync</string>
+    <string name="sync_content_cancel_confirmation">Do you want to cancel the synchronization of offline content?</string>
+    <string name="sync_content_nothing">nothing to be synced</string>
+    
+    <string name="sync_reload_view">Sync has finished: Tap here to reload this view. (tap and hold to deactivate further notifications)</string>
+
+    <!-- fetch old articles dialog -->
+    <string name="menu_fetch_old">Fetch old Articles</string>
+
+    <string name="fetch_old_title">Fetch old Articles</string>
+    <string name="fetch_old_msg">By default only unread and tagged articles are synchronized.
+        This feature allows you to fetch old, read articles for the current folder/feed during the next sync.</string>
+    <string name="fetch_old_max_age">Max. age:</string>
+    <string name="fetch_old_max_count">Max. number:</string>
+    <string name="fetch_old_sync">synchronize now</string>
+    <string name="fetch_old_sync_already_running">A sync is already running. Your request for old articles has been queued and will be processed during the next sync.</string>
+
+    <string name="age_days_3">3 days</string>
+    <string name="age_weeks_1">1 week</string>
+    <string name="age_weeks_2">2 weeks</string>
+    <string name="age_weeks_3">3 weeks</string>
+    <string name="age_months_1">1 month</string>
+    <string name="age_months_2">2 months</string>
+    <string name="age_months_3">3 months</string>
+    <string name="age_months_6">6 months</string>
+    <string name="age_months_9">9 months</string>
+    <string name="age_years">1 year</string>
+    <string name="age_years_2">2 years</string>
+    <string name="age_unlimited">unlimited</string>
+
+    <!-- account -->
+    <string name="account_change_title">Change Account</string>
+    <string name="account_change_confirmation">You have uncommited local changes which will get lost when changing the account now. Do you want to change the account?</string>
+    <string name="account_select_title">Select a Google Account</string>
+    <string name="account_create">Create a new account</string>
+    <string name="account_manual">Login with e-mail-address and password</string>
+    <string name="login_title">Login</string>
+    <string name="login_credentials_msg">Enter the information for your Google Reader account.</string>
+    <string name="login_username">your e-mail address</string>
+    <string name="login_password">your password</string>
+    <string name="login_button">Login</string>
+    <string name="login_incomplete">You need to enter a username and a password.</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_credentials_missing">No Google Reader account has been specified.</string>
+    
+    <!-- update -->
+    <string name="update_title">Update</string>
+    <string name="update_none">Your current version is up-to-date.</string>
+    <string name="update_error">An error occured trying to check for updates.</string>
+    <string name="update_available">The new version &lt;i>%s&lt;/i> is available.</string>
+    <string name="update_recommended">You should update your installation to the new version &lt;i>%s&lt;/i> in the near future.</string>
+    <string name="update_required">You need to update your installation to version &lt;i>%s&lt;/i>. Due to urgent issues, your current version will no longer run.</string>
+    <string name="update_release_notes">&lt;br/>&lt;br/>You can find the release notes for the new version at&lt;br/>%s</string>
+
+	<!-- list view -->
+    <string name="element_filter_all">all</string>
+    <string name="element_filter_new">new</string>
+
+	<string name="menu_mark_read">Mark read</string>
+	<string name="menu_show_all">Show all</string>
+	<string name="menu_show_new">Show new</string>
+	<string name="menu_sort_ascending">Oldest on top</string>
+	<string name="menu_sort_descending">Newest on top</string>
+    <string name="menu_grouped_feed">Group by subscription</string>
+    <string name="menu_grouped_flat">No grouping</string>
+
+    <string name="contextmenu_tag">Tag Action</string>
+    <string name="contextmenu_tag_preferences">Settings</string>
+    
+    <string name="contextmenu_item">Article Action</string>
+    <string name="contextmenu_item_open">Open internally</string>
+    <string name="contextmenu_item_browser">Open in browser</string>
+    <string name="contextmenu_item_mark_read_until_here">Mark read until here</string>
+    <string name="contextmenu_item_tags">Edit tags</string>
+    <string name="contextmenu_item_feed_preferences">Subscription settings</string>
+    <string name="contextmenu_item_blacklist">Delete article</string>
+
+    <string name="contextmenu_feed">Subscription Action</string>
+    <string name="contextmenu_feed_preferences">Settings</string>
+
+    <!-- blacklist -->
+    <string name="blacklist_title">Delete Article</string>
+    <string name="blacklist_message">This deletes the article from GoodNews and adds it to the article blacklist, so that it will not appear in GoodNews again.
+        \n\nYou should only do this if the known Google Reader bug prevents you from removing the article from a label as described at http://goodnews.uservoice.com/knowledgebase/articles/67690.
+        You can reset the blacklist in \"Settings &gt; Other\".
+        \n\nDo you want to delete the article?
+    </string>
+
+    <!-- item view -->
+    <string name="no_title">&amp;lt;no title&amp;gt;</string>
+    <string name="author_by">by {0}</string>
+    <string name="error_failed_loading_local_content">Failed to load the locally stored content. Maybe you have switched where to store content (internal vs. external storage) or you have removed the SD card?</string>
+    
+    <string name="menu_item_prev">Previous Item</string>
+    <string name="menu_item_next">Next Item</string>
+    <string name="menu_item_load">Load Article</string>
+    <string name="menu_item_browser">Open in Browser</string>
+    <string name="menu_item_labels">Edit Tags</string>
+    <string name="menu_item_share">Share</string>
+    <string name="menu_feed_preferences">Subscription Settings</string>
+    <string name="menu_full_screen">Full Screen</string>
+    <string name="menu_full_screen_disable">Normal Screen</string>
+
+    <string name="share_item_target_title">Share</string>
+
+    <string name="toast_no_more_items">No more items</string>
+    <string name="select_item_tags">Select item tags</string>
+
+    <string name="contextmenu_link_browser">Open in browser</string>
+    <string name="contextmenu_link_share">Share link</string>
+
+    <!-- download -->
+    <string name="download_error_storage_not_available">Storage is not writable.</string>
+    <string name="download_error_generic">Failed to download media stream.</string>
+
+    <!-- locale edit mask -->
+    <string name="locale_title">GoodNews</string>
+    <string name="locale_ok">Save</string>
+    <string name="locale_cancel">Don\'t Save</string>
+    <string name="locale_action">Select the action to be performed:</string>
+    <string name="locale_action_prompt">Choose an action</string>
+    <string name="locale_action_sync">synchronize</string>
+    <string name="locale_sync_type">Select the type of synchronization:</string>
+    <string name="locale_sync_type_full">full synchronization</string>
+    <string name="locale_sync_type_push">only push local changes</string>
+
+    <string name="locale_blurb_sync">%s</string>
+    <string name="locale_blurb_sync_type_full">full sync</string>
+    <string name="locale_blurb_sync_type_push">push sync</string>
+
+    <!-- market action -->
+    <string name="market_not_found">Android Market</string>
+    <string name="market_not_found_msg">The Android Market app doesn\'t seem to be available on your device.</string>
+
+	<!-- generic errors -->        
+    <string name="error_no_internet_title">Internet Access</string>
+    <string name="error_no_internet_msg">Access to the internet is required but currently not available.</string>
+
+    <string name="invalid_tag_name_characters">The following characters are not allowed: %s</string>
+        
+	<!-- preferences -->
+	<string name="preferences">Settings</string>
+	<string name="menu_preferences">Settings</string>
+    <string name="menu_view_preferences">View Settings</string>
+	<string name="pref_global">global setting</string>
+    <string name="pref_actions">Actions</string>
+
+    <!-- account -->
+    <string name="pref_account">Google Reader Account</string>
+    <string name="pref_account_summary">Select your Google account to be used to login to Google Reader</string>
+
+    <!-- sync preferences -->
+	<string name="pref_sync">Synchronization</string>
+
+    <string name="pref_sync_continous">Continous sync</string>
+    <string name="pref_sync_continous_summary">The interval for a continous synchronization. Integration with Locale and Tasker is also available</string>
+    <string name="pref_sync_continous_choice_title">Continous sync interval</string>
+    <string name="pref_sync_continous_choice_manual">only sync manually</string>
+    <string name="pref_sync_continous_choice_0_30">every 30 minutes</string>
+    <string name="pref_sync_continous_choice_1">every hour</string>
+    <string name="pref_sync_continous_choice_2">every two hours</string>
+    <string name="pref_sync_continous_choice_3">every three hours</string>
+    <string name="pref_sync_continous_choice_4">every four hours</string>
+    <string name="pref_sync_continous_choice_6">every six hours</string>
+    <string name="pref_sync_continous_choice_8">every eight hours</string>
+    <string name="pref_sync_continous_choice_12">every 12 hours</string>
+    <string name="pref_sync_continous_choice_24">once a day</string>
+    <string name="pref_sync_continous_wifi_only">Only for Wifi</string>
+    <string name="pref_sync_continous_wifi_only_summary">Perform the continous sync only when wireless LAN is connected</string>    
+
+	<string name="pref_sync_push">Local Changes</string>
+	<string name="pref_sync_push_immediately">Immediate push</string>
+	<string name="pref_sync_push_immediately_summary">Whether to push local changes immediately to Google Reader or only on synchronization</string>
+    <string name="pref_sync_notify_unread">Notify unread items</string>
+    <string name="pref_sync_notify_unread_summary">Notify when new unread articles are available after a sync</string>
+	<string name="pref_sync_labels">Special tag names</string>
+	<string name="pref_sync_labels_readlist">Read list</string>
+	<string name="pref_sync_labels_readlist_summary">Name to be used for the tag that represents the read list</string>
+    <string name="pref_sync_download">Article download &amp; caching</string>
+	<string name="pref_sync_unread_max">Unread articles</string>
+    <string name="pref_sync_unread_max_summary">Maximum number of unread articles to be downloaded</string>
+    <string name="pref_sync_new_unread_only">New unread only</string>
+    <string name="pref_sync_new_unread_only_summary">Only fetch unread articles newer than those from the last sync</string>
+    <string name="pref_sync_unread_keeping_restrict">Limit unread number</string>
+    <string name="pref_sync_unread_keeping_restrict_summary">Restrict number of locally available unread articles to download limit above. Dismiss older articles to keep the limit.</string>
+    <string name="pref_sync_cleanup_unread_days">Limit unread age</string>
+    <string name="pref_sync_cleanup_unread_days_summary">Maximum age in days for unread, untagged articles to be stored locally</string>
+	<string name="pref_sync_tagged_max">Articles per tag</string>
+	<string name="pref_sync_tagged_max_default_summary">Maximum number of read articles to be synced for each tag</string>
+    <string name="pref_sync_cache_days">Days to cache</string>
+    <string name="pref_sync_cache_days_summary">Minimum age of read, untagged articles to be removed from the cache</string>
+
+	<string name="pref_sync_item_max_choice">Number of Items</string>
+
+    <string name="pref_sync_fixes">Google Reader Fixes</string>
+    <string name="pref_sync_fix_duplicate_items">Avoid duplicate articles</string>
+    <string name="pref_sync_fix_duplicate_items_summary">Hides article duplicates and marks them as read. Duplicate articles may occur due to an error in Google Reader.</string>
+
+    <string name="pref_sync_dismiss_local_changes">Dismiss local Changes</string>
+    <string name="pref_sync_dismiss_local_changes_summary">Drop all local changes made to read state and tag assignments</string>
+    <string name="pref_sync_dismiss_local_changes_confirmation">This will prevent all changes made locally since the last synchronization from being synchronized to Google Reader. Do you want to continue?</string>
+
+    <!-- UI preferences -->
+    <string name="pref_ui">User Interface</string>
+
+    <!-- look & feel -->
+    <string name="pref_look_and_feel">Look &amp; Feel</string>
+
+    <string name="pref_theme">Theme</string>
+    <string name="pref_theme_summary">Choose your preferred style for the GoodNews user interface.</string>
+    <string name="theme_choice_white">white</string>
+    <string name="theme_choice_light">light gray</string>
+    <string name="theme_choice_dark">dark gray</string>
+    <string name="theme_choice_black">black</string>
+
+    <string name="pref_actionbar_unsplit">Buttons in title bar</string>
+    <string name="pref_actionbar_unsplit_summary">Force the action buttons to appear in the title bar instead of the bottom bar</string>
+
+    <!-- filtering & sorting -->
+    <string name="pref_view_category_filtering_sorting">Filtering &amp; Sorting</string>
+
+    <string name="pref_sort_strategy">Tag/subscription sorting</string>
+    <string name="pref_sort_strategy_summary">Sort tags and subscriptions exactly as in Google Reader</string>
+    <string name="pref_sort_strategy_choice_title">Sort strategy</string>
+    <string name="pref_sort_strategy_choice_alphabetically">alphabetically</string>
+    <string name="pref_sort_strategy_choice_dragndrop">Drag &amp; drop from Google Reader</string>
+
+    <string name="pref_hide_read">Hide read items</string>
+    <string name="pref_hide_read_summary">Hide read folders, subscriptions and articles in list</string>
+    <string name="pref_hide_read_label_item_list">Hide read in tags</string>
+    <string name="pref_hide_read_label_item_list_summary">Same as above when displaying an article list for a non-folder tag</string>
+
+    <!-- controls category -->
+    <string name="pref_view_category_controls_behaviour">Controls &amp; Behaviour</string>
+
+    <string name="pref_ui_other_close_empty_item_list">Close read list</string>
+    <string name="pref_ui_other_close_empty_item_list_summary">Automatically go back if there are only read items in the list and you are hiding read items</string>
+
+    <!-- view category -->
+    <string name="pref_view_category_view">View</string>
+
+    <!-- notifications category -->
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_notifications_list_sync_finished">Sync finished</string>
+    <string name="pref_notifications_list_sync_finished_summary">Notification about a finished sync in the subscription and article list with option to reload list</string>
+
+    <!-- tag list specific -->
+    <string name="pref_tag_list">Tag List</string>
+
+    <string name="pref_folder_click_action">Folder click action</string>
+    <string name="pref_folder_click_action_summary">The action to be performed when clicking a folder item. The button on the right performs the other action.</string>
+    <string name="pref_folder_click_choice_title">Folder Click Action</string>
+    <string name="pref_folder_click_choice_feeds">open subscription list</string>
+    <string name="pref_folder_click_choice_items">open article list</string>
+
+    <string name="pref_taglist_show_syncstatus">Show sync status</string>
+    <string name="pref_taglist_show_syncstatus_summary">Whether to show the current sync status in the tag list</string>
+    <string name="pref_taglist_show_starred">Show starred tag</string>
+    <string name="pref_taglist_show_starred_summary">Whether to show the starred tag in the tag list</string>
+    <string name="pref_taglist_show_readlist">Show read list tag</string>
+    <string name="pref_taglist_show_readlist_summary">Whether to show the read list tag in the tag list</string>
+    <string name="pref_taglist_show_allitems">Show all items tag</string>
+    <string name="pref_taglist_show_allitems_summary">Whether to show the all items tag in the tag list</string>
+
+    <!-- feed list specific -->
+    <string name="pref_feed_list">Subscription List</string>
+
+    <!-- item list specific -->
+    <string name="pref_item_list">Article List</string>
+
+    <string name="pref_teaser">Teaser</string>
+    <string name="pref_teaser_summary">Whether to display a short summary of an article in the list</string>
+    <string name="pref_teaser_choice_title">Number of words</string>
+    <string name="pref_teaser_choice_none">no teaser</string>
+    
+    <string name="pref_teaser_generate">Generate teasers</string>
+    <string name="pref_teaser_generate_summary">By default teasers will only be generated for newly synced articles. Use to generate for existing articles</string>
+
+    <string name="pref_teaser_source">Source of the teaser</string>
+    <string name="pref_teaser_source_summary">Whether to generate the teaser from an articles summary or content</string>
+    <string name="pref_teaser_source_choice_none">no teaser</string>
+    <string name="pref_teaser_source_choice_prefer_summary">prefer summary</string>
+    <string name="pref_teaser_source_choice_content">content</string>
+
+    <string name="pref_teaser_start_char">Teaser character offset</string>
+    <string name="pref_teaser_start_char_summary">Number of characters to skip in summary/content when generating the teaser</string>
+
+    <string name="pref_item_list_title_text_size">Title text size</string>
+    <string name="pref_item_list_title_text_size_summary">Text size to be used for article titles</string>
+    <string name="pref_item_list_title_text_size_choice_title">Title Text Size</string>
+
+	<string name="pref_item_list_sort_order">Article sort order</string>
+	<string name="pref_item_list_sort_order_summary">The order to sort articles in regarding their age</string>
+    <string name="pref_item_list_sort_order_title">Article sort order</string>
+    <string name="pref_item_list_sort_order_descending">Newest first</string>
+    <string name="pref_item_list_sort_order_ascending">Oldest first</string>
+
+    <string name="pref_group_folder_item_list">Group by feeds in folders</string>
+    <string name="pref_group_folder_item_list_summary">Group articles by subscriptions when viewing a folder\'s article list</string>
+    <string name="pref_group_label_item_list">Group by feeds in tags</string>
+    <string name="pref_group_label_item_list_summary">Group articles by subscriptions when viewing a tag\'s article list</string>
+
+    <string name="pref_item_list_offline_indicator_toggles_read_state">Offline indicator for read state</string>
+    <string name="pref_item_list_offline_indicator_toggles_read_state_summary">Tapping the offline indicator toggles the article\'s read state</string>
+
+    <string name="pref_labeling">Implicit Tagging</string>
+    <string name="pref_labeling_mark_read_scrollover">Mark read on scroll over</string>
+    <string name="pref_labeling_mark_read_scrollover_summary">Mark article read when scrolled out of top edge of the window</string>
+    <string name="pref_labeling_mark_read_on_view">Mark read on view</string>
+    <string name="pref_labeling_mark_read_on_view_summary">Mark article read when opening it in the article view</string>
+    <string name="pref_labeling_mark_read_on_tag">Mark read on tag</string>
+    <string name="pref_labeling_mark_read_on_tag_summary">Mark article read when starred or added to the read list in list view</string>
+    <string name="pref_labeling_remove_readlist_on_view">Remove from read list</string>
+    <string name="pref_labeling_remove_readlist_on_view_summary">Remove article from read list when opening it in the article view</string>
+
+    <!-- item view specific -->
+    <string name="pref_item_view">Article View</string>
+
+    <string name="pref_view_full_screen">Full screen</string>
+    <string name="pref_view_full_screen_summary">Hide the action bar</string>
+
+    <string name="pref_item_view_actions">Buttons in the Action Bar</string>
+    <string name="pref_item_view_action_summary">Provides a button for this action in the action bar. Otherwise available in the menu</string>
+    <string name="pref_item_view_pro_action_summary">Provides a button for this action in the action bar. Otherwise available in the menu</string>
+    <string name="pref_item_view_actions_warning">You have a lot of buttons in the action bar. If your device has no hard menu key it may happen, that your soft menu button is pushed out of the screen. In this case you can bring up these settings through the global settings from any view to correct the problem.</string>
+
+    <string name="pref_item_view_title_click_action">Title click action</string>
+    <string name="pref_item_view_title_click_action_summary">Select which action to execute when the article title is clicked</string>
+    <string name="pref_item_view_title_click_action_choice_nothing">Nothing</string>
+    
+    <string name="pref_item_view_text_size">Default text size</string>
+    <string name="pref_item_view_text_size_summary">Standard text size to be used. Not used for externally loaded web pages</string>
+    <string name="pref_item_view_text_size_choice_title">Default Text Size</string>
+
+    <string name="pref_control_item_navigation_volumekeys">Volume key navigation</string>
+    <string name="pref_control_item_navigation_volumekeys_summary">Use volume up/down to navigate to the previous/next article in the article view</string>
+
+    <string name="pref_control_item_scroll_volumekeys">Volume key scrolling</string>
+    <string name="pref_control_item_scroll_volumekeys_summary">Use volume up/down to scroll up/down in the article</string>
+
+    <string name="pref_item_swipe_border">Swipe from border</string>
+    <string name="pref_item_swipe_border_summary">Only a swipe gesture starting at the display border changes to the next/previous article</string>
+
+    <string name="pref_item_keep_screen_on">Keep screen on</string>
+    <string name="pref_item_keep_screen_on_summary">Prevent android form automatically turning of the screen while you are viewing an article</string>
+
+    <string name="pref_text_size_choice_smallest">smallest</string>
+    <string name="pref_text_size_choice_smaller">smaller</string>
+    <string name="pref_text_size_choice_normal">normal</string>
+    <string name="pref_text_size_choice_larger">larger</string>
+    <string name="pref_text_size_choice_largest">largest</string>
+
+    <!-- news reading preferences -->
+    <string name="pref_news_reading">News Reading</string>
+
+    <string name="pref_scale_images">Scale images</string>
+    <string name="pref_scale_images_summary">Scale down images to fit screen width if possible.</string>
+
+    <string name="pref_mobilizer">Mobilize web sites</string>
+    <string name="pref_mobilizer_summary">Optimize websites for mobile display</string>
+    <string name="pref_mobilizer_choice_title">Web Site Mobilizer</string>
+    <string name="pref_mobilizer_choice_none">no optimization</string>
+    <string name="pref_mobilizer_choice_google">Google</string>
+    <string name="pref_mobilizer_choice_readability">Readability</string>
+
+    <string name="pref_offline_reading">Offline reading</string>
+
+    <string name="pref_offline_strategy">Offline strategy</string>
+    <string name="pref_offline_strategy_summary">Trigger and scope for content download. Also enable mobilizer for read offline capabilities.</string>
+    <string name="pref_offline_strategy_choice_title">Strategy</string>
+    <string name="pref_offline_strategy_choice_manual">download all, trigger manually</string>
+    <string name="pref_offline_strategy_choice_sync">download all after sync</string>
+    <string name="pref_offline_strategy_choice_readlist">always download read list</string>
+
+    <string name="pref_offline_wifi">Wifi required</string>
+    <string name="pref_offline_wifi_summary">Whether a wifi connection is required to download offline content</string>
+
+    <string name="pref_offline_content">Offline content</string>
+    <string name="pref_offline_content_summary">Which content to download for offline reading</string>
+    <string name="pref_offline_content_choice_title">Download</string>
+    <string name="pref_offline_content_choice_none">nothing</string>
+    <string name="pref_offline_content_choice_text">text</string>
+    <string name="pref_offline_content_choice_images">images</string>
+    <string name="pref_offline_content_choice_text_images">text and images</string>
+
+    <string name="pref_news_reading_article_display">Article Display</string>
+    <string name="pref_item_view_none">No summary</string>
+    <string name="pref_item_view_none_summary">How to display articles without a summary and without content</string>
+    <string name="pref_item_view_summary">Summary only</string>
+    <string name="pref_item_view_summary_summary">How to display articles without content but with a summary</string>
+    <string name="pref_item_view_content">Content</string>
+    <string name="pref_item_view_content_summary">How to display articles with content</string>
+
+    <string name="pref_item_view_choice">Article Display</string>
+    <string name="pref_item_view_choice_nothing">Display nothing</string>
+    <string name="pref_item_view_choice_summary">Display summary</string>
+    <string name="pref_item_view_choice_content">Display downloaded content</string>
+    <string name="pref_item_view_choice_load">Load in internal browser</string>
+    <string name="pref_item_view_choice_browser">Open in system browser</string>
+
+    <!-- tag specific settings -->
+    <string name="pref_tag_sync">Synchronize</string>
+    <string name="pref_tag_sync_summary">Whether to synchronize articles for this tag</string>
+    
+    <!-- feed specific settings -->
+    <string name="pref_feed_ignore_unread">Exclude from sync</string>
+    <string name="pref_feed_ignore_unread_summary">Do not synchronize unread articles for this subscription</string>
+    
+    <string name="pref_feed_autolist">Add to read list</string>
+    <string name="pref_feed_autolist_summay">Automatically add this subscription\'s unread articles to the read list</string>
+
+    <string name="pref_feeds_item_view">Article display</string>
+    <string name="pref_feeds_item_view_summary">Display for articles from this subscription</string>
+
+    <string name="pref_feed_summary_treatment">Treatment of summary</string>
+    <string name="pref_feed_summary_treatment_summary">Are the article summarys provided by this subscription really summarys?</string>
+    <string name="pref_feed_summary_treatment_choice_title">Summary Treatment</string>
+    <string name="pref_feed_content_treatment">Treatment of content</string>
+    <string name="pref_feed_content_treatment_summary">Are the article contents provided by this subscription really contents?</string>
+    <string name="pref_feed_content_treatment_choice_title">Content Treatment</string>
+    <string name="pref_feed_content_treatment_choice_ignore">ignore</string>
+    <string name="pref_feed_content_treatment_choice_summary">treat as summary</string>
+    <string name="pref_feed_content_treatment_choice_content">treat as content</string>
+
+    <!-- storage -->
+    <string name="pref_storage">Storage</string>
+
+    <string name="pref_sync_cancel_on_low_device_storage">Cancel on low storage</string>
+    <string name="pref_sync_cancel_on_low_device_storage_summary">Cancel the sync if device storage space is low</string>
+
+    <string name="pref_storage_statistics">Storage Statistics</string>
+    <string name="pref_storage_statistics_summary">Collects and shows storage statistics like number of articles, occupied storage space, etc.</string>
+    <string name="pref_storage_statistics_confirm">Collecting the storage statistics may take a few minutes. You will not be able to use GoodNews during this time. Do you want to continue?</string>
+    <string name="pref_storage_statistics_failed">Failed to collect storage statistics.\n\nError message: {0}</string>
+
+    <string name="pref_database_storage">Articles</string>
+    <string name="pref_database_storage_provider">Database storage</string>
+    <string name="pref_database_storage_provider_summary">EXPERIMENTAL: Do *not* use external storage if it is often not available (USB connection). GoodNews will crash if the database storage is not available.</string>
+    <string name="pref_database_move">Move database</string>
+    <string name="pref_database_move_confirm">Ensure that no GoodNews background tasks are currently running (no notifications in the status bar).</string>
+    <string name="pref_database_move_failed">Failed to move the database.\n\nError message: {0}</string>
+
+    <string name="pref_enforce_content_database_storage">Store content in database</string>
+    <string name="pref_enforce_content_database_storage_summary">Stores summary and content in database instead of file system. (Only enable if you have a good reason for it)</string>
+
+    <string name="pref_database_clean">Recreate database</string>
+    <string name="pref_database_clean_summary">Deletes the database and recreates it</string>
+    <string name="pref_database_clean_confirm">You should only use this feature if you have good reasons and if there are currently no GoodNews background services running (no notifications in the status bar). Do you really want to delete all articles and their meta data?</string>
+    <string name="pref_database_clean_failed">Failed to delete database file.\n\nError message: {0}</string>
+
+    <string name="pref_content_storage_provider">Content storage</string>
+    <string name="pref_content_storage_provider_summary">Select whether to store article content on internal device storage or memory card</string>
+
+    <string name="pref_delete_unreferenced">Delete unused articles</string>
+    <string name="pref_delete_unreferenced_summary">Deletes all read, untagged articles</string>
+    <string name="pref_delete_unreferenced_confirm">GoodNews deletes unused articles according to your settings automatically after each sync. Do you really want to delete all unused articles now?</string>
+
+    <string name="pref_content_delete">Delete all content</string>
+    <string name="pref_content_delete_summary">Delete all locally stored summaries, contents and images</string>
+    <string name="pref_content_delete_confirm">GoodNews automatically deletes content files no longer referenced by any articles. Do you really want to delete all locally stored files now?</string>
+    <string name="pref_content_delete_failed">Failed to delete content files.\n\nError message: {0}</string>
+
+    <string name="pref_storage_provider">Storage</string>
+    <string name="pref_storage_provider_choice_title">Choose Storage</string>
+    <string name="pref_storage_provider_choice_internal">Internal device storage</string>
+    <string name="pref_storage_provider_choice_external">External card storage</string>
+    <string name="pref_storage_provider_confirmation">Files from the previously selected storage will neither be deleted nor moved to the newly selected storage.</string>
+
+    <!-- other stuff preferences -->
+    <string name="pref_other">Other Stuff</string>
+
+    <string name="pref_share_content">Sharing content</string>
+    <string name="pref_share_content_summary">Define the contents when sharing a link. The subject (e.g. when sharing via e-mail) will always be filled with the page\'s title</string>
+    <string name="pref_share_content_choice_title">Content</string>
+    <string name="pref_share_content_choice_url_only">URL</string>
+    <string name="pref_share_content_choice_url_with_title">title: URL</string>
+
+    <string name="pref_check_for_internet_connection">Check internet connection</string>
+    <string name="pref_check_for_internet_connection_summary">Disable if GoodNews tells you there is no internet, though you are sure there is</string>
+
+    <string name="pref_item_blacklist_reset">Reset article blacklist</string>
+    <string name="pref_item_blacklist_reset_summary">Clears the list of deleted articles, so that they will reappear after the next sync</string>
+    <string name="pref_item_blacklist_reset_done">The blacklist has been reset. Blacklisted articles will appear after the next sync.</string>
+
+    <string name="pref_confirmations">Confirmations</string>
+    <string name="pref_confirmations_mark_read_in_item_list">Confirm in article list</string>
+    <string name="pref_confirmations_mark_read_in_item_list_summary">Confirm marking all items shown in the current article list as read</string>
+    <string name="pref_confirmations_mark_read_in_feed_list">Confirm in feed list</string>
+    <string name="pref_confirmations_mark_read_in_feed_list_summary">Confirm marking all items of the shown subscription in the current subscription list as read</string>
+    <string name="pref_confirmations_mark_read_in_tag_list">Confirm in tag list</string>
+    <string name="pref_confirmations_mark_read_in_tag_list_summary">Confirm marking all items read (when displaying the home screen)</string>
+
+    <string name="confirm_mark_read">Mark Read</string>
+    <string name="confirm_mark_read_msg">Mark shown items as read?</string>
+
+    <!-- application preferences -->
+    <string name="pref_app">App Info &amp; Support</string>
+    
+    <string name="pref_info">Information</string>
+    <string name="pref_info_changelog">What\'s new?</string>
+    <string name="pref_info_changelog_summary">Show the GoodNews changelog</string>
+    <string name="pref_tips_auto_show">Show usage tips</string>
+    <string name="pref_tips_auto_show_summary">Automatically show new usage tips. (all tips are always accessible through a view\'s menu)</string>
+    <string name="pref_info_homepage">GoodNews Web Site</string>
+    <string name="pref_info_homepage_summary">News, documentation and more about GoodNews</string>
+
+    <!-- generic button texts -->
+    <string name="ok">OK</string>
+    <string name="cont">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="close">Close</string>
+    <string name="prev">&lt; Back</string>
+    <string name="next">Next &gt;</string>
+    <string name="send">Send</string>
+    <string name="ignore">Ignore</string>
+    <string name="retry">Retry</string>
+    <string name="help">Help</string>
+</resources>

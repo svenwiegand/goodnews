@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gettingmobile.goodnews"
+          android:sharedUserId="com.gettingmobile.goodnews"
+          android:sharedUserLabel="@string/app_name"
+          android:versionCode="130" android:versionName="4.8.0"
+          android:installLocation="auto"
+        >
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+                 android:theme="@style/Theme.GoodNews.White"
+                 android:name=".Application"
+                 android:backupAgent=".backup.BackupAgent"
+                 android:hardwareAccelerated="true"
+                 android:process="com.gettingmobile.goodnews">
+        <activity android:name=".home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".feedlist.FeedListActivity"/>
+        <activity android:name=".itemlist.ItemListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".itemview.ItemViewActivity"
+                  android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:name=".util.TagSelectionActivity"/>
+        <activity android:theme="@style/Theme.Translucent.NoActionBar"
+                  android:hardwareAccelerated="false"
+                  android:name="com.gettingmobile.android.app.AdaptiveDialogTabletActivity"
+                  android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+        <activity android:hardwareAccelerated="false"
+                  android:name="com.gettingmobile.android.app.AdaptiveDialogPhoneActivity"
+                  android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+        <activity
+                android:name="com.gettingmobile.android.app.DialogActivity"
+                android:theme="@style/Theme.Translucent.NoActionBar"
+                android:excludeFromRecents="true"
+                android:exported="false"/>
+
+        <!-- settings -->
+        <activity android:name=".settings.SettingsActivity" android:theme="@style/Setting.Theme"/>
+        <activity android:name=".settings.RootSettingsActivity" android:theme="@style/Setting.Theme"/>
+        <activity android:name=".settings.SubSettingsActivity" android:theme="@style/Setting.Theme"/>
+        <activity android:name=".settings.ElementSettingsActivity" android:theme="@style/Setting.Theme"/>
+        <activity android:name=".settings.ViewSettingsActivity" android:theme="@style/Setting.Theme"/>
+
+        <!-- services -->
+        <service android:name=".sync.SyncService"/>
+        <service android:name=".sync.CleanupService"/>
+        <service android:name=".download.ContentDownloadService"/>
+        <receiver android:name="com.gettingmobile.android.app.StopServiceBroadcastReceiver"/>
+        <receiver android:name=".sync.ScheduledSyncCommandReceiver">
+            <intent-filter>
+                <action android:name="com.gettingmobile.goodnews.action.SYNC_PUSH"/>
+                <action android:name="com.gettingmobile.goodnews.action.SYNC_FULL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".sync.NetworkConnectionStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".sync.BootEventReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- locale integration -->
+        <activity
+                android:name=".locale.EditSyncActivity"
+                android:label="@string/locale_title"
+                android:theme="@style/Theme.Sherlock.Light"
+                android:icon="@drawable/icon_small"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".locale.CommandReceiver">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- -->
+        <!-- backup key -->
+        <!-- -->
+        <meta-data android:name="com.google.android.backup.api_key"
+                   android:value="AEdPqrEAAAAImVs87XEFBmt3pvAqDQF4LwdyDNyfgcl14JydwA"/>
+
+    </application>
+</manifest>

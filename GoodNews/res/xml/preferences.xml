@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/preferences">
+
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="sync" android:title="@string/pref_sync" android:icon="@drawable/ic_pref_sync"/>
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="ui" android:title="@string/pref_ui" android:icon="@drawable/ic_pref_ui"/>
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="news_reading" android:title="@string/pref_news_reading" android:icon="@drawable/ic_pref_news_reading"/>
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="storage" android:title="@string/pref_storage" android:icon="@drawable/ic_pref_storage"/>
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="other" android:title="@string/pref_other" android:icon="@drawable/ic_pref_other"/>
+    <com.gettingmobile.goodnews.settings.IconPreferenceScreen
+            android:key="app" android:title="@string/pref_app" android:icon="@drawable/ic_pref_info"/>
+
+</PreferenceScreen>
+	

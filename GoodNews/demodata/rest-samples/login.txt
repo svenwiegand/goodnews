@@ -1,0 +1,8 @@
+POST https://www.google.com:443/accounts/ClientLogin HTTP/1.1
+Host: www.google.com
+User-Agent: GoodNews/1.0.0
+Accept: text/html
+Content-length: 67
+Content-Type: application/x-www-form-urlencoded
+
+accountType=HOSTED_OR_GOOGLE&Email=goodnews753@gmail.com&Passwd=goodnews12&service=reader

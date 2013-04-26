@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space"
+            android:text="@string/locale_action"/>
+    <Spinner
+            android:id="@+id/locale_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/locale_action_prompt"
+            android:entries="@array/locale_action_choice"/>
+
+    <RadioGroup
+            android:id="@+id/locale_sync_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_large"
+            android:checkedButton="@+id/locale_sync_choice_full">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space"
+                android:text="@string/locale_sync_type"/>
+        <RadioButton
+                android:id="@+id/locale_sync_choice_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/locale_sync_type_full"/>
+        <RadioButton
+                android:id="@+id/locale_sync_choice_push"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/locale_sync_type_push"/>
+    </RadioGroup>
+
+</LinearLayout>

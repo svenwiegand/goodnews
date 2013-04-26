@@ -1,0 +1,6 @@
+GET http://www.google.com:80/reader/atom/user/-/state/com.google/starred HTTP/1.1
+User-Agent: GoodNews/1.0.0
+Accept: */*
+Accept-Charset: utf-8
+Authorization: GoogleLogin auth=DQAAANIAAABY36Z-A_2HDgtNVN0rNEp3COSnI_bUUt1Skd92ndgRrMV8DK5B2ZId9epBuh5dAysrSNnQflweaKO73uDg83oqHH0mxfLUsuuNsqvfzoZxdXfKCmPedQsI1v3CJ8Fd7R-iIGOmgXFIJk5MHf1OOmlaOM24c3PghdymHSTH1ShbMEVS3s5D2oTykg0V3-JxWmNfonQmkyBNCn5A8U7B4AX0jZN7jFrVfgq-gRPqG7C9CSUVrwDawXJ2e2nVLlbtcBweK1Vc_GL2_f2IUPFTEdgtZTWcuGZ6Cpt4IeSxk52v1Q
+

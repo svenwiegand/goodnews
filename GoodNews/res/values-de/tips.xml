@@ -1,0 +1,29 @@
+<resources>
+    <!-- global -->
+    <string name="visual_tip_hint">(tippe irgendwo hin um fortzufahren)</string>
+
+    <!-- visual tips for the home screen -->
+    <string name="vtip_action_tooltip">tippe und halte jeden beliebigen Action-Button um einen kurzen Hinweis zu erhalten</string>
+    <string name="vtip_sync">tippe auf den Sync-Button um mit Google Reader zu synchronisieren</string>
+    <string name="vtip_folder">tippe auf einen Order um dessen Abonnements anzuzeigen</string>
+    <string name="vtip_folder_button">Tippe auf den Button eines Ordners um die Artikel im Ordner anzuzeigen.
+        Du kannst das Verhalten des Ordner-Eintrags und des Ordner-Buttons in den Einstellungen anpassen.</string>
+
+    <!-- item list -->
+    <string name="tip_offline_indicator_mark_read">Indikator soll den Lesestatus des Artikels umschalten anstatt diesen Tipp zu öffnen</string>
+
+    <string name="vtip_hide">wähle ob gelesene Elemente ausgeblendet werden sollen</string>
+    <string name="vtip_read">markiere alle Elemente dieser Ansicht als gelesen</string>
+
+    <!-- item view -->
+    <string name="vtip_load_content">lädt die Artikel-Webseite in den internen Browser</string>
+    <string name="vtip_browser">öffnet die Artikel-Webseite im System-Browser</string>
+
+    <!-- rating -->
+    <string name="rating_request_title">GoodNews bewerten</string>
+    <string name="rating_request_msg">Gefällt Dir GoodNews? Super, dann teile es doch anderen mit, in dem Du im Market
+        eine Bewertung abgibst. Das dauert nur eine Minute und hilft dabei GoodNews noch bekannter zu machen.</string>
+    <string name="rating_request_rate">OK, öffne GoodNews im Market</string>
+    <string name="rating_request_later">erinnere mich später nochmal</string>
+    <string name="rating_request_no">ich möchte nicht bewerten</string>
+</resources>

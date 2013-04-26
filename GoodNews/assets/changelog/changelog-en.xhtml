@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Changelog</title>
+    <link rel="stylesheet" type="text/css" href="changelog.css"/>
+</head>
+<body>
+
+<!-- ====================================================================== -->
+<hr id="r130"/>
+<h1>4.8.0</h1>
+<h2>Improvements</h2>
+<ul>
+    <li>Quick-Share button in article view</li>
+    <li>Content for sharing (only URL or URL with title) is configurable now in "Other Stuff" settings</li>
+    <li>Respect android's date format and 24 hour setting for shown timestamps</li>
+    <li>More solid recognition of symbolic languages (e.g. Chinese) for better teaser generation</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r129"/>
+<h1>4.7.0</h1>
+<h2>Enhancements</h2>
+<ul>
+    <li>Removed the back action from the article view. You can use the back button to browse back now.</li>
+    <li>The browse history of the article view now also remembers the scroll position</li>
+    <li>Share links in article view using the link's context menu</li>
+    <li>Better teaser generation for Chinese and other languages with non-latin characters</li>
+    <li>Use 12 hour time format in Australia, Canada, New Zealand, Philippines and US</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Fixed offline content in conjuction with google mobilizer</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r128"/>
+<h1>4.6.0</h1>
+<h2>Enhancements</h2>
+<ul>
+    <li>new mobilizer from Readability.com replaces GoodNews and Read-It-Later mobilizer</li>
+    <li>Prevent automatic display turn off in article view</li>
+    <li>Option to scroll article content using volume keys</li>
+    <li>Support for hardware keys of Nook Touch to scroll and switch articles in article view</li>
+    <li>When sharing, the message content now contains the article's title and the URL</li>
+    <li>Restored old article swipe behavior and made border based swipe an option</li>
+    <li>fetch old articles allows unlimited article age</li>
+    <li>no more white background flickering in article view when using dark themes</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>fixed article scrolling issues on Jelly Bean</li>
+    <li>prevent title bar in article view from scrolling away automatically</li>
+    <li>more stable connection to google reader</li>
+    <li>Immediately sending changes after "mark all read" action correctly now</li>
+    <li>Synchronization now also succeeds if there are articles without time stamps</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r127"/>
+<h1>4.5.0</h1>
+<h2>Enhancements</h2>
+<ul>
+    <li>Support for android Jelly Bean (aka android 4.1)</li>
+    <li>Notification playback controls on Jelly Bean</li>
+    <li>Option to make playback notification open GoodNews or toggle playback</li>
+    <li>Action buttons at the bottom (when in portrait mode on phones)</li>
+    <li>ICS like overflow menu even on pre-ICS devices</li>
+    <li>Introduced chrome like article swiping: Article will only be switched when starting a swipe on the edge of the screen</li>
+    <li>Stop videos and other active stuff when leaving the article view</li>
+    <li>Continue article cleanup even if display is off</li>
+    <li>Make file cleanup run immediately after sync and only once a day</li>
+    <li>Allow moving the database even if the target already exists</li>
+    <li>Renamed "getting-mobile" mobilizer to "GoodNews"</li>
+    <li>Adjusted article navigation tip</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Fix crash on Jelly Bean -- vertical article scrolling not completely working yet on Jelly Bean</li>
+    <li>Prevent hang issue during sync on HTC devices</li>
+    <li>Correct list position after article view including prevention of unintentional read marks in the list</li>
+    <li>Updates display of push sync status correctly</li>
+    <li>Fixed several crashes</li>
+</ul>
+<h2>Notes</h2>
+<ul>
+    <li>This release requires at least android 2.1</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r126"/>
+<h1>4.4.1</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Avoid duplicate articles due to Google reader error</li>
+    <li>Filter out HTML tags from subject when sharing articles</li>
+    <li>Prevent continous crash reports after device boot</li>
+    <li>Several bug fixes</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r125"/>
+<h1>4.4.0</h1>
+<h2>Enhancements</h2>
+<ul>
+    <li>Article context menu option to delete and blacklist articles stuck on the read list or play list due to Google Reader error as described <a href="http://goodnews.uservoice.com/knowledgebase/articles/67690">here</a></li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r124"/>
+<h1>4.3.3</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Respecting article text size correctly</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r123"/>
+<h1>4.3.2</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Starred items and items on the read list and play list are shown again now</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r122"/>
+<h1>4.3.1</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Correct subscription order in grouped article list when returning from article view</li>
+    <li>No restriction for number of article title lines</li>
+    <li>Fixed negative numbers in storage statistics</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r121"/>
+<hr id="r120"/>
+<h1>4.3.0</h1>
+<h2>Enhancements</h2>
+<ul>
+    <li>Integration of "Read it Later" (http://readitlaterlist.com) mobilizer</li>
+    <li>Hide subscription title per article in subscription's article list</li>
+    <li>Provide subscription settings in menu of subscription's article list</li>
+    <li>Reactivation of full screen view after 6 seconds</li>
+    <li>Max number of title rows increased to 10</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r119"/>
+<hr id="r118"/>
+<hr id="r117"/>
+<hr id="r116"/>
+<h1>4.2.0</h1>
+
+<h2>Enhancements</h2>
+<ul>
+    <li>Next/previous article in article view via horizontal swipe</li>
+    <li>Full screen view in article view</li>
+    <li>Adjustable title text size in article list</li>
+    <li>Fast orientation change in article view on Honeycomb and above</li>
+    <li>Using native progress notification ICS and above</li>
+    <li>New article notification shows total number of unread articles now</li>
+    <li>Added storage statistics screen to storage settings</li>
+    <li>Storing article content in file system by default</li>
+</ul>
+
+<h2>Fixes</h2>
+<ul>
+    <li>Fix endless sync loop introduced with 4.1.0</li>
+    <li>Article list is correctly updated when changing read filter</li>
+    <li>Several bug fixes.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r115"/>
+<hr id="r114"/>
+<h1>4.1.1</h1>
+<ul>
+    <li>Initiate continuous sync after boot without needing to explicitly start GoodNews.</li>
+    <li>Triggering outstanding continuous syncs as soon as network becomes available.</li>
+    <li>Fixed compatibility issue with Android 1.6.</li>
+    <li>Several bug fixes.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r112"/>
+<hr id="r111"/>
+<hr id="r110"/>
+<h1>4.0.1 - 4.0.3</h1>
+<ul>
+    <li>Several bug fixes.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r109"/>
+<h1>4.0.0</h1>
+
+<h2>Enhancements</h2>
+
+<h3>News Reading</h3>
+<ul>
+    <li>Teaser in article list.</li>
+    <li>Support for offline images.</li>
+    <li>Displaying labels in article list.</li>
+    <li>Enable diagonal scrolling in article view on Android 2 and above.</li>
+    <li>Browse back button in article view.</li>
+    <li>Customizable action bar in article view.</li>
+    <li>Customizable action when clicking the article title in the article view.</li>
+</ul>
+
+<h3>Podcasts</h3>
+<ul>
+    <li>Supporting lock screen playback control on Android 4 and above.</li>
+    <li>Highlight of last played episode in the article list.</li>
+    <li>Skip button on secondary playback bar.</li>
+    <li>Playlist always contains a playback bar for the most recently listened/next episode.</li>
+    <li>Option to add play list shortcut to home screen.</li>
+    <li>Remember approximate playback position even when killed.</li>
+    <li>Pause and resume using status bar.</li>
+    <li>Global option to automatically add new episodes to play list.</li>
+    <li>Option to mark finished episodes as read.</li>
+    <li>Migration tip for users coming from Google Listen.</li>
+</ul>
+
+<h3>Generic</h3>
+<ul>
+    <li>Complete new, ICS like look and feel.</li>
+    <li>Introduced light, dark and black theme.</li>
+    <li>Menu option in article list to fetch old (read) articles from Google Reader.</li>
+    <li>New action bar.</li>
+    <li>Using native menu on Android 3 and above.</li>
+    <li>More comfortable share action on Android 4 and above.</li>
+    <li>Permanent display of scroll bars in all list views.</li>
+    <li>Two-pane view for settings on tablets >= Android 3.</li>
+    <li>Icons for main categories in settings.</li>
+    <li>Cloud backup of all settings on devices with market access and Android 2.2 or above.</li>
+    <li>User interface settings have been split up into view specific settings.</li>
+    <li>Storing article content in database instead of file system to prevent out of inode problem.</li>
+    <li>Extreme acceleration of the list view when using thousands of articles.</li>
+    <li>Incredible fast marking read using the tick button.</li>
+    <li>Overworked usage tips.</li>
+    <li>Several minor enhancements.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Headset button fixes for Galaxy Nexus and several others.</li>
+    <li>Fixed podcast size "-0" issue.</li>
+    <li>Fixed hang when using mark read on scroll over option.</li>
+    <li>Several other fixes.</li>
+</ul>
+
+<!-- internal scripting -->
+<script type="text/javascript">
+    document.getElementById(prevVersionCode).className = "visible";
+</script>
+</body>
+</html>

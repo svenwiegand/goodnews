@@ -1,0 +1,81 @@
+== Info: About to connect() to www.google.com port 80 (#0)
+== Info:   Trying 74.125.39.105... == Info: connected
+== Info: Connected to www.google.com (74.125.39.105) port 80 (#0)
+=> Send header, 499 bytes (0x1f3)
+0000: GET /reader/api/0/tag/list HTTP/1.1
+0025: User-Agent: curl/7.21.1 (i386-pc-win32) libcurl/7.21.1 OpenSSL/0
+0065: .9.8o zlib/1.2.5
+0077: Host: www.google.com
+008d: Accept: */*
+009a: Authorization:GoogleLogin auth=DQAAANIAAABY36Z-A_2HDgtNVN0rNEp3C
+00da: OSnI_bUUt1Skd92ndgRrMV8DK5B2ZId9epBuh5dAysrSNnQflweaKO73uDg83oqH
+011a: H0mxfLUsuuNsqvfzoZxdXfKCmPedQsI1v3CJ8Fd7R-iIGOmgXFIJk5MHf1OOmlaO
+015a: M24c3PghdymHSTH1ShbMEVS3s5D2oTykg0V3-JxWmNfonQmkyBNCn5A8U7B4AX0j
+019a: ZN7jFrVfgq-gRPqG7C9CSUVrwDawXJ2e2nVLlbtcBweK1Vc_GL2_f2IUPFTEdgtZ
+01da: TWcuGZ6Cpt4IeSxk52v1Q
+01f1: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 39 bytes (0x27)
+0000: Content-Type: text/xml; charset=UTF-8
+<= Recv header, 34 bytes (0x22)
+0000: X-Reader-Google-Version: 514-000
+<= Recv header, 37 bytes (0x25)
+0000: X-Reader-User: 08686711722291732238
+<= Recv header, 68 bytes (0x44)
+0000: Set-Cookie: GRLD=UNSET:08686711722291732238;Path=/reader/;HttpOn
+0040: ly
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 26 Sep 2010 15:27:31 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Sun, 26 Sep 2010 15:27:31 GMT
+<= Recv header, 35 bytes (0x23)
+0000: Cache-Control: private, max-age=0
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+<= Recv header, 13 bytes (0xd)
+0000: Server: GSE
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 985 bytes (0x3d9)
+0000: 6f1
+0005: <object><list name="tags"><object><string name="id">user/0868671
+0045: 1722291732238/state/com.google/starred</string><string name="sor
+0085: tid">2722601A</string></object><object><string name="id">user/08
+00c5: 686711722291732238/state/com.google/broadcast</string><string na
+0105: me="sortid">4F4D1988</string></object><object><string name="id">
+0145: user/08686711722291732238/label/Freunde u Familie</string><strin
+0185: g name="sortid">962C1F6F</string></object><object><string name="
+01c5: id">user/08686711722291732238/label/IT - Android</string><string
+0205:  name="sortid">03693C14</string></object><object><string name="i
+0245: d">user/08686711722291732238/label/IT - LaTeX</string><string na
+0285: me="sortid">19335C40</string></object><object><string name="id">
+02c5: user/08686711722291732238/label/IT - News</string><string name="
+0305: sortid">AD755751</string></object><object><string name="id">user
+0345: /08686711722291732238/label/IT - Softwareentwicklung</string><st
+0385: ring name="sortid">7F2B97AF</string></object><object><string nam
+03c5: e="id">user/08686711
+<= Recv data, 804 bytes (0x324)
+0000: 722291732238/label/IT - Web App Updates</string><string name="so
+0040: rtid">4D58694E</string></object><object><string name="id">user/0
+0080: 8686711722291732238/label/Listen Subscriptions</string><string n
+00c0: ame="sortid">6CE3BA61</string></object><object><string name="id"
+0100: >user/08686711722291732238/label/News - Allgemein</string><strin
+0140: g name="sortid">2731F70E</string></object><object><string name="
+0180: id">user/08686711722291732238/label/Torex</string><string name="
+01c0: title">Torex</string><string name="sortid">F3DE7D36</string></ob
+0200: ject><object><string name="id">user/08686711722291732238/label/x
+0240: eyou</string><string name="sortid">E5430BA9</string></object><ob
+0280: ject><string name="id">user/08686711722291732238/state/com.blogg
+02c0: er/blogger-following</string><string name="sortid">C00454A7</str
+0300: ing></object></list></object>
+031f: 0
+0322: 
+== Info: Connection #0 to host www.google.com left intact
+== Info: Closing connection #0

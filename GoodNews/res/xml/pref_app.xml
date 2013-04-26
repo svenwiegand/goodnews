@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_app"
+        android:key="app">
+    <PreferenceCategory android:title="@string/pref_info">
+        <CheckBoxPreference
+                android:key="tips_auto_show"
+                android:title="@string/pref_tips_auto_show"
+                android:summary="@string/pref_tips_auto_show_summary"
+                android:defaultValue="true"/>
+        <Preference
+                android:key="info_changelog"
+                android:title="@string/pref_info_changelog"
+                android:summary="@string/pref_info_changelog_summary"/>
+        <Preference
+                android:key="info_homepage"
+                android:title="@string/pref_info_homepage"
+                android:summary="@string/pref_info_homepage_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+	

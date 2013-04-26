@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_item_open"
+            android:title="@string/contextmenu_item_open"/>
+    <item
+            android:id="@+id/menu_item_browser"
+            android:title="@string/contextmenu_item_browser"/>
+    <item
+            android:id="@+id/menu_item_mark_read_until_here"
+            android:title="@string/contextmenu_item_mark_read_until_here"/>
+    <item
+            android:id="@+id/menu_item_tags"
+            android:title="@string/contextmenu_item_tags"/>
+    <item
+            android:id="@+id/menu_item_share"
+            android:title="@string/menu_item_share"/>
+    <item
+            android:id="@+id/menu_item_feed_preferences"
+            android:title="@string/contextmenu_item_feed_preferences"/>
+    <item
+            android:id="@+id/menu_item_blacklist"
+            android:title="@string/contextmenu_item_blacklist"
+            />
+</menu>

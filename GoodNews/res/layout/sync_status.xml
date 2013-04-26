@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="?attr/listSectionHeaderStyle"
+        android:orientation="horizontal">
+    <TextView
+            android:id="@+id/pull_sync_status"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/space_small"
+            android:textAppearance="?attr/listSectionHeaderTextAppearance"
+            android:gravity="left|center_vertical"
+            android:drawableLeft="?attr/pullStatusIcon"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="?attr/syncStatusIcon"/>
+    <TextView
+            android:id="@+id/push_sync_status"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/space_small"
+            android:textAppearance="?attr/listSectionHeaderTextAppearance"
+            android:gravity="right|center_vertical"
+            android:drawableRight="?attr/pushStatusIcon"/>
+</LinearLayout>

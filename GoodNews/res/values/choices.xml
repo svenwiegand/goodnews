@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- fetch old dialog -->
+    <string-array name="fetch_old_max_age_choice">
+        <item>@string/age_days_3</item>
+        <item>@string/age_weeks_1</item>
+        <item>@string/age_weeks_2</item>
+        <item>@string/age_weeks_3</item>
+        <item>@string/age_months_1</item>
+        <item>@string/age_months_2</item>
+        <item>@string/age_months_3</item>
+        <item>@string/age_months_6</item>
+        <item>@string/age_months_9</item>
+        <item>@string/age_years</item>
+        <item>@string/age_years_2</item>
+        <item>@string/age_unlimited</item>
+    </string-array>
+    <integer-array name="fetch_old_max_age_choice_values">
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>21</item>
+        <item>31</item>
+        <item>62</item>
+        <item>92</item>
+        <item>184</item>
+        <item>276</item>
+        <item>366</item>
+        <item>731</item>
+        <item>3650</item>
+    </integer-array>
+    
+	<!-- preferences -->
+	<string-array name="pref_item_list_sort_order_choice">
+		<item>@string/pref_item_list_sort_order_descending</item>
+		<item>@string/pref_item_list_sort_order_ascending</item>
+	</string-array>
+	<string-array name="pref_item_list_sort_order_choice_values">
+		<item>DESCENDING</item>
+		<item>ASCENDING</item>
+	</string-array>
+
+    <string-array name="pref_offline_strategy_choice">
+        <item>@string/pref_offline_strategy_choice_manual</item>
+        <item>@string/pref_offline_strategy_choice_sync</item>
+        <item>@string/pref_offline_strategy_choice_readlist</item>
+    </string-array>
+    <string-array name="pref_offline_strategy_choice_values">
+        <item>MANUAL</item>
+        <item>SYNC</item>
+        <item>READ_LIST</item>
+    </string-array>
+
+    <string-array name="pref_offline_content_choice">
+        <item>@string/pref_offline_content_choice_text</item>
+        <item>@string/pref_offline_content_choice_images</item>
+        <item>@string/pref_offline_content_choice_text_images</item>
+    </string-array>
+    <string-array name="pref_offline_content_choice_values">
+        <item>TEXT</item>
+        <item>IMAGES</item>
+        <item>TEXT_IMAGES</item>
+    </string-array>
+    <string-array name="pref_feed_offline_content_choice">
+        <item>@string/pref_global</item>
+        <item>@string/pref_offline_content_choice_none</item>
+        <item>@string/pref_offline_content_choice_text</item>
+        <item>@string/pref_offline_content_choice_images</item>
+        <item>@string/pref_offline_content_choice_text_images</item>
+    </string-array>
+    <string-array name="pref_feed_offline_content_choice_values">
+        <item>GLOBAL</item>
+        <item>NONE</item>
+        <item>TEXT</item>
+        <item>IMAGES</item>
+        <item>TEXT_IMAGES</item>
+    </string-array>
+
+    <string-array name="pref_sync_continous_choice">
+        <item>@string/pref_sync_continous_choice_manual</item>
+        <item>@string/pref_sync_continous_choice_0_30</item>
+        <item>@string/pref_sync_continous_choice_1</item>
+        <item>@string/pref_sync_continous_choice_2</item>
+        <item>@string/pref_sync_continous_choice_3</item>
+        <item>@string/pref_sync_continous_choice_4</item>
+        <item>@string/pref_sync_continous_choice_6</item>
+        <item>@string/pref_sync_continous_choice_8</item>
+        <item>@string/pref_sync_continous_choice_12</item>
+        <item>@string/pref_sync_continous_choice_24</item>
+    </string-array>
+    <string-array name="pref_sync_continous_choice_values">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+
+	<string-array name="pref_sync_unread_max_choice">
+		<item>25</item>
+		<item>50</item>
+		<item>100</item>
+		<item>250</item>
+		<item>500</item>
+		<item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+        <item>10000</item>
+	</string-array>
+
+	<string-array name="pref_sync_tagged_max_choice">
+		<item>0</item>
+		<item>10</item>
+		<item>25</item>
+		<item>50</item>
+		<item>100</item>
+		<item>250</item>
+		<item>500</item>
+		<item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+        <item>10000</item>
+	</string-array>
+
+    <string-array name="pref_folder_click_action_choice">
+        <item>@string/pref_folder_click_choice_feeds</item>
+        <item>@string/pref_folder_click_choice_items</item>
+    </string-array>
+    <string-array name="pref_folder_click_action_choice_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_sort_strategy_choice">
+        <item>@string/pref_sort_strategy_choice_alphabetically</item>
+        <item>@string/pref_sort_strategy_choice_dragndrop</item>
+    </string-array>
+    <string-array name="pref_sort_strategy_choice_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_item_view_title_click_action_choice">
+        <item>@string/pref_item_view_title_click_action_choice_nothing</item>
+        <item>@string/menu_item_labels</item>
+        <item>@string/menu_item_browser</item>
+        <item>@string/menu_item_load</item>
+        <item>@string/menu_full_screen</item>
+    </string-array>
+    <string-array name="pref_item_view_title_click_action_choice_values">
+        <item>NOTHING/</item>
+        <item>LABELS</item>
+        <item>BROWSER</item>
+        <item>LOAD</item>
+        <item>FULL_SCREEN</item>
+    </string-array>
+
+    <string-array name="pref_text_size_choice">
+        <item>@string/pref_text_size_choice_smallest</item>
+        <item>@string/pref_text_size_choice_smaller</item>
+        <item>@string/pref_text_size_choice_normal</item>
+        <item>@string/pref_text_size_choice_larger</item>
+        <item>@string/pref_text_size_choice_largest</item>
+    </string-array>
+    <string-array name="pref_text_size_choice_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
+    </string-array>
+
+    <string-array name="pref_shrinkable_text_size_choice">
+        <item>@string/pref_text_size_choice_smallest</item>
+        <item>@string/pref_text_size_choice_smaller</item>
+        <item>@string/pref_text_size_choice_normal</item>
+    </string-array>
+    <string-array name="pref_shrinkable_text_size_choice_values">
+        <item>SMALLEST</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+    </string-array>
+
+	<string-array name="pref_item_view_choice_none">
+		<item>@string/pref_item_view_choice_nothing</item>
+		<item>@string/pref_item_view_choice_load</item>
+		<item>@string/pref_item_view_choice_browser</item>
+	</string-array>
+	<string-array name="pref_item_view_choice_none_values">
+		<item>NOTHING</item>
+		<item>LOAD</item>
+		<item>BROWSER</item>
+	</string-array>
+	
+	<string-array name="pref_item_view_choice_summary">
+		<item>@string/pref_item_view_choice_summary</item>
+		<item>@string/pref_item_view_choice_load</item>
+		<item>@string/pref_item_view_choice_browser</item>
+	</string-array>
+	<string-array name="pref_item_view_choice_summary_values">
+		<item>SUMMARY</item>
+		<item>LOAD</item>
+		<item>BROWSER</item>
+	</string-array>
+	
+	<string-array name="pref_item_view_choice_content">
+		<item>@string/pref_item_view_choice_summary</item>
+		<item>@string/pref_item_view_choice_content</item>
+		<item>@string/pref_item_view_choice_browser</item>
+	</string-array>
+	<string-array name="pref_item_view_choice_content_values">
+		<item>SUMMARY</item>
+		<item>CONTENT</item>
+		<item>BROWSER</item>
+	</string-array>
+
+    <string-array name="pref_feed_item_view_choice">
+        <item>@string/pref_global</item>
+        <item>@string/pref_item_view_choice_nothing</item>
+        <item>@string/pref_item_view_choice_summary</item>
+        <item>@string/pref_item_view_choice_content</item>
+        <item>@string/pref_item_view_choice_load</item>
+        <item>@string/pref_item_view_choice_browser</item>
+    </string-array>
+    <string-array name="pref_feed_item_view_choice_values">
+        <item>GLOBAL</item>
+        <item>NOTHING</item>
+        <item>SUMMARY</item>
+        <item>CONTENT</item>
+        <item>LOAD</item>
+        <item>BROWSER</item>
+    </string-array>
+
+    <string-array name="pref_storage_provider_choice">
+        <item>@string/pref_storage_provider_choice_internal</item>
+        <item>@string/pref_storage_provider_choice_external</item>
+    </string-array>
+    <string-array name="pref_storage_provider_choice_values">
+        <item>INTERNAL</item>
+        <item>EXTERNAL</item>
+    </string-array>
+
+    <string-array name="pref_mobilizer_choice">
+        <item>@string/pref_mobilizer_choice_none</item>
+        <item>@string/pref_mobilizer_choice_readability</item>
+        <item>@string/pref_mobilizer_choice_google</item>
+    </string-array>
+    <string-array name="pref_mobilizer_choice_values">
+        <item>NONE</item>
+        <item>READABILITY</item>
+        <item>GOOGLE</item>
+    </string-array>
+    <string-array name="pref_feed_mobilizer_choice">
+        <item>@string/pref_global</item>
+        <item>@string/pref_mobilizer_choice_none</item>
+        <item>@string/pref_mobilizer_choice_readability</item>
+        <item>@string/pref_mobilizer_choice_google</item>
+    </string-array>
+    <string-array name="pref_feed_mobilizer_choice_values">
+        <item>GLOBAL</item>
+        <item>NONE</item>
+        <item>READABILITY</item>
+        <item>GOOGLE</item>
+    </string-array>
+
+    <string-array name="pref_feed_content_treatment_choice">
+        <item>@string/pref_feed_content_treatment_choice_ignore</item>
+        <item>@string/pref_feed_content_treatment_choice_summary</item>
+        <item>@string/pref_feed_content_treatment_choice_content</item>
+    </string-array>
+    <string-array name="pref_feed_content_treatment_choice_values">
+        <item>IGNORE</item>
+        <item>TREAT_AS_SUMMARY</item>
+        <item>TREAT_AS_CONTENT</item>
+    </string-array>
+
+    <string-array name="pref_teaser_choice">
+        <item>@string/pref_teaser_choice_none</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_teaser_choice_values">
+        <item>0</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_teaser_source_choice">
+        <item>@string/pref_teaser_source_choice_none</item>
+        <item>@string/pref_teaser_source_choice_prefer_summary</item>
+        <item>@string/pref_teaser_source_choice_content</item>
+    </string-array>
+    <string-array name="pref_teaser_source_choice_values">
+        <item>NONE</item>
+        <item>PREFER_SUMMARY</item>
+        <item>CONTENT</item>
+    </string-array>
+
+    <string-array name="pref_theme_choice">
+        <item>@string/theme_choice_white</item>
+        <item>@string/theme_choice_light</item>
+        <item>@string/theme_choice_dark</item>
+        <item>@string/theme_choice_black</item>
+    </string-array>
+    <string-array name="pref_theme_choice_values">
+        <item>WHITE</item>
+        <item>LIGHT</item>
+        <item>DARK</item>
+        <item>BLACK</item>
+    </string-array>
+
+    <string-array name="boolean_override">
+        <item>@string/pref_global</item>
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+    <string-array name="boolean_override_values">
+        <item>GLOBAL</item>
+        <item>TRUE</item>
+        <item>FALSE</item>
+    </string-array>
+
+    <string-array name="pref_share_content_choice">
+        <item>@string/pref_share_content_choice_url_only</item>
+        <item>@string/pref_share_content_choice_url_with_title</item>
+    </string-array>
+    <string name="pref_share_content_choice_value_url_only">{0}</string>
+    <string-array name="pref_share_content_choice_values">
+        <item>@string/pref_share_content_choice_value_url_only</item>
+        <item>{1}: {0}</item>
+    </string-array>
+
+    <string-array name="locale_action_choice">
+        <item>@string/locale_action_sync</item>
+    </string-array>
+</resources>

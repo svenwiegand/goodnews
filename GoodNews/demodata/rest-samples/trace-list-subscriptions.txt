@@ -1,0 +1,329 @@
+== Info: About to connect() to www.google.com port 80 (#0)
+== Info:   Trying 74.125.39.106... == Info: connected
+== Info: Connected to www.google.com (74.125.39.106) port 80 (#0)
+=> Send header, 508 bytes (0x1fc)
+0000: GET /reader/api/0/subscription/list HTTP/1.1
+002e: User-Agent: curl/7.21.1 (i386-pc-win32) libcurl/7.21.1 OpenSSL/0
+006e: .9.8o zlib/1.2.5
+0080: Host: www.google.com
+0096: Accept: */*
+00a3: Authorization:GoogleLogin auth=DQAAANIAAABY36Z-A_2HDgtNVN0rNEp3C
+00e3: OSnI_bUUt1Skd92ndgRrMV8DK5B2ZId9epBuh5dAysrSNnQflweaKO73uDg83oqH
+0123: H0mxfLUsuuNsqvfzoZxdXfKCmPedQsI1v3CJ8Fd7R-iIGOmgXFIJk5MHf1OOmlaO
+0163: M24c3PghdymHSTH1ShbMEVS3s5D2oTykg0V3-JxWmNfonQmkyBNCn5A8U7B4AX0j
+01a3: ZN7jFrVfgq-gRPqG7C9CSUVrwDawXJ2e2nVLlbtcBweK1Vc_GL2_f2IUPFTEdgtZ
+01e3: TWcuGZ6Cpt4IeSxk52v1Q
+01fa: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 39 bytes (0x27)
+0000: Content-Type: text/xml; charset=UTF-8
+<= Recv header, 34 bytes (0x22)
+0000: X-Reader-Google-Version: 514-000
+<= Recv header, 37 bytes (0x25)
+0000: X-Reader-User: 08686711722291732238
+<= Recv header, 68 bytes (0x44)
+0000: Set-Cookie: GRLD=UNSET:08686711722291732238;Path=/reader/;HttpOn
+0040: ly
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 26 Sep 2010 15:30:26 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Sun, 26 Sep 2010 15:30:26 GMT
+<= Recv header, 35 bytes (0x23)
+0000: Cache-Control: private, max-age=0
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+<= Recv header, 13 bytes (0xd)
+0000: Server: GSE
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 985 bytes (0x3d9)
+0000: 1000
+0006: <object><list name="subscriptions"><object><string name="id">fee
+0046: d/http://www.androidpit.de/de/android/blog/subscribe/rss.xml</st
+0086: ring><string name="title">AndroidPIT Blog</string><list name="ca
+00c6: tegories"><object><string name="id">user/08686711722291732238/la
+0106: bel/IT - Android</string><string name="label">IT - Android</stri
+0146: ng></object></list><string name="sortid">C4DEE4E1</string><numbe
+0186: r name="firstitemmsec">1281704610112</number><string name="htmlU
+01c6: rl">http://www.androidpit.de/de/android/blog</string></object><o
+0206: bject><string name="id">feed/http://www.androidpit.de/de/android
+0246: /tests/testberichte/subscribe/rss.xml</string><string name="titl
+0286: e">AndroidPIT Testberichte</string><list name="categories"><obje
+02c6: ct><string name="id">user/08686711722291732238/label/IT - Androi
+0306: d</string><string name="label">IT - Android</string></object></l
+0346: ist><string name="sortid">3CAD7E7C</string><number name="firstit
+0386: emmsec">1281043718802</number><string name="htmlUrl">http://www.
+03c6: androidpit.de/de/an
+<= Recv data, 7424 bytes (0x1d00)
+0000: droid/tests/testberichte</string></object><object><string name="
+0040: id">feed/http://www.sachtleben-online.de/hausblog/?feed=rss2</st
+0080: ring><string name="title">BlogHaus</string><list name="categorie
+00c0: s"><object><string name="id">user/08686711722291732238/label/Fre
+0100: unde u Familie</string><string name="label">Freunde u Familie</s
+0140: tring></object></list><string name="sortid">BA1F86AE</string><nu
+0180: mber name="firstitemmsec">1249303981348</number><string name="ht
+01c0: mlUrl">http://www.sachtleben-online.de/hausblog</string></object
+0200: ><object><string name="id">feed/http://www.changedetection.com/a
+0240: ccountfeed.xml?feedid=328975951132328</string><string name="titl
+0280: e">ChangeDetection feed</string><list name="categories"><object>
+02c0: <string name="id">user/08686711722291732238/label/IT - LaTeX</st
+0300: ring><string name="label">IT - LaTeX</string></object></list><st
+0340: ring name="sortid">F0BECD56</string><number name="firstitemmsec"
+0380: >1246424905764</number><string name="htmlUrl">http://www.changed
+03c0: etection.com/accountfeed.xml?feedid=328975951132328</string></ob
+0400: ject><object><string name="id">feed/http://www.heise.de/develope
+0440: r/rss/bernds-management-welt/blog-atom.xml</string><string name=
+0480: "title">Developer-Blog - Bernds Management-Welt</string><list na
+04c0: me="categories"><object><string name="id">user/08686711722291732
+0500: 238/label/IT - News</string><string name="label">IT - News</stri
+0540: ng></object></list><string name="sortid">438C7A3B</string><numbe
+0580: r name="firstitemmsec">1264634857907</number><string name="htmlU
+05c0: rl">http://www.heise.de/developer/bernds-management-welt-1290.ht
+0600: ml</string></object><object><string name="id">feed/http://www.he
+0640: ise.de/developer/rss/kais-bewegtes-web/blog-atom.xml</string><st
+0680: ring name="title">Developer-Blog - Kais bewegtes Web</string><li
+06c0: st name="categories"><object><string name="id">user/086867117222
+0700: 91732238/label/IT - News</string><string name="label">IT - News<
+0740: /string></object></list><string name="sortid">84789A9A</string><
+0780: number name="firstitemmsec">1254985344637</number><string name="
+07c0: htmlUrl">http://www.heise.de/developer/kais-bewegtes-web-1294.ht
+0800: ml</string></object><object><string name="id">feed/http://www.dr
+0840: adio.de/rss/podcast/sendungen/hintergrund</string><string name="
+0880: title">dradio-Hintergrund</string><list name="categories"><objec
+08c0: t><string name="id">user/08686711722291732238/label/Listen Subsc
+0900: riptions</string><string name="label">Listen Subscriptions</stri
+0940: ng></object></list><string name="sortid">16D824EC</string><numbe
+0980: r name="firstitemmsec">1282934300643</number><string name="htmlU
+09c0: rl">http://www.dradio.de/</string></object><object><string name=
+0a00: "id">feed/http://gallery.menalto.com/node/feed</string><string n
+0a40: ame="title">Gallery - Your photos on your website</string><list 
+0a80: name="categories"><object><string name="id">user/086867117222917
+0ac0: 32238/label/IT - Web App Updates</string><string name="label">IT
+0b00:  - Web App Updates</string></object></list><string name="sortid"
+0b40: >DB83E0D4</string><number name="firstitemmsec">1237396280750</nu
+0b80: mber><string name="htmlUrl">http://gallery.menalto.com</string><
+0bc0: /object><object><string name="id">feed/http://seberliner.wordpre
+0c00: ss.com/feed/</string><string name="title">go 
+0c2f: 1000
+0c35: west go</string><list name="categories"><object><string name="id
+0c75: ">user/08686711722291732238/label/Freunde u Familie</string><str
+0cb5: ing name="label">Freunde u Familie</string></object></list><stri
+0cf5: ng name="sortid">DF246784</string><number name="firstitemmsec">1
+0d35: 277709142995</number><string name="htmlUrl">http://seberliner.wo
+0d75: rdpress.com</string></object><object><string name="id">feed/http
+0db5: ://feeds2.feedburner.com/blogspot/Egta</string><string name="tit
+0df5: le">Google Chrome Blog</string><list name="categories"><object><
+0e35: string name="id">user/08686711722291732238/label/IT - News</stri
+0e75: ng><string name="label">IT - News</string></object></list><strin
+0eb5: g name="sortid">F510A3C9</string><number name="firstitemmsec">12
+0ef5: 77915436276</number><string name="htmlUrl">http://chrome.blogspo
+0f35: t.com/</string></object><object><string name="id">feed/http://ww
+0f75: w.heise.de/developer/podcast/itunes/heise-developer-podcast-soft
+0fb5: warearchitektour.rss</string><string name="title">heise Develope
+0ff5: r: SoftwareArchitekTOUR-Podcast</string><list name="categories">
+1035: <object><string name="id">user/08686711722291732238/label/Listen
+1075:  Subscriptions</string><string name="label">Listen Subscriptions
+10b5: </string></object></list><string name="sortid">8FC6BBD0</string>
+10f5: <number name="firstitemmsec">1255601272638</number><string name=
+1135: "htmlUrl">http://www.heise.de/developer/podcast/itunes/heise-dev
+1175: eloper-podcast-softwarearchitektour.rss</string></object><object
+11b5: ><string name="id">feed/http://www.heise.de/newsticker/heise-ato
+11f5: m.xml</string><string name="title">heise online News</string><li
+1235: st name="categories"><object><string name="id">user/086867117222
+1275: 91732238/label/IT - News</string><string name="label">IT - News<
+12b5: /string></object></list><string name="sortid">FCEE95B5</string><
+12f5: number name="firstitemmsec">1249292779975</number><string name="
+1335: htmlUrl">http://www.heise.de/newsticker/</string></object><objec
+1375: t><string name="id">feed/http://it-republik.de/feed/?version=rss
+13b5: 20&amp;feed=jaxenter</string><string name="title">JAXenter</stri
+13f5: ng><list name="categories"><object><string name="id">user/086867
+1435: 11722291732238/label/IT - Softwareentwicklung</string><string na
+1475: me="label">IT - Softwareentwicklung</string></object></list><str
+14b5: ing name="sortid">E520020F</string><number name="firstitemmsec">
+14f5: 1249030971327</number><string name="htmlUrl">http://it-republik.
+1535: de/jaxenter</string></object><object><string name="id">feed/http
+1575: ://www.joomla.org/announcements.feed?type=rss</string><string na
+15b5: me="title">Joomla Announcements</string><list name="categories">
+15f5: <object><string name="id">user/08686711722291732238/label/IT - W
+1635: eb App Updates</string><string name="label">IT - Web App Updates
+1675: </string></object></list><string name="sortid">65F6C953</string>
+16b5: <number name="firstitemmsec">1236115452489</number><string name=
+16f5: "htmlUrl">http://www.joomla.org/announcements.html</string></obj
+1735: ect><object><string name="id">feed/http://www.rockettheme.com/jo
+1775: omla-templates/updates?format=feed&amp;type=rss</string><string 
+17b5: name="title">Joomla Template Updates</string><list name="categor
+17f5: ies"><object><string name="id">user/08686711722291732238/label/I
+1835: T - Web App Updates</string><string name="label">IT - Web App Up
+1875: dates</string></object></list><string name="sortid">F8D51E96</st
+18b5: ring><number name="firstitemmsec">1238716900407</number><string 
+18f5: name="htmlUrl">http://www.rockettheme.com/joomla-templates/updat
+1935: es</string></object><object><string name="id">feed/http://www.ph
+1975: pbb.com/feeds/rss/?sid=10d48df6a39fc2b6506af938a604cb2d</string>
+19b5: <string name="title">Latest phpBB.com announcements</string><lis
+19f5: t name="categories"><object><string name="id">user/0868671172229
+1a35: 1732238/label/IT - Web App Updates</string><string name="label">
+1a75: IT - Web App Updates</string></object></list><string name="sorti
+1ab5: d">05EB34BE</string><number name="firstitemmsec">1244234110861</
+1af5: number><string name="htmlUrl">http://www.phpbb.com/community/vie
+1b35: wforum.php?f=14</string></object><object><string name="id">feed/
+1b75: http://feeds2.feedburner.com/LatexCommunityNews</string><string 
+1bb5: name="title">LaTeX Community News</string><list name="categories
+1bf5: "><object><string name="id">user/08686711722291732238/label/IT -
+1c37: c3
+1c3b:  LaTeX</string><string name="label">IT - LaTeX</string></object>
+1c7b: </list><string name="sortid">20FCF516</string><number name="firs
+1cbb: titemmsec">1244128971980</number><string name="htmlUrl">http://w
+1cfb: ww.
+<= Recv data, 8818 bytes (0x2272)
+0000: 1000
+0006: latex-community.org/index.php?option=com_content&amp;view=sectio
+0046: n&amp;id=1&amp;layout=blog&amp;Itemid=111</string></object><obje
+0086: ct><string name="id">feed/http://seberliner.blogspot.com/feeds/p
+00c6: osts/default</string><string name="title">lost + found</string><
+0106: list name="categories"><object><string name="id">user/0868671172
+0146: 2291732238/label/Freunde u Familie</string><string name="label">
+0186: Freunde u Familie</string></object></list><string name="sortid">
+01c6: 5244581B</string><number name="firstitemmsec">1246425955869</num
+0206: ber><string name="htmlUrl">http://seberliner.blogspot.com/</stri
+0246: ng></object><object><string name="id">feed/http://blog.miktex.or
+0286: g/syndication.axd</string><string name="title">MiKTeX Blog</stri
+02c6: ng><list name="categories"><object><string name="id">user/086867
+0306: 11722291732238/label/IT - LaTeX</string><string name="label">IT 
+0346: - LaTeX</string></object></list><string name="sortid">2C21B696</
+0386: string><number name="firstitemmsec">1211265609644</number><strin
+03c6: g name="htmlUrl">http://blog.miktex.org/</string></object><objec
+0406: t><string name="id">feed/http://www.sven-wiegand.de/mailfeed/ima
+0446: p2rss.php?conf=latex-news</string><string name="title">news@late
+0486: x-community.org</string><list name="categories"><object><string 
+04c6: name="id">user/08686711722291732238/label/IT - LaTeX</string><st
+0506: ring name="label">IT - LaTeX</string></object></list><string nam
+0546: e="sortid">ED0B6C49</string><number name="firstitemmsec">1242674
+0586: 439471</number><string name="htmlUrl">http://www.sven-wiegand.de
+05c6: /mailfeed/imap2rss.php?conf=latex-news</string></object><object>
+0606: <string name="id">feed/http://weblogs.java.net/blog/8494/feed</s
+0646: tring><string name="title">opinali's blog</string><list name="ca
+0686: tegories"><object><string name="id">user/08686711722291732238/la
+06c6: bel/IT - Softwareentwicklung</string><string name="label">IT - S
+0706: oftwareentwicklung</string></object></list><string name="sortid"
+0746: >06C61E64</string><number name="firstitemmsec">1252597349967</nu
+0786: mber><string name="htmlUrl">http://www.java.net/blogs/opinali</s
+07c6: tring></object><object><string name="id">feed/http://www.rockett
+0806: heme.com/phpbb3-styles/updates?format=feed&amp;type=rss</string>
+0846: <string name="title">phpBB3 Updates</string><list name="categori
+0886: es"><object><string name="id">user/08686711722291732238/label/IT
+08c6:  - Web App Updates</string><string name="label">IT - Web App Upd
+0906: ates</string></object></list><string name="sortid">6ED2DD54</str
+0946: ing><number name="firstitemmsec">1239381513058</number><string n
+0986: ame="htmlUrl">http://www.rockettheme.com/phpbb3-styles/updates</
+09c6: string></object><object><string name="id">feed/http://www.sven-w
+0a06: iegand.de/hausbau/?feed=rss2</string><string name="title">Projek
+0a46: t "Hausbau" - Bautagebuch von Caroline &amp; Sven</string><list 
+0a86: name="categories"><object><string name="id">user/086867117222917
+0ac6: 32238/label/Freunde u Familie</string><string name="label">Freun
+0b06: de u Familie</string></object></list><string name="sortid">678FC
+0b46: 99B</string><number name="firstitemmsec">1233510966465</number><
+0b86: string name="htmlUrl">http://www.sven-wiegand.de/hausbau</string
+0bc6: ></object><object><string name="id">feed/http://www.rockettheme.
+0c06: com/blog?format=feed&amp;type=rss</string><string name="title">R
+0c46: ocketTheme Blog</string><list name="categories"><object><string 
+0c86: name="id">user/08686711722291732238/label/IT - Web App Updates</
+0cc6: string><string name="label">IT - Web App Updates</string></objec
+0d06: t></list><string name="sortid">A1CBDA43</string><number name="fi
+0d46: rstitemmsec">1238820006663</number><string name="htmlUrl">http:/
+0d86: /www.rockettheme.com/blog</string></object><object><string name=
+0dc6: "id">feed/http://feeds.feedburner.com/ShaisJavaLwuitBlog</string
+0e06: ><string name="title">Shai's Java &amp; LWUIT Blog</string><list
+0e46:  name="categories"><object><string name="id">user/08686711722291
+0e86: 732238/label/IT - Softwareentwicklung</string><string name="labe
+0ec6: l">IT - Softwareentwicklung</string></object></list><string name
+0f06: ="sortid">9EAC3C2A</string><number name="firstitemmsec">12724492
+0f46: 63040</number><string name="htmlUrl">http://lwuit.blogspot.com/<
+0f86: /string></object><object><string name="id">feed/http://www.sven-
+0fc6: wiegand.de/gallery/main.php?g2_view=rss.Render&amp;g2_name=Svens
+1008: 42c
+100d: +Fotogallerie+-+Neue+Alben</string><string name="title">Svens Fo
+104d: togallerie</string><list name="categories"><object><string name=
+108d: "id">user/08686711722291732238/label/Freunde u Familie</string><
+10cd: string name="label">Freunde u Familie</string></object></list><s
+110d: tring name="sortid">1B162BD0</string><number name="firstitemmsec
+114d: ">1241255345257</number><string name="htmlUrl">http://www.sven-w
+118d: iegand.de/gallery/main.php</string></object><object><string name
+11cd: ="id">feed/http://www.sven-wiegand.de/gallery/main.php?g2_view=r
+120d: ss.Render&amp;g2_name=Svens+Fotogallerie+-+Kommentare</string><s
+124d: tring name="title">Svens Fotogallerie</string><list name="catego
+128d: ries"><object><string name="id">user/08686711722291732238/label/
+12cd: Freunde u Familie</string><string name="label">Freunde u Familie
+130d: </string></object></list><string name="sortid">157DE2FB</string>
+134d: <number name="firstitemmsec">1233510965050</number><string name=
+138d: "htmlUrl">http://www.sven-wiegand.de/gallery/main.php</string></
+13cd: object><object><string name="id">feed/http://texandfriends.wordp
+140d: ress.com/feed/</string><string name="title">
+143b: e2b
+1440: TeX &amp; Friends</string><list name="categories"><object><strin
+1480: g name="id">user/08686711722291732238/label/IT - LaTeX</string><
+14c0: string name="label">IT - LaTeX</string></object></list><string n
+1500: ame="sortid">CEB56836</string><number name="firstitemmsec">12363
+1540: 86105453</number><string name="htmlUrl">http://texandfriends.wor
+1580: dpress.com</string></object><object><string name="id">feed/http:
+15c0: //texblog.net/feed/</string><string name="title">TeXblog</string
+1600: ><list name="categories"><object><string name="id">user/08686711
+1640: 722291732238/label/IT - LaTeX</string><string name="label">IT - 
+1680: LaTeX</string></object></list><string name="sortid">10F69CA3</st
+16c0: ring><number name="firstitemmsec">1244061245151</number><string 
+1700: name="htmlUrl">http://texblog.net</string></object><object><stri
+1740: ng name="id">feed/http://www.texniccenter.org/news?format=feed&a
+1780: mp;type=rss</string><string name="title">TeXnicCenter News</stri
+17c0: ng><list name="categories"><object><string name="id">user/086867
+1800: 11722291732238/label/IT - LaTeX</string><string name="label">IT 
+1840: - LaTeX</string></object></list><string name="sortid">548E8DD8</
+1880: string><number name="firstitemmsec">1223613047586</number><strin
+18c0: g name="htmlUrl">http://www.texniccenter.org/news</string></obje
+1900: ct><object><string name="id">feed/http://www.uoregon.edu/~koch/t
+1940: exshop/texshopappcast.xml</string><string name="title">TeXShop V
+1980: ersions</string><list name="categories"><object><string name="id
+19c0: ">user/08686711722291732238/label/IT - LaTeX</string><string nam
+1a00: e="label">IT - LaTeX</string></object></list><string name="sorti
+1a40: d">A06B1482</string><number name="firstitemmsec">1233000363367</
+1a80: number><string name="htmlUrl">http://pages.uoregon.edu/koch/texs
+1ac0: hop</string></object><object><string name="id">feed/http://www.s
+1b00: cala-lang.org/rss.xml</string><string name="title">The Scala Pro
+1b40: gramming Language</string><list name="categories"><object><strin
+1b80: g name="id">user/08686711722291732238/label/IT - Softwareentwick
+1bc0: lung</string><string name="label">IT - Softwareentwicklung</stri
+1c00: ng></object></list><string name="sortid">26F4F545</string><numbe
+1c40: r name="firstitemmsec">1277993901667</number><string name="htmlU
+1c80: rl">http://www.scala-lang.org/</string></object><object><string 
+1cc0: name="id">feed/http://news.google.de/news?hl=de&amp;tab=wn&amp;n
+1d00: ed=de&amp;q=Torex&amp;ie=UTF-8&amp;nolr=1&amp;output=atom</strin
+1d40: g><string name="title">Torex - Google News</string><list name="c
+1d80: ategories"><object><string name="id">user/08686711722291732238/l
+1dc0: abel/Torex</string><string name="label">Torex</string></object><
+1e00: /list><string name="sortid">FED025F4</string><number name="first
+1e40: itemmsec">1248399057423</number><string name="htmlUrl">http://ne
+1e80: ws.google.de/news?ned=de&amp;hl=de&amp;q=Torex</string></object>
+1ec0: <object><string name="id">feed/http://abinshaus.wordpress.com/fe
+1f00: ed/</string><string name="title">Unser kleines Haus</string><lis
+1f40: t name="categories"><object><string name="id">user/0868671172229
+1f80: 1732238/label/Freunde u Familie</string><string name="label">Fre
+1fc0: unde u Familie</string></object></list><string name="sortid">88D
+2000: 753C5</string><number name="firstitemmsec">1276856801615</number
+2040: ><string name="htmlUrl">http://abinshaus.wordpress.com</string><
+2080: /object><object><string name="id">feed/http://wordpress.org/deve
+20c0: lopment/feed/</string><string name="title">WordPress Development
+2100:  Blog</string><list name="categories"><object><string name="id">
+2140: user/08686711722291732238/label/IT - Web App Updates</string><st
+2180: ring name="label">IT - Web App Updates</string></object></list><
+21c0: string name="sortid">31BB5F36</string><number name="firstitemmse
+2200: c">1245543823603</number><string name="htmlUrl">http://wordpress
+2240: .org/news</string></object></list></object>
+226d: 0
+2270: 
+== Info: Connection #0 to host www.google.com left intact
+== Info: Closing connection #0

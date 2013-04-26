@@ -1,0 +1,37 @@
+<resources>
+    <color name="highlight">#00adcc</color>
+    <color name="highlight_text">#00adcc</color>
+    <color name="highlight_transparent">#6600adcc</color>
+    <color name="highlight_dark">#007a9b</color>
+    <color name="action_bar_background">#222222</color>
+    <color name="activity_background">#444444</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="scrubber_track">#80666666</color>
+
+    <color name="theme_text_primary">#ffffff</color>
+    <color name="theme_text_primary_light">#000000</color>
+    <color name="theme_text_secondary">#CCFFFFFF</color>
+    <color name="theme_text_secondary_light">#99333333</color>
+
+    <color name="background_warning">#FF8800</color>
+    <color name="background_info">#00ADCC</color>
+
+    <!-- white -->
+    <color name="background_white">#fff3f3f3</color>
+    <color name="list_divider_white">#16000000</color>
+
+    <!-- light -->
+    <color name="background_light">#ffdedede</color>
+    <color name="list_divider_light">#16000000</color>
+
+    <!-- dark -->
+    <color name="background_dark">#ff444444</color>
+    <color name="list_divider_dark">#16ffffff</color>
+
+    <!-- black -->
+    <color name="background_black">#ff000000</color>
+    <color name="list_divider_black">#26ffffff</color>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="sync"
+        android:title="@string/pref_sync">
+
+    <Preference
+            android:key="account"
+            android:title="@string/pref_account"
+            android:summary="@string/pref_account_summary"/>
+    <ListPreference
+            android:key="sync_continous"
+            android:title="@string/pref_sync_continous"
+            android:summary="@string/pref_sync_continous_summary"
+            android:dialogTitle="@string/pref_sync_continous_choice_title"
+            android:entries="@array/pref_sync_continous_choice"
+            android:entryValues="@array/pref_sync_continous_choice_values"
+            android:defaultValue="0"/>
+    <CheckBoxPreference
+            android:key="sync_continous_wifi_only"
+            android:title="@string/pref_sync_continous_wifi_only"
+            android:summary="@string/pref_sync_continous_wifi_only_summary"
+            android:defaultValue="false"/>
+    <CheckBoxPreference
+            android:key="sync_push_immediately"
+            android:title="@string/pref_sync_push_immediately"
+            android:summary="@string/pref_sync_push_immediately_summary"
+            android:defaultValue="true"/>
+    <CheckBoxPreference
+            android:key="sync_notify_unread"
+            android:title="@string/pref_sync_notify_unread"
+            android:summary="@string/pref_sync_notify_unread_summary"
+            android:defaultValue="true"/>
+
+    <PreferenceCategory
+            android:key="sync_download"
+            android:title="@string/pref_sync_download">
+        <ListPreference
+                android:key="sync_unread_max"
+                android:title="@string/pref_sync_unread_max"
+                android:summary="@string/pref_sync_unread_max_summary"
+                android:dialogTitle="@string/pref_sync_item_max_choice"
+                android:entries="@array/pref_sync_unread_max_choice"
+                android:entryValues="@array/pref_sync_unread_max_choice"
+                android:defaultValue="250"/>
+        <CheckBoxPreference
+                android:key="sync_new_unread_only"
+                android:title="@string/pref_sync_new_unread_only"
+                android:summary="@string/pref_sync_new_unread_only_summary"
+                android:defaultValue="false"/>
+        <CheckBoxPreference
+                android:key="sync_unread_keeping_restrict"
+                android:title="@string/pref_sync_unread_keeping_restrict"
+                android:summary="@string/pref_sync_unread_keeping_restrict_summary"
+                android:defaultValue="false"/>
+        <EditTextPreference
+                android:key="sync_cleanup_unread_days"
+                android:title="@string/pref_sync_cleanup_unread_days"
+                android:summary="@string/pref_sync_cleanup_unread_days_summary"
+                android:defaultValue="30"
+                android:inputType="number"
+                android:maxLength="3"
+                android:singleLine="true"/>
+        <ListPreference
+                android:key="sync_tagged_max"
+                android:title="@string/pref_sync_tagged_max"
+                android:summary="@string/pref_sync_tagged_max_default_summary"
+                android:dialogTitle="@string/pref_sync_item_max_choice"
+                android:entries="@array/pref_sync_tagged_max_choice"
+                android:entryValues="@array/pref_sync_tagged_max_choice"
+                android:defaultValue="500"/>
+        <EditTextPreference
+                android:key="sync_cache_days"
+                android:title="@string/pref_sync_cache_days"
+                android:summary="@string/pref_sync_cache_days_summary"
+                android:defaultValue="1"
+                android:inputType="number"
+                android:maxLength="3"
+                android:singleLine="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="sync_labels"
+            android:title="@string/pref_sync_labels">
+        <com.gettingmobile.goodnews.settings.EditTagNamePreference
+                android:key="sync_labels_readlist"
+                android:title="@string/pref_sync_labels_readlist"
+                android:summary="@string/pref_sync_labels_readlist_summary"
+                android:defaultValue="@string/tag_readlist"
+                android:singleLine="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="sync_fixes"
+            android:title="@string/pref_sync_fixes">
+        <CheckBoxPreference
+                android:key="sync_fix_duplicate_items"
+                android:title="@string/pref_sync_fix_duplicate_items"
+                android:summary="@string/pref_sync_fix_duplicate_items_summary"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="sync_actions"
+            android:title="@string/pref_actions">
+        <Preference
+                android:key="sync_dismiss_local_changes"
+                android:summary="@string/pref_sync_dismiss_local_changes_summary"
+                android:title="@string/pref_sync_dismiss_local_changes"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+	

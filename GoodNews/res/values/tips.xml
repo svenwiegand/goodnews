@@ -1,0 +1,34 @@
+<resources>
+    <!-- only ids for tip groups -->
+    <integer name="tip_group_welcome">1</integer>
+    <integer name="tip_group_tag_list">2</integer>
+    <integer name="tip_group_item_list">3</integer>
+    <integer name="tip_group_item_view">3</integer>
+    
+    <!-- global -->
+    <string name="visual_tip_hint">(tap anywhere to continue)</string>
+
+    <!-- visual tips for the home screen -->
+    <string name="vtip_action_tooltip">tap and hold any action button to get a short help tip</string>
+    <string name="vtip_sync">tap the sync button to synchronize with google reader</string>
+    <string name="vtip_folder">tap a folder item to list the folder\'s subscriptions</string>
+    <string name="vtip_folder_button">Tap a folder\'s button to list the folder\'s articles. You can configure the behaviour of the folder item and the folder\'s button in the settings.</string>
+
+    <!-- item list -->
+    <string name="tip_offline_indicator_mark_read">indicator should toggle the article\'s read state instead of opening this tip</string>
+
+    <string name="vtip_hide">toggle whether to hide read items or not</string>
+    <string name="vtip_read">mark all items in the current view as read</string>
+
+    <!-- item view -->
+    <string name="vtip_load_content">loads the article\'s website into the internal browser</string>
+    <string name="vtip_browser">opens the article\'s website in the system\'s browser</string>
+
+    <!-- rating -->
+    <string name="rating_request_title">Rate GoodNews</string>
+    <string name="rating_request_msg">Do you like GoodNews? Great, then rate GoodNews in the Android Market.
+        It will cost you only a minute and it will help to increase GoodNews\' reputation. Thanks!</string>
+    <string name="rating_request_rate">OK, open the GoodNews market page</string>
+    <string name="rating_request_later">please remind me later</string>
+    <string name="rating_request_no">I do not want to rate</string>
+</resources>

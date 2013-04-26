@@ -1,0 +1,5 @@
+<resources>
+    <style name="Widget.DialogActivityButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/item_background_light</item>
+    </style>
+</resources>

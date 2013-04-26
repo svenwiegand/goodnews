@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+	<title>heise Developer: SoftwareArchitekTOUR-Podcast</title>
+	<link>http://www.heise.de/developer/podcast/itunes/heise-developer-podcast-softwarearchitektour.rss</link>
+	<language>de-de</language>
+	<copyright>&#xA9; Heise Zeitschriften Verlag</copyright>
+	<description>Bekannte Softwareentwickler diskutieren &#xfc;ber wichtige Softwarearchitekturthemen. Gehen Sie mit auf Tour und profitieren Sie von ihren Erfahrungen und Tipps.</description>
+
+	<itunes:subtitle>SoftwareArchitekTOUR – Podcast für den professionellen Softwarearchitekten</itunes:subtitle>
+	<itunes:author>heise Developer</itunes:author>
+	<itunes:summary>Bekannte Softwareentwickler diskutieren &#xfc;ber wichtige Softwarearchitekturthemen. Gehen Sie mit auf Tour und profitieren Sie von ihren Erfahrungen und Tipps.</itunes:summary>
+	<itunes:owner>
+		<itunes:name>Heise Zeitschriften Verlag</itunes:name>
+		<itunes:email>softwarearchitektour@heise.de</itunes:email>
+	</itunes:owner>
+	<itunes:image href="http://www.heise.de/extras/multimedia/heise_developer_logo_podcast.jpg" />
+	<itunes:category text="Technology">
+		<itunes:category text="Tech News"/>
+		<itunes:category text="Software How-To"/>
+	</itunes:category>
+	<itunes:category text="Business">
+		<itunes:category text="Business News"/>
+	</itunes:category>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:keywords>Entwickler,Developer,Softwarearchitektur,Software Architecture,Softwarearchitekten,SOA,Web Services,REST,Software,Pattern,Swing,J2EE</itunes:keywords>
+
+    <item>
+		<title>Episode 24: Testing &amp; Softwarearchitektur</title>
+		<itunes:summary>Die Episode zum Thema &quot;Testen&quot; zeigt, dass der Softwarearchitekt sich dem Thema ausgiebig widmen sollte, da er als wichtiger Ansprechpartner zu Testentscheidungen fungiert.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-24-testing.ane.a9761257937d9acea6afab1d39a689e3.mp3?x-sequenz=398;x-container=;x-filename=softwarearchitektour-24-testing.ane.a9761257937d9acea6afab1d39a689e3.mp3" length="37226445" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-24-testing.ane.a9761257937d9acea6afab1d39a689e3.mp3?x-sequenz=398;x-container=;x-filename=softwarearchitektour-24-testing.ane.a9761257937d9acea6afab1d39a689e3.mp3</guid>
+		<pubDate>Mon, 20 Sep 2010 12:13:14 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 23: Dom&#xE4;nenspezifische Sprachen</title>
+		<itunes:summary>Eine Episode &#xFC;ber Domain-Specific Languages (DSLs) im Allgemeinen sowie &#xFC;ber Eclipse Xtext und JetBrains' MPS (Meta Programming System) im Besonderen, die unterschiedliche Ans&#xE4;tze zur Implementierung textueller DSLs verwenden.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-23-dsl.ane.9b8892dcbeffd722ccd0aefc8a86c540.mp3?x-sequenz=364;x-container=;x-filename=softwarearchitektour-23-dsl.ane.9b8892dcbeffd722ccd0aefc8a86c540.mp3" length="61517417" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-23-dsl.ane.9b8892dcbeffd722ccd0aefc8a86c540.mp3?x-sequenz=364;x-container=;x-filename=softwarearchitektour-23-dsl.ane.9b8892dcbeffd722ccd0aefc8a86c540.mp3</guid>
+		<pubDate>Fri, 20 Aug 2010 11:12:13 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 22: NoSQL - Alternative zu relationalen Datenbanken</title>
+		<itunes:summary>Bei dieser Episode geht es um sogenannte NoSQL-Datenbanksysteme, ihre grundlegenden Eigenschaften und um die Frage, ob sie relationale Datenbanken ersetzen k&#xF6;nnen.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-22-nosql.ane.1b8fef52d700eeb226577262421a3d1b.mp3?x-sequenz=337;x-container=;x-filename=softwarearchitektour-22-nosql.ane.1b8fef52d700eeb226577262421a3d1b.mp3" length="72290293" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-22-nosql.ane.1b8fef52d700eeb226577262421a3d1b.mp3?x-sequenz=337;x-container=;x-filename=softwarearchitektour-22-nosql.ane.1b8fef52d700eeb226577262421a3d1b.mp3</guid>
+		<pubDate>Fri, 25 Jun 2010 11:12:13 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 21: Funktionale Programmierung</title>
+		<itunes:summary>Plattformen wie die Java Virtual Machine oder die Common Language Runtime und der Trend hin zu Multicore-Architekturen legen die Basis f&#xFC;r eine neue Popularit&#xE4;t von funktionaler Programmierung.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-21-funktionaleprogrammierung.ane.4d74a0f8387c1c7163c63fe85f6c8ff8.mp3?x-sequenz=325;x-container=;x-filename=softwarearchitektour-21-funktionaleprogrammierung.ane.4d74a0f8387c1c7163c63fe85f6c8ff8.mp3" length="60885500" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-21-funktionaleprogrammierung.ane.4d74a0f8387c1c7163c63fe85f6c8ff8.mp3?x-sequenz=325;x-container=;x-filename=softwarearchitektour-21-funktionaleprogrammierung.ane.4d74a0f8387c1c7163c63fe85f6c8ff8.mp3</guid>
+		<pubDate>Fri, 14 May 2010 10:11:12 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 20: Architektur als Sprache</title>
+		<itunes:summary>Die Episode geht auf die Verwendung von (textuellen) DSLs zur formalen Beschreibung von Softwarearchitektur ein.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-20-archaslang.ane.c5676922cdc14d659c6ff4712ba80a6f.mp3?x-sequenz=308;x-container=;x-filename=softwarearchitektour-20-archaslang.ane.c5676922cdc14d659c6ff4712ba80a6f.mp3" length="55172879" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-20-archaslang.ane.c5676922cdc14d659c6ff4712ba80a6f.mp3?x-sequenz=308;x-container=;x-filename=softwarearchitektour-20-archaslang.ane.c5676922cdc14d659c6ff4712ba80a6f.mp3</guid>
+		<pubDate>Mon, 12 Apr 2010 08:07:06 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 19: REST in der .NET-Welt</title>
+		<itunes:summary>Die dritte Episode zum Thema REST geht auf die diversen technischen M&#xF6;glichkeiten zur Implementierung der REST-Idee auf Basis des .NET-Frameworks ein.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-19-rest3.ane.5a1ea04ba243047d9db7a3e22939bd21.mp3?x-sequenz=293;x-container=;x-filename=softwarearchitektour-19-rest3.ane.5a1ea04ba243047d9db7a3e22939bd21.mp3" length="43471960" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-19-rest3.ane.5a1ea04ba243047d9db7a3e22939bd21.mp3?x-sequenz=293;x-container=;x-filename=softwarearchitektour-19-rest3.ane.5a1ea04ba243047d9db7a3e22939bd21.mp3</guid>
+		<pubDate>Fri, 12 Mar 2010 16:15:14 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 18: (Anti-)Patterns und Tools f&#xFC;r REST</title>
+		<itunes:summary>Die zweite Episode zum Thema REST behandelt Anti-Patterns und Patterns beim Entwurf von Systemen, die den Anspruch haben,  &#x22;RESTful&#x22;  zu sein, und stellt Werkzeuge f&#xFC;r die Entwicklung von REST-Anwendungen in der Java- und .NET-Welt vor.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-18-rest2.ane.ed17ab7c745a9bec51bbbcbba11f57c1.mp3?x-sequenz=289;x-container=;x-filename=softwarearchitektour-18-rest2.ane.ed17ab7c745a9bec51bbbcbba11f57c1.mp3" length="44888424" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-18-rest2.ane.ed17ab7c745a9bec51bbbcbba11f57c1.mp3?x-sequenz=289;x-container=;x-filename=softwarearchitektour-18-rest2.ane.ed17ab7c745a9bec51bbbcbba11f57c1.mp3</guid>
+		<pubDate>Fri, 19 Feb 2010 10:09:19 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 17: Einstieg in REST</title>
+		<itunes:summary>Markus V&#xF6;lter und Stefan Tilkov stellen REST, die Architektur des WWW, vor und beantworten die Frage, wann REST eine gute Wahl ist und wann andere Ans&#xE4;tze besser geeignet sind.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-17-rest1.ane.2fe4be0f5f908b73922a321ce3d6b0af.mp3?x-sequenz=287;x-container=;x-filename=softwarearchitektour-17-rest1.ane.2fe4be0f5f908b73922a321ce3d6b0af.mp3" length="43912071" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-17-rest1.ane.2fe4be0f5f908b73922a321ce3d6b0af.mp3?x-sequenz=287;x-container=;x-filename=softwarearchitektour-17-rest1.ane.2fe4be0f5f908b73922a321ce3d6b0af.mp3</guid>
+		<pubDate>Mon, 08 Feb 2010 08:08:22 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 16: Architektur-Reviews</title>
+		<itunes:summary>Die Episode 16 gibt einen &#xDC;berblick dar&#xFC;ber, wie sich existierende Softwarearchitekturen evaluieren lassen.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-16-review.ane.bf70c3bee07202e752329c004fc0908c.mp3?x-sequenz=282;x-container=;x-filename=softwarearchitektour-16-review.ane.bf70c3bee07202e752329c004fc0908c.mp3" length="55647111" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-16-review.ane.bf70c3bee07202e752329c004fc0908c.mp3?x-sequenz=282;x-container=;x-filename=softwarearchitektour-16-review.ane.bf70c3bee07202e752329c004fc0908c.mp3</guid>
+		<pubDate>Wed, 06 Jan 2010 07:07:07 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 15: Architekturdokumentation</title>
+		<itunes:summary>Episode 15 setzt sich mit dem vielerorts ungeliebten Thema Architekturdokumentation auseinander und gibt eine Reihe Best Practices hierf&#xFC;r mit.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-15-architekturdoku.ane.4dc32de850dcaf6477ab8c8c46ef1906.mp3?x-sequenz=263;x-container=;x-filename=softwarearchitektour-15-architekturdoku.ane.4dc32de850dcaf6477ab8c8c46ef1906.mp3" length="58261446" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-15-architekturdoku.ane.4dc32de850dcaf6477ab8c8c46ef1906.mp3?x-sequenz=263;x-container=;x-filename=softwarearchitektour-15-architekturdoku.ane.4dc32de850dcaf6477ab8c8c46ef1906.mp3</guid>
+		<pubDate>Wed, 11 Nov 2009 16:53:16 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 14: Entwicklung für Multicore-Systeme</title>
+		<itunes:summary>Die Episode 14 setzt sich mit den Herausforderungen und L&#xF6;sungsans&#xE4;tzen f&#xFC;r die Entwicklung für Multicore-Systeme auseinander. Neben der Grundproblematik sind Parallelit&#xE4;t und Architektur, Auswirkungen auf das Design und Idiome zur parallelen Programmierung ein Thema.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-14-multicore.ane.b8d4dd9440dffbf9ed5df7b6dba15ec3.mp3?x-sequenz=243&amp;x-container=&amp;x-filename=softwarearchitektour-14-multicore.ane.b8d4dd9440dffbf9ed5df7b6dba15ec3.mp3" length="51388943" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-14-multicore.ane.b8d4dd9440dffbf9ed5df7b6dba15ec3.mp3?x-sequenz=243&amp;x-container=&amp;x-filename=softwarearchitektour-14-multicore.ane.b8d4dd9440dffbf9ed5df7b6dba15ec3.mp3</guid>
+		<pubDate>Thu, 15 Oct 2009 09:50:59 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 13: Serviceorientierte Architekturen (SOA) - allgemeine Grundlagen</title>
+		<itunes:summary>Episode 13 ist Auftakt einer Serie von Folgen zum Thema serviceorientierte Architekturen (SOA) und geht auf grundlegende Fragestellungen ein.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-13-soa-teil1.ane.284baee7835d170729944c8161730aab.mp3?x-sequenz=214;x-container=;x-filename=softwarearchitektour-13-soa-teil1.ane.284baee7835d170729944c8161730aab.mp3" length="57255836" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-13-soa-teil1.ane.284baee7835d170729944c8161730aab.mp3?x-sequenz=214;x-container=;x-filename=softwarearchitektour-13-soa-teil1.ane.284baee7835d170729944c8161730aab.mp3</guid>
+		<pubDate>Mon, 07 Sep 2009 14:00:41 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 12: Systematischer Softwarearchitekturentwurf</title>
+		<itunes:summary>Das in der Episode vorgestellte Modell für systematischen Architekturentwurf enth&#xE4;lt einige Best Practices f&#xFC;r das Aufsetzen einer Softwarearchitektur.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-12-systematischerArchitekturentwurf.stu.68e4bb76929302ce9815728aabaf5df8.mp3?x-sequenz=211;x-container=;x-filename=softwarearchitektour-12-systematischerArchitekturentwurf.stu.68e4bb76929302ce9815728aabaf5df8.mp3" length="35302876" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-12-systematischerArchitekturentwurf.stu.68e4bb76929302ce9815728aabaf5df8.mp3?x-sequenz=211;x-container=;x-filename=softwarearchitektour-12-systematischerArchitekturentwurf.stu.68e4bb76929302ce9815728aabaf5df8.mp3</guid>
+		<pubDate>Mon, 17 Aug 2009 10:00:01 GMT</pubDate>
+    </item>
+
+    <item>
+		<title>Episode 11: Modellierung im Softwarearchitekturumfeld, Teil 2</title>
+		<itunes:summary>Der zweite Teil dieser Doppelepisode zum Thema Modellierung und modellgetriebene Entwicklung geht auf die Themen Modellvalidierung, ausgew&#xE4;hlte Tools und Einsatzszenarien ein.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-11-modellierung-teil2.nid.e3b3448e2f90b02d77c44522e52d76c0.mp3?x-sequenz=201;x-container=;x-filename=softwarearchitektour-11-modellierung-teil2.nid.e3b3448e2f90b02d77c44522e52d76c0.mp3" length="35275295" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-11-modellierung-teil2.nid.e3b3448e2f90b02d77c44522e52d76c0.mp3?x-sequenz=201;x-container=;x-filename=softwarearchitektour-11-modellierung-teil2.nid.e3b3448e2f90b02d77c44522e52d76c0.mp3</guid>
+		<pubDate>Mon, 10 Aug 2009 08:44:08 GMT</pubDate>
+    </item> 
+
+    <item>
+		<title>Episode 10: Modellierung im Softwarearchitekturumfeld, Teil 1</title>
+		<itunes:summary>Der erste Teil einer Doppelepisode zum Thema Modellierung und modellgetriebene Entwicklung im Architekturumfeld behandelt Grundlagen, Standards und eine Abgrenzung zur UML.</itunes:summary>
+		<enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-10-modellierung-Teil1.nid.9ad84d2a15ce48b87d5963c00fb35df5.mp3?x-sequenz=200;x-container=;x-filename=softwarearchitektour-10-modellierung-Teil1.nid.9ad84d2a15ce48b87d5963c00fb35df5.mp3" length="33527498" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-10-modellierung-Teil1.nid.9ad84d2a15ce48b87d5963c00fb35df5.mp3?x-sequenz=200;x-container=;x-filename=softwarearchitektour-10-modellierung-Teil1.nid.9ad84d2a15ce48b87d5963c00fb35df5.mp3</guid>
+		<pubDate>Mon, 27 Jul 2009 08:44:08 GMT</pubDate>
+    </item> 
+    
+    <item>
+	    <title>Episode 9: Cloud Computing</title>
+		<itunes:summary>Die Episode kl&#xE4;rt auf, worum es sich bei Cloud Computing handelt und warum es gerade f&#xFC;r den Architekten interessant sein k&#xF6;nnte.</itunes:summary>
+	    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-9-cloudComputing.nid.45a784129e30a96028cf6cc52d195bed.mp3?x-sequenz=199;x-container=;x-filename=softwarearchitektour-9-cloudComputing.nid.45a784129e30a96028cf6cc52d195bed.mp3" length="48849464" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-9-cloudComputing.nid.45a784129e30a96028cf6cc52d195bed.mp3?x-sequenz=199;x-container=;x-filename=softwarearchitektour-9-cloudComputing.nid.45a784129e30a96028cf6cc52d195bed.mp3</guid>
+		<pubDate>Thu, 16 Jul 2009 08:33:08 GMT</pubDate>
+	</item> 
+
+    <item>
+	    <title>Episode 8: Architektur-Refactoring</title>
+		<itunes:summary>&#xDC;ber den augenblicklichen Stand der Architektur zu reflektieren, ist wichtig, damit keine unerw&#xFC;nschten Erosionserscheinungen auftreten. Treten strukturelle Probleme auf, ist es Zeit f&#xFC;r Architektur-Refactoring.</itunes:summary>
+	    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-8-refactoring.nid.ceae11f3c8a1a1755b4ca05c34cb1a7b.mp3?x-sequenz=195;x-container=;x-filename=softwarearchitektour-8-refactoring.nid.ceae11f3c8a1a1755b4ca05c34cb1a7b.mp3" length="44238169" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-8-refactoring.nid.ceae11f3c8a1a1755b4ca05c34cb1a7b.mp3?x-sequenz=195;x-container=;x-filename=softwarearchitektour-8-refactoring.nid.ceae11f3c8a1a1755b4ca05c34cb1a7b.mp3</guid>
+		<pubDate>Mon, 06 Jul 2009 12:11:10 GMT</pubDate>
+	</item>
+
+    <item>
+	    <title>Episode 7: Middleware in der .NET-Welt</title>
+		<itunes:summary>Die siebte Episode des SoftwareArchtitekTOUR-Podcasts zeigt, wie sich die allgemeinen Ideen aus den ersten Middleware-Episoden im .NET-Kontext realisieren lassen.</itunes:summary>
+	    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-7-middlewareInDotNet.nid.8071bccbbfba7fa9cdc285ca55ef33e8.mp3?x-sequenz=190;x-container=;x-filename=softwarearchitektour-7-middlewareInDotNet.nid.8071bccbbfba7fa9cdc285ca55ef33e8.mp3" length="58014681" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-7-middlewareInDotNet.nid.8071bccbbfba7fa9cdc285ca55ef33e8.mp3?x-sequenz=190;x-container=;x-filename=softwarearchitektour-7-middlewareInDotNet.nid.8071bccbbfba7fa9cdc285ca55ef33e8.mp3</guid>
+		<pubDate>Thu, 25 Jun 2009 11:11:00 GMT</pubDate>
+	</item>
+
+	<item>
+	    <title>Episode 6: Middleware in der Java-Welt</title>
+		<itunes:summary>Die sechste Episode des SoftwareArchtitekTOUR-Podcasts zeigt, wie die allgemeinen Ideen aus der vorhergehenden Middleware-Episoden im Java-Kontext umzusetzen sind.</itunes:summary>
+	    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-6-middlewareInJava.nid.a38c2e992a42e3dd40180aa4bff79f3b.mp3?x-sequenz=169;x-container=;x-filename=softwarearchitektour-6-middlewareInJava.nid.a38c2e992a42e3dd40180aa4bff79f3b.mp3" length="58014681" type="audio/mpeg" />
+		<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-6-middlewareInJava.nid.a38c2e992a42e3dd40180aa4bff79f3b.mp3?x-sequenz=169;x-container=;x-filename=softwarearchitektour-6-middlewareInJava.nid.a38c2e992a42e3dd40180aa4bff79f3b.mp3</guid>
+		<pubDate>Mon, 15 Jun 2009 08:15:00 GMT</pubDate>
+	</item>
+	
+		<item>
+		    <title>Episode 5: Definition, Einsatz und Zukunft von Middleware, Teil 2</title>
+			<itunes:summary>In der zweiten Episode zum Thema Middleware werden die allgemeine Technikkonzepte konkretisiert, indem &#xFC;ber den sinnvollen Einsatz von Middleware-L&#xF6;sungen diskutiert wird.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-5-middleware-Teil2.nid.1a25ba3a5905e23840e66d73086bb1de.mp3?x-sequenz=167;x-container=;x-filename=softwarearchitektour-5-middleware-Teil2.nid.1a25ba3a5905e23840e66d73086bb1de.mp3" length="26194610" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-5-middleware-Teil2.nid.1a25ba3a5905e23840e66d73086bb1de.mp3?x-sequenz=167;x-container=;x-filename=softwarearchitektour-5-middleware-Teil2.nid.1a25ba3a5905e23840e66d73086bb1de.mp3</guid>
+			<pubDate>Thu, 04 Jun 2009 08:16:24 GMT</pubDate>
+		</item>
+	
+		<item>
+		    <title>Episode 4: Definition, Einsatz und Zukunft von Middleware</title>
+			<itunes:summary>In der ersten Episode zum Thema Middleware stehen allgemeinen Technikkonzepte und ihre architektonischen Auswirkungen im Vordergrund. Die kommenden Folgen kl&#xE4;ren, welche Middleware-Plattformen Java- und .NET-Entwicklern zur Verf&#xFC;gung stehen.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-4-middleware-Teil1.nid.59958eb7257cffaeebcd55bba263fa5b.mp3?x-sequenz=165;x-container=;x-filename=softwarearchitektour-4-middleware-Teil1.nid.59958eb7257cffaeebcd55bba263fa5b.mp3" length="38421170" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-4-middleware-Teil1.nid.59958eb7257cffaeebcd55bba263fa5b.mp3?x-sequenz=165;x-container=;x-filename=softwarearchitektour-4-middleware-Teil1.nid.59958eb7257cffaeebcd55bba263fa5b.mp3</guid>
+			<pubDate>Mon, 25 May 2009 11:15:59 GMT</pubDate>
+		</item>
+	
+		<item>
+		    <title>Episode 3: Patterns in der .NET-Welt</title>
+			<itunes:summary>Obgleich Microsoft fr&#xFC;hzeitig versucht hat, die Wiederverwendung von Designwissen zu f&#xF6;rdern, sind Patterns in der .NET noch etwas &#x22;artfremd&#x22;. Die neue Episode blickt tief in die Welt der Patterns mit .NET.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-3-patternsInDotNet.nid.506291d67c23970570a5cc7e8708447d.mp3?x-sequenz=161;x-container=;x-filename=softwarearchitektour-3-patternsInDotNet.nid.506291d67c23970570a5cc7e8708447d.mp3" length="38467980" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-3-patternsInDotNet.nid.506291d67c23970570a5cc7e8708447d.mp3?x-sequenz=161;x-container=;x-filename=softwarearchitektour-3-patternsInDotNet.nid.506291d67c23970570a5cc7e8708447d.mp3</guid>
+			<pubDate>Tue, 12 May 2009 12:21:06 GMT</pubDate>
+		</item>
+	
+		<item>
+		    <title>Episode 2: Patterns in der Java-Welt</title>
+			<itunes:summary>Aufbauend auf der ersten Folge, die in Patterns einf&#xFC;hrte, konkretisiert die zweite Episode des SoftwareArchitekTOUR-Podcast das Thema, indem sie auf Patterns in der Java-Welt eingeht.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-2-patternsInJava.nid.6ccbe1cd37e925a24dc3f967477d889f.mp3?x-sequenz=159;x-container=;x-filename=softwarearchitektour-2-patternsInJava.nid.6ccbe1cd37e925a24dc3f967477d889f.mp3" length="46983480" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-2-patternsInJava.nid.6ccbe1cd37e925a24dc3f967477d889f.mp3?x-sequenz=159;x-container=;x-filename=softwarearchitektour-2-patternsInJava.nid.6ccbe1cd37e925a24dc3f967477d889f.mp3</guid>
+			<pubDate>Fri, 08 May 2009 08:05:09 GMT</pubDate>
+		</item>
+	
+		<item>
+		    <title>Episode 1: &#xDC;ber den Einsatz von Patterns</title>
+			<itunes:summary>In dieser ersten richtigen Episode diskutieren die Podcast-Betreiber Michael Stal und Markus V&#xF6;lter &#xFC;ber das Thema Patterns.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-1-patterns.nid.484ddc597f1f431baf8923eeb91067b4.mp3?x-sequenz=158;x-container=;x-filename=softwarearchitektour-1-patterns.nid.484ddc597f1f431baf8923eeb91067b4.mp3" length="42738253" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-1-patterns.nid.484ddc597f1f431baf8923eeb91067b4.mp3?x-sequenz=158;x-container=;x-filename=softwarearchitektour-1-patterns.nid.484ddc597f1f431baf8923eeb91067b4.mp3</guid>
+			<pubDate>Tue, 28 Apr 2009 13:31:13 GMT</pubDate>
+		</item>
+	
+		<item>
+		    <title>Episode 0: Start des SoftwareArchitekTOUR-Podcast plus Ausblick</title>
+			<itunes:summary>In dieser ersten (in sch&#xf6;ner Programmierer-Tradition, nullten) Episode erl&#xe4;utern die Betreiber des Podcasts, was Softwarearchitektur ist, was die Ziele des Podcasts sind beziehungsweise was die Zuh&#xf6;rer mitnehmen sollen. Alle vier (Michael Stal, Stefan Tilkov, Markus V&#xf6;lter und Christian Weyer) sind bei dieser Auftaktepisode mit von der Partie.</itunes:summary>
+		    <enclosure url="http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-0-einfuehrungUndUeberblick.nid.3c2aa04533e37c61f68adc431bcacb4f.mp3?x-sequenz=156;x-container=;x-filename=softwarearchitektour-0-einfuehrungUndUeberblick.nid.3c2aa04533e37c61f68adc431bcacb4f.mp3" length="40223010" type="audio/mpeg" />
+			<guid>http://eu-heiseonline-div.s3.amazonaws.com/softwarearchitektour-0-einfuehrungUndUeberblick.nid.3c2aa04533e37c61f68adc431bcacb4f.mp3?x-sequenz=156;x-container=;x-filename=softwarearchitektour-0-einfuehrungUndUeberblick.nid.3c2aa04533e37c61f68adc431bcacb4f.mp3</guid>
+			<pubDate>Wed, 22 Apr 2009 11:11:11 GMT</pubDate>
+		</item>
+	
+	
+		
+</channel>
+</rss>

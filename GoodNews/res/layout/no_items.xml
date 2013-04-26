@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/no_content"
+    style="@style/Frame.NoContent">
+	<TextView
+		android:id="@+id/no_content_msg"
+		android:text="@string/no_content"
+		style="@style/ContentMsg.Info"
+	    />
+</FrameLayout>

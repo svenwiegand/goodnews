@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+    <title>Changelog</title>
+    <link rel="stylesheet" type="text/css" href="changelog.css"/>
+</head>
+<body>
+
+<!-- ====================================================================== -->
+<hr id="r130"/>
+<h1>4.8.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Komfortablerer Weitergeben-Button in Artikelansicht</li>
+    <li>Inhalt beim Teilen von Links (nur URL oder URL mit Titel) kann jetzt in den Einstellungen unter "Sontiges" konfiguriert werden</li>
+    <li>Berücksichtige Androids Datumsformat- und 24-Stunden-Einstellungen bei der Anzeige von Zeiten</li>
+    <li>Solidere Erkennung von symbolischen Sprachen (z.B. Chinesisch) für eine bessere Teaser-Generierung</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r129"/>
+<h1>4.7.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Zurück-Button aus Aktionsleite der Artikelansicht entfernt. Nutze Den Zurück-Button Deines Geräts um die vorherige Seite in der Browse-Chronik aufzurufen.</li>
+    <li>Die Browse-Chronik der Artikelansicht merkt sich jetzt auch die Scroll-Position</li>
+    <li>In Artikelansicht können Links via Kontextmenü weitergegeben werden</li>
+    <li>Bessere Generierung von Teasern für Chinesisch und andere Sprachen jenseits lateinischer Zeichensätze</li>
+    <li>Benutze 12-Stunden-Zeitformat für Australien, Kanada, Neuseeland, Philippinen und USA</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Offline-Content in Verbindung mit Google-Mobilizer gefixt</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r128"/>
+<h1>4.6.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Website-Optimierer von Readability.com ersetzt GoodNews- und Read-it-Later-Optimierer</li>
+    <li>Verhindere automatisches Ausschalten des Bildschirms in Artikelansicht</li>
+    <li>Option um Artikelinhalt mit Lautstärkentasten zu Scrollen</li>
+    <li>Unterstützung der Hardwaretasten des Nook Touch zum Scrollen und Blättern in der Artikelansicht</li>
+    <li>Beim Teilen enthält der Nachrichteninhalt nun neben der URL auch den Titel des Artikels</li>
+    <li>Vorherige Geste zum Artikelwechsel wieder aktiviert. Wischen vom Rand für Artikelwechsel als Option</li>
+    <li>Alte Artikel holen mit beliebigem Alter</li>
+    <li>Kein weißes Hintergrundflackern mehr in der Artikelansicht bei Benutzung dunkler Themes</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Artikel-Scrolling auf Jelly Bean gefixt</li>
+    <li>Verhindere automatisches Weg-Scrollen der Titelleiste in Artikelansicht</li>
+    <li>Stabilere Verbindung zu Google Reader</li>
+    <li>Automatisches Senden nach "alle als gelesen markieren" funktioniert jetzt wie erwartet</li>
+    <li>Synchronisierung läuft jetzt auch erfolgreich durch, falls Artikel ohne Zeitstempel existieren</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r127"/>
+<h1>4.5.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Unterstützung für Android Jelly Bean (Android 4.1)</li>
+    <li>Wiedergabesteuerung über die Notifications in Jelly Bean</li>
+    <li>Option steuert ob Playback-Benachrichtigung GoodNews öffnet oder die Wiedergabe steuert</li>
+    <li>Action-Buttons am unteren Bildschirmrand (wenn hochkannt auf Telefonen)</li>
+    <li>ICS-ähnliches Overflow-Menü auf Android 2.x</li>
+    <li>Chrome-ähnliches Wischen in der Artikelansicht: Artikel wird nur gewechselt, wenn die Wischgeste am Bildschirmrand beginnt</li>
+    <li>Videos und ähnliches anhalten wenn Artikelansicht verlassen wird</li>
+    <li>Artikel-Cleanup fortsetzen wenn Display aus ist</li>
+    <li>Datei-Cleanup läuft jetzt direkt im Anschluss an den Sync und nur noch einmal pro Tag</li>
+    <li>Verschieben der Datenbank erlauben wenn Zieldatenbank bereits existiert</li>
+    <li>getting-mobile Moblizier in GoodNews umbenannt</li>
+    <li>Tipp zur Artikelnavigation angepasst</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+    <li>Behebt Crash auf Jelly Bean -- vertikales Scrollen im Artikel funktioniert noch nicht vollständig</li>
+    <li>Verhindert System-Hänger während des Syncs auf HTC-Geräten</li>
+    <li>Korrekte Listenposition nach Artikelansicht und somit kein ungewolltest markieren neuer Artikel</li>
+    <li>Korrekte Aktualisierung der Anzeige des Push-Sync-Status</li>
+    <li>Behebt diverse Abstürze</li>
+</ul>
+<h2>Anmerkungen</h2>
+<ul>
+    <li>Diese Version benötigt mindestens Android 2.1</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r126"/>
+<h1>4.4.1</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Verhindere doppelte Artikel verursacht durch Fehler in Google reader</li>
+    <li>HTML-Tags aus Titel filtern, wenn ein Artikel weitergegeben wird</li>
+    <li>Tag "Favorit" in "Markierte Artikel" umbenannt</li>
+    <li>Verhindere kontinuierliche Crash-Reports nach Neustart des Geräts</li>
+    <li>diverse Fehler behoben</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r125"/>
+<h1>4.4.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Kontextmenüeintrag in Artikellist zum Löschen eines Artikels, der auf Grund des <a href="http://goodnews.uservoice.com/knowledgebase/articles/67690">hier</a> beschriebenen Fehlers in Google Reader auf der Lese-/Wiedergabeliste festhängt</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r124"/>
+<h1>4.3.3</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Textgröße für Artikelansicht wird jetzt wieder berücksichtigt</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r123"/>
+<h1>4.3.2</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Favorisierte Artikel und Artikel auf der Lese- und Wiedergabeliste werden nun wieder korrekt angezeigt</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r122"/>
+<h1>4.3.1</h1>
+<h2>Fixes</h2>
+<ul>
+    <li>Korrekte Abo-Sortierung in gruppierter Artikelliste nach Rückkehr aus Artikelansicht</li>
+    <li>Keine Beschränkung der Zeilenanzahl der Artikeltitel</li>
+    <li>Negative Zahlen in Speicherstatistik behoben</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r121"/>
+<hr id="r120"/>
+<h1>4.3.0</h1>
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Unterstützung für "Read it Later" (http://readitlaterlist.com) Mobilizer</li>
+    <li>Abo-Title in Artikelliste eines Abos unterdrücken</li>
+    <li>Abo-Einstellungen im Menü der Artikelliste eines Abos</li>
+    <li>Vollbildansicht wird jetzt automatisch erst nach 6 Sekunden wieder aktiviert</li>
+    <li>Maximale Anzahl der Titelzeilen auf 10 angehoben</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r119"/>
+<hr id="r118"/>
+<hr id="r117"/>
+<hr id="r116"/>
+<h1>4.2.0</h1>
+
+<h2>Verbesserungen</h2>
+<ul>
+    <li>Nächster/vorheriger Artikel in Artikelansicht durch horizontales Wischen</li>
+    <li>Vollbildmodus in Artikelansicht (erfordert Pro-Lizenz)</li>
+    <li>Anpassbare Titeltextgröße in der Artikelliste</li>
+    <li>Schneller Orientierungswechsel in Artikelansicht auf Honeycomb oder höher</li>
+    <li>Nutze native Fortschrittsbenachrichtigung auf ICS und höhere</li>
+    <li>Benachrichtigung über neue Artikel enthält jetzt die Gesamtanzahl aller ungelesenen Artikel</li>
+    <li>Speicherstatistik zu Speichereinstellungen hinzugefügt</li>
+    <li>Speichere Artikelinhalte standardmäßig als Dateien</li>
+</ul>
+
+<h2>Fixes</h2>
+<ul>
+    <li>Fix für Endlosschleife beim Sync aus 4.1.0</li>
+    <li>Korrekte Aktuallisierung der Artikelliste nach Filteränderung</li>
+    <li>Diverse Fehlerbehebungen.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r115"/>
+<hr id="r114"/>
+<h1>4.1.1</h1>
+<ul>
+    <li>Initiierung des regelmäßigen Syncs nach Reboot ohne dass GoodNews manuell gestartet werden muss.</li>
+    <li>Anstoßen eines überfälligen regelmäßigen Syncs sobald Netzwerk wieder verfügbar.</li>
+    <li>Kompatibilitätsproblem mit Android 1.6 behoben.</li>
+    <li>Diverse Fehlerbehebungen.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r112"/>
+<hr id="r111"/>
+<hr id="r110"/>
+<h1>4.0.1 - 4.0.3</h1>
+<ul>
+    <li>Diverse Fehlerbehebungen.</li>
+</ul>
+
+<!-- ====================================================================== -->
+<hr id="r109"/>
+<h1>4.0.0</h1>
+
+<h2>Verbesserungen</h2>
+
+<h3>News Reading</h3>
+<ul>
+    <li>Teaser in Artikelliste.</li>
+    <li>Unterstützung für Offline-Images.</li>
+    <li>Anzeige von Labels in der Artikelliste.</li>
+    <li>Diagonales Scrollen in der Artikelansicht möglich (Android 2 oder höher).</li>
+    <li>Zurück-Button um in Artikelansicht zu browsen.</li>
+    <li>Anpassbare Aktionsleiste in der Artikelansicht.</li>
+    <li>Auswählbare Aktion bei Klick auf Artikeltitel in der Artikelansicht.</li>
+</ul>
+
+<h3>Podcasts</h3>
+<ul>
+    <li>Unterstützung für Wiedergabesteuerung auf dem Sperrbildschirm ab Android 4.</li>
+    <li>Hervorhebung der zuletzt gespielten Episode in der Artikelliste.</li>
+    <li>Skip-Button auf sekundärer Wiedergabeleiste.</li>
+    <li>Playlist enthält jetzt immer eine Wiedergabeleiste für die zuletzt gehörte/nächste Episode.</li>
+    <li>Option zum Hinzufügen eines Playlist-Shortcuts zum Homescreen.</li>
+    <li>Ungefähre Wiedergabeposition auch im Falle von Crash merken.</li>
+    <li>Pause und Wiedergabe über Statusleiste.</li>
+    <li>Globale Option zum automatischen Hinzufügen neuer Episoden zur Playlist.</li>
+    <li>Option um gehörte Episoden als gelesen zu markieren.</li>
+    <li>Migration-Tipp für Benutzer von Google Listen.</li>
+
+</ul>
+
+<h3>Generic</h3>
+<ul>
+    <li>Komplett neues, ICS-ähnliches Look-n-Feel.</li>
+    <li>Schwarzes, Hell- und Dunkelgraues Design der Benutzeroberfläche hinzugefügt (erfordert bezahlte Lizenz).</li>
+    <li>Menüoption in Artikelliste um alte (gelesene) Artikel von Google Reader zu holen.</li>
+    <li>Neue Aktionsleiste.</li>
+    <li>Nutzung des neuen Standardmenüs ab Android 3.</li>
+    <li>Komfortablere Weitergabe-Aktion ab Android 4.</li>
+    <li>Dauerhafte Anzeige der Scrollbars in allen Listen.</li>
+    <li>Zweigeteilte Ansicht der Einstellungen auf Tablets >= Android 3.</li>
+    <li>Icons für die Hauptkategorien der Einstellungen.</li>
+    <li>Cloud-Backup aller Einstellungen auf Geräten mit Market-Zugang und mindestens Android 2.2.</li>
+    <li>Einstellungen zur Benutzeroberfläche wurden auf Ansicht-spezifische Einstellungen verteilt.</li>
+    <li>Speichere Artikelinhalt in Datenbank anstatt im Dateisystem um Inode-Problem zu verhindern.</li>
+    <li>Beschleunigung aller Listen bei Nutzung tausender von Artikeln.</li>
+    <li>Extrem schnelles markieren als gelesen bei Nutzung des entsprechenden Titel-Buttons.</li>
+    <li>Tipps zur Benutzung überarbeitet.</li>
+    <li>Diverse kleinere Verbesserungen.</li>
+</ul>
+
+<h2>Fixes</h2>
+<ul>
+    <li>Headset-Buttons werden auf Galaxy Nexus und diversen anderen jetzt korrekt verarbeitet.</li>
+    <li>Problem mit Podcast-Größe "-0" behoben.</li>
+    <li>Hänger bei Nutzung der Option "beim Scrollen als gelesen markieren".</li>
+    <li>Diverse andere Bug-Fixes.</li>
+</ul>
+
+<!-- internal scripting -->
+<script type="text/javascript">
+    document.getElementById(prevVersionCode).className = "visible";
+</script>
+</body>
+</html>

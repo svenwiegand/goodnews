@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" [
+    <!ENTITY mdash "—">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Storage Statistic</title>
+    <link rel="stylesheet" type="text/css" href="statistics.css"/>
+    <script type="text/JavaScript" src="storage-statistics.js" ></script>
+</head>
+<body>
+<h1>Article Counts</h1>
+<table>
+    <tbody>
+    <tr>
+        <td>active:</td>
+        <td id="activeArticleCount"/>
+    </tr>
+    <tr>
+        <td>inactive:</td>
+        <td id="inactiveArticleCount"/>
+    </tr>
+    <tr class="total">
+        <td>total:</td>
+        <td id="totalArticleCount"/>
+    </tr>
+    </tbody>
+</table>
+
+<h1>Filesystem Counts</h1>
+<table>
+    <thead>
+    <tr>
+        <td/>
+        <td>articles</td>
+        <td>files</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>summary/content:</td>
+        <td id="articleWithContentFileCount"/>
+        <td id="contentFileCount"/>
+    </tr>
+    <tr>
+        <td>images:</td>
+        <td id="articleWithImageFileCount"/>
+        <td id="imageFileCount"/>
+    </tr>
+    <tr class="total">
+        <td>total:</td>
+        <td/>
+        <td id="totalFileCount"/>
+    </tr>
+    </tbody>
+</table>
+
+<h1>Storage Usage</h1>
+<table>
+    <tbody>
+    <tr><td>database:</td><td id="databaseSize"/></tr>
+    <tr><td>summary/content files:</td><td id="contentFilesSize"/></tr>
+    <tr><td>images:</td><td id="imageFilesSize"/></tr>
+    <tr class="total"><td>total:</td><td id="totalFilesSize"/></tr>
+    </tbody>
+</table>
+
+<script type="text/javascript">fillValues()</script>
+</body>
+</html>

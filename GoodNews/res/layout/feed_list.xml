@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              style="@style/Activity"
+        >
+    <include layout="@layout/message_bar"/>
+    <include layout="@layout/content_loading"/>
+    <include layout="@layout/no_items"/>
+
+    <FrameLayout
+            android:id="@+id/content"
+            style="@style/Frame.Content"
+            >
+        <ListView
+                android:id="@+id/feeds"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadeScrollbars="false"
+                style="?attr/listViewStyle"
+                />
+    </FrameLayout>
+</LinearLayout>

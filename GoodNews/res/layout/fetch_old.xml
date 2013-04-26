@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:padding="@dimen/dialog_padding"
+             android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+                android:layout_span="2"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="@string/fetch_old_msg"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="@string/fetch_old_max_age"/>
+        <Spinner
+                android:id="@+id/max_age"
+                android:entries="@array/fetch_old_max_age_choice"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="@string/fetch_old_max_count"/>
+        <EditText
+                android:id="@+id/max_count"
+                android:inputType="number"
+                android:singleLine="true"
+                android:maxLength="4"/>
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+                android:id="@+id/sync"
+                android:layout_span="2"
+                android:text="@string/fetch_old_sync"
+                android:checked="true"/>
+    </TableRow>
+
+</TableLayout>

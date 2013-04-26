@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_news_reading">
+
+    <CheckBoxPreference
+            android:key="scale_images"
+            android:title="@string/pref_scale_images"
+            android:summary="@string/pref_scale_images_summary"
+            android:defaultValue="true"/>
+    <ListPreference
+            android:key="mobilizer"
+            android:title="@string/pref_mobilizer"
+            android:summary="@string/pref_mobilizer_summary"
+            android:dialogTitle="@string/pref_mobilizer_choice_title"
+            android:entries="@array/pref_mobilizer_choice"
+            android:entryValues="@array/pref_mobilizer_choice_values"
+            android:defaultValue="NONE"/>
+
+    <PreferenceCategory
+            android:title="@string/pref_offline_reading">
+        <ListPreference
+                android:key="offline_strategy"
+                android:title="@string/pref_offline_strategy"
+                android:summary="@string/pref_offline_strategy_summary"
+                android:dialogTitle="@string/pref_offline_strategy_choice_title"
+                android:entries="@array/pref_offline_strategy_choice"
+                android:entryValues="@array/pref_offline_strategy_choice_values"
+                android:defaultValue="MANUAL"/>
+        <ListPreference
+                android:key="offline_content"
+                android:title="@string/pref_offline_content"
+                android:summary="@string/pref_offline_content_summary"
+                android:dialogTitle="@string/pref_offline_content_choice_title"
+                android:entries="@array/pref_offline_content_choice"
+                android:entryValues="@array/pref_offline_content_choice_values"
+                android:defaultValue="TEXT"/>
+        <CheckBoxPreference
+                android:key="offline_wifi"
+                android:title="@string/pref_offline_wifi"
+                android:summary="@string/pref_offline_wifi_summary"
+                android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/pref_news_reading_article_display">
+        <ListPreference
+                android:key="item_view_none"
+                android:title="@string/pref_item_view_none"
+                android:summary="@string/pref_item_view_none_summary"
+                android:dialogTitle="@string/pref_item_view_choice"
+                android:entries="@array/pref_item_view_choice_none"
+                android:entryValues="@array/pref_item_view_choice_none_values"
+                android:defaultValue="LOAD"/>
+        <ListPreference
+                android:key="item_view_summary"
+                android:title="@string/pref_item_view_summary"
+                android:summary="@string/pref_item_view_summary_summary"
+                android:dialogTitle="@string/pref_item_view_choice"
+                android:entries="@array/pref_item_view_choice_summary"
+                android:entryValues="@array/pref_item_view_choice_summary_values"
+                android:defaultValue="SUMMARY"/>
+        <ListPreference
+                android:key="item_view_content"
+                android:title="@string/pref_item_view_content"
+                android:summary="@string/pref_item_view_content_summary"
+                android:dialogTitle="@string/pref_item_view_choice"
+                android:entries="@array/pref_item_view_choice_content"
+                android:entryValues="@array/pref_item_view_choice_content_values"
+                android:defaultValue="CONTENT"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+	

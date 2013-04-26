@@ -1,0 +1,28 @@
+<resources>
+    <style name="TextAppearance.Widget.Title.GoodNews" parent="@android:style/TextAppearance.Holo.Medium">
+    </style>
+    <style name="TextAppearance.Widget.Subtitle.GoodNews" parent="@android:style/TextAppearance.Holo.Small">
+    </style>
+
+    <style name="Theme.Translucent.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!-- dialog stuff -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="dialogActivityButtonStyle">@style/Widget.DialogActivityButton</item>
+    </style>
+
+    <style name="Theme.GoodNews">
+        <!-- dialog stuff -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="dialogActivityButtonStyle">@style/Widget.DialogActivityButton</item>
+        <item name="alertDialogIcon">?android:attr/alertDialogIcon</item>
+    </style>
+
+    <style name="Setting.Theme" parent="@android:style/Theme.Holo"/>
+</resources>

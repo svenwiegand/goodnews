@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="http://www.dradio.de/rss/podcast/podcast.xsl" type="text/xsl"?>
+<rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>dradio-Hintergrund</title>
+        <description>Beiträge des Deutschlandradio (Deutschlandfunk, Deutschlandradio Kultur)</description>
+        <link>http://www.dradio.de/</link>
+        <itunes:image href="http://www.dradio.de/pictures/rss/dradio-logo-podcast.jpg" />
+        <lastBuildDate>Sun, 03 Oct 2010 10:18:16 GMT</lastBuildDate>
+        <image>
+            <url>http://www.dradio.de/pictures/rss/dradio-logo.gif</url>
+            <title>Deutschlandradio Logo</title>
+            <link>http://www.dradio.de/</link>
+            <description>Feed provided by Deutschlandradio. Click to visit.</description>
+        </image>
+        <itunes:owner>
+           <itunes:name>Redaktion dradio.de</itunes:name>
+           <itunes:email>podcast@dradio.de</itunes:email>
+        </itunes:owner>
+        <category>News</category>
+        <itunes:subtitle>Die Beiträge der Sendung Hintergrund</itunes:subtitle>
+        <itunes:author>DLF</itunes:author>
+        <copyright>Deutschlandradio - dradio.de</copyright>
+        <language>de</language>
+        <itunes:explicit>No</itunes:explicit>
+        <ttl>60</ttl>
+        <item>
+            <title>Stillstand oder Erneuerung - Wahlen in Bosnien-Herzegowina</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1286995/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60952/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">In Bosnien-Herzegowina wird am kommenden Sonntag gewählt. Der Staat hat heute - 15 Jahre nach Kriegsende - mit immensen Problemen zu kämpfen, die nicht zuletzt in der ethnischen Teilung des Landes begründet liegen. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/10/02/dlf_20101002_1840_56fd2deb.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sat, 02 Oct 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/10/02/dlf_20101002_1840_56fd2deb.mp3" length="8780512" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/10/02/dlf_20101002_1840_56fd2deb.mp3</guid>
+            <itunes:author>Bremkamp, Christian</itunes:author>
+            <itunes:duration>00:18:20</itunes:duration>
+        </item>
+        <item>
+            <title>Die Bürde des Amtes - Schwerer Start für Christian Wulff</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1286839/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/59084/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die Bürde des neuen Amtes kam für Christian Wulff überraschend - nun fast 100 Tage im Amt und kurz vor dem großen Auftritt zu den Feierlichkeiten zur Deutschen Einheit eine erste Betrachtung.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/10/01/dlf_20101001_1840_c0d74b49.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Fri, 01 Oct 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/10/01/dlf_20101001_1840_c0d74b49.mp3" length="8729968" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/10/01/dlf_20101001_1840_c0d74b49.mp3</guid>
+            <itunes:author>Schrammar, Susanne</itunes:author>
+            <itunes:duration>00:18:14</itunes:duration>
+        </item>
+        <item>
+            <title>Weichenstellung für die Zukunft - Brasilien wählt am Sonntag einen neuen Präsidenten</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1285708/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60943/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Dilma Rousseff will Brasiliens Präsident Lula da Silva ins Amt folgen. Sie hat alle Chancen, den Kampf um die Nachfolge ihrers Mentors zu gewinnen. Die gewaltigen Armuts- und Sozialprobleme im fünftgrößten Staat der Welt sind derweil zwar nicht überwunden, aber zumindest reduziert.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/30/dlf_20100930_1840_3d5ceae0.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Thu, 30 Sep 2010 16:40:13 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/30/dlf_20100930_1840_3d5ceae0.mp3" length="8810256" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/30/dlf_20100930_1840_3d5ceae0.mp3</guid>
+            <itunes:author>Stein, Gottfried</itunes:author>
+            <itunes:duration>00:18:24</itunes:duration>
+        </item>
+        <item>
+            <title>Späte Sühne für das Buback-Attentat? - Die ehemalige RAF-Terroristin Verena Becker vor Gericht</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1284635/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/52977/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Vor dem Stuttgarter Oberlandesgericht muss sich ab Donnerstag das ehemalige RAF-Mitglied Verena Becker wegen des Attentats auf Generalbundesanwalt Siegfried Buback vom 7. April 1977 verantworten. Wer vor 33 Jahren die tödlichen Schüsse auf Buback abgefeuert hat, ist bis heute unbekannt. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/29/dlf_20100929_1840_0a97d966.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Wed, 29 Sep 2010 16:40:17 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/29/dlf_20100929_1840_0a97d966.mp3" length="8820032" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/29/dlf_20100929_1840_0a97d966.mp3</guid>
+            <itunes:author>Langels, Otto</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Die Macht der Täter brechen - Der Runde Tisch gegen Missbrauch</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1283650/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/29691/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Der &quot;Runde Tisch Missbrauch&quot; wurde von der Bundesregierung einberufen, nachdem zahlreiche Fälle von sexuellem Kindesmissbrauch die Öffentlichkeit erschüttert hatten. Seitdem ist ein halbes Jahr vergangen - doch noch hat sich nichts geändert. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/28/dlf_20100928_1840_d6929dee.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Tue, 28 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/28/dlf_20100928_1840_d6929dee.mp3" length="8690864" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/28/dlf_20100928_1840_d6929dee.mp3</guid>
+            <itunes:author>Ulrike Greim</itunes:author>
+            <itunes:duration>00:18:09</itunes:duration>
+        </item>
+        <item>
+            <title>Nach Kohle und Stahl - Wie Dortmund den Strukturwandel meistert</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1281605/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/42923/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">U-Turm, Thier-Areal und Phoenixsee sind die drei Leuchtturmprojekte der Stadt Dortmund. Sie zeugen vom Wandel, der auf einem gutem Weg ist. Auch, weil die Stadt den Ruf hat, besonders geschickt mit Fördergeldern für den Strukturwandel zu sein.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/26/dlf_20100926_1840_1ad0cb75.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sun, 26 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/26/dlf_20100926_1840_1ad0cb75.mp3" length="8733088" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/26/dlf_20100926_1840_1ad0cb75.mp3</guid>
+            <itunes:author>Bandermann, Kay</itunes:author>
+            <itunes:duration>00:18:15</itunes:duration>
+        </item>
+        <item>
+            <title>Ein vergessener Völkermord wird aufgearbeitet - Das Kriegsverbrechertribunal in Bangladesh</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1280548/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/44175/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Zwischen einer und drei Millionen Menschen starben von März bis Dezember 1971 in Bangladesh. Zehn Millionen Menschen wurden nach Indien vertrieben. Erst heute, fast 40 Jahre später, wird nun ein Tribunal einberufen, das die bengalischen Schuldigen am Genozid von damals zur Rechenschaft ziehen soll.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/25/dlf_20100925_1840_36cda3e4.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sat, 25 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/25/dlf_20100925_1840_36cda3e4.mp3" length="8815456" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/25/dlf_20100925_1840_36cda3e4.mp3</guid>
+            <itunes:author>Böttger, Barbara</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Gabriels Mission - Wie der SPD-Chef die Partei neu aufstellt</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1280321/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/55950/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Als Anwalt der kleinen Leute will SPD-Chef Sigmar Gabriel seine Partei neu positionieren, dabei aber die &quot;alte&quot; SPD-Politik unter Schröder, Steinmeier und Co. nicht verleugnen. Nicht jeder in der Partei ist von seinem Kurs überzeugt: Gerade die Affäre rund um Sarrazin holt ihn derzeit immer wieder ein.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/24/dlf_20100924_1840_39d68e4a.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Fri, 24 Sep 2010 16:40:00 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/24/dlf_20100924_1840_39d68e4a.mp3" length="8786960" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/24/dlf_20100924_1840_39d68e4a.mp3</guid>
+            <itunes:author>Capellan, Frank</itunes:author>
+            <itunes:duration>00:18:21</itunes:duration>
+        </item>
+        <item>
+            <title>Im World Wide Web bleibt nichts geheim - Soziale Netzwerke und der Missbrauch</title>
+            <link>http://podcast-mp3.dradio.de/podcast/2010/09/23/dlf_20100923_1840_94c98548.mp3</link>
+            <description><![CDATA[<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/23/dlf_20100923_1840_94c98548.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Thu, 23 Sep 2010 16:40:48 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/23/dlf_20100923_1840_94c98548.mp3" length="8761792" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/23/dlf_20100923_1840_94c98548.mp3</guid>
+            <itunes:author>Baetz, Brigitte</itunes:author>
+            <itunes:duration>00:18:18</itunes:duration>
+        </item>
+        <item>
+            <title>Der ewige Streit ums Schulsystem - Vor der NRW-Bildungskonferenz</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1278161/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/35656/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Zur Diskussion steht das längere gemeinsame Lernen. Es soll - laut Befürworter - die Chancengleichheit verbessern. Kritiker einer Schulreform sehen dagegen im dreigleidrigen Schulsystem die Bildungschancen am besten realisiert.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/22/dlf_20100922_1840_112167d9.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Wed, 22 Sep 2010 16:40:41 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/22/dlf_20100922_1840_112167d9.mp3" length="8721440" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/22/dlf_20100922_1840_112167d9.mp3</guid>
+            <itunes:author>Himmelrath, Armin</itunes:author>
+            <itunes:duration>00:18:13</itunes:duration>
+        </item>
+        <item>
+            <title>Vom Prestigeobjekt zum Millionengrab - Das Kongresszentrum zwingt Bonn in die Knie</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1277594/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/25571/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Das Bonner Kongresszentrum sollte ein ganz großer Wurf werden. Doch nach fünfjähriger Planungs- und Bauzeit steht bislang nur ein halbfertiges Gebäude im ehemaligen Regierungsviertel. Der Investor ist verschwunden - und für Ex-Oberbürgermeisterin Bärbel Dieckmann wird es immer enger.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/21/dlf_20100921_1840_111dea4a.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Tue, 21 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/21/dlf_20100921_1840_111dea4a.mp3" length="8813376" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/21/dlf_20100921_1840_111dea4a.mp3</guid>
+            <itunes:author>Hilgers, Jochen</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Wehe, wenn der Segen fehlt - Bibel TV und Gottesdienste im Fernsehen</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1276601/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/56592/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Singen, beten, Bibel lesen: Das Angebot an christlichen oder kirchlichen Kanälen wie Bibel TV in Deutschland ist überschaubar und ähnlich in der Aufmachung. Konkurrenz machen ihnen die Gottesdienstübertragungen im Öffentlich-Rechtlichen. Eine Millionen Zuschauer schalten regelmäßig ein.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/20/dlf_20100920_1840_f3a23d13.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Mon, 20 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/20/dlf_20100920_1840_f3a23d13.mp3" length="8702512" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/20/dlf_20100920_1840_f3a23d13.mp3</guid>
+            <itunes:author>Meyer, Wolfgang</itunes:author>
+            <itunes:duration>00:18:11</itunes:duration>
+        </item>
+        <item>
+            <title>Häuser suchen Bauern - Der Schrumpfungsprozess auf dem Land</title>
+            <link>http://podcast-mp3.dradio.de/podcast/2010/09/19/dlf_20100919_1840_a33dfdb8.mp3</link>
+            <description><![CDATA[<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/19/dlf_20100919_1840_a33dfdb8.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sun, 19 Sep 2010 16:40:37 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/19/dlf_20100919_1840_a33dfdb8.mp3" length="8818160" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/19/dlf_20100919_1840_a33dfdb8.mp3</guid>
+            <itunes:author>Keuerleber, Gisela</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Wenn sich Leistung nicht mehr lohnt - Die Klage der deutschen Mittelschicht</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1275025/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/24519/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Am Ende des Monats landet immer weniger Geld in der Lohntüte. Betroffen sind vor allem Facharbeiter, Handwerker, Angestellte im mittleren Dienst sowie Kleinunternehmer. Der Grund sind hohe Steuern und steigende Sozialversicherungsbeiträge.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/18/dlf_20100918_1840_ea1ce9f5.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sat, 18 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/18/dlf_20100918_1840_ea1ce9f5.mp3" length="8813376" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/18/dlf_20100918_1840_ea1ce9f5.mp3</guid>
+            <itunes:author>Arnold, Ronny</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Sozialdemokraten im Abwind - Schweden vor der Reichstagswahl</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1275009/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/42304/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Am 19. September wird in Schweden ein neuer Reichstag gewählt. Alles andere als ein Sieg der regierenden bürgerlichen Koalition wäre eine Überraschung. Der Wahlkampf mit Musik und Leckereien ist in der heißen Endphase.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/17/dlf_20100917_1840_6d9abbb3.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Fri, 17 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/17/dlf_20100917_1840_6d9abbb3.mp3" length="8831472" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/17/dlf_20100917_1840_6d9abbb3.mp3</guid>
+            <itunes:author>Breitschuh, Albrecht Budde, Alexander</itunes:author>
+            <itunes:duration>00:18:27</itunes:duration>
+        </item>
+        <item>
+            <title>&quot;Viva Mexico!&quot; - Das Land der Azteken 200 Jahre nach dem Beginn des Unabhängigkeitskampfes</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1274156/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60644/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Drogenkrieg, Gewalt, Armut, aber auch lange Sandstrände und Tourismus. Mexiko ist ein Land der Extreme. Allein in der Hauptstadt leben heute mehr als 20 Millionen Menschen. Sie feiern in diesen Tagen die 200-jährige Unabhängigkeit ihres Landes von Spanien.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/16/dlf_20100916_1840_3dbc5bf2.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Thu, 16 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/16/dlf_20100916_1840_3dbc5bf2.mp3" length="8796320" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/16/dlf_20100916_1840_3dbc5bf2.mp3</guid>
+            <itunes:author>Polansky, Martin</itunes:author>
+            <itunes:duration>00:18:22</itunes:duration>
+        </item>
+        <item>
+            <title>Leichtfertig oder mitschuldig? - Erstmals steht in Deutschland der Vater eines Amokläufers vor ...</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1273358/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/49810/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Fast genau eineinhalb Jahre nach der Tat seines Sohnes muss sich ab Donnerstag der Vater des Amokläufers von Winnenden und Wendlingen vor dem Landgericht Stuttgart verantworten. Die Staatsanwaltschaft wirft dem Vater vor, den Amoklauf ermöglicht zu haben, weil er seine Waffe und die Munition nicht - wie es Vorschrift ist - im Waffentresor weggeschlossen hatte. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/15/dlf_20100915_1840_ad98e4b5.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Wed, 15 Sep 2010 16:40:17 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/15/dlf_20100915_1840_ad98e4b5.mp3" length="8754928" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/15/dlf_20100915_1840_ad98e4b5.mp3</guid>
+            <itunes:author>Götz, Uschi</itunes:author>
+            <itunes:duration>00:18:17</itunes:duration>
+        </item>
+        <item>
+            <title>Die legalisierte Menschenverachtung - Die &quot;Nürnberger Gesetze&quot;</title>
+            <link>http://podcast-mp3.dradio.de/podcast/2010/09/14/dlf_20100914_1840_a03b0c1b.mp3</link>
+            <description><![CDATA[<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/14/dlf_20100914_1840_a03b0c1b.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Tue, 14 Sep 2010 16:40:18 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/14/dlf_20100914_1840_a03b0c1b.mp3" length="8819616" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/14/dlf_20100914_1840_a03b0c1b.mp3</guid>
+            <itunes:author>Bernhard, Henry</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>&quot;Da ist noch Platz rechts der Union&quot; - Die Sehnsucht der Deutschen nach einer neuen Partei</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1272041/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60120/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Thilo Sarrazin ist mit seinen umstrittenen Thesen zur Integration nicht nur auf Ablehnung gestoßen:  Das Meinungsforschungsinstitut Emnid sieht derzeit ein Wählerpotenzial von knapp 20 Prozent für eine neue rechtskonservative Partei.
+<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/13/dlf_20100913_1840_076e2934.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Mon, 13 Sep 2010 16:40:17 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/13/dlf_20100913_1840_076e2934.mp3" length="8797984" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/13/dlf_20100913_1840_076e2934.mp3</guid>
+            <itunes:author>Banse, Philipp ; Koch, Tonia ; Magoley, Nina</itunes:author>
+            <itunes:duration>00:18:23</itunes:duration>
+        </item>
+        <item>
+            <title>Was vom Sparen übrig blieb -  Wie die Bundesregierung den Haushalt sanieren will</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1270509/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/45233/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Es ist das &quot;Königsrecht&quot; eines jeden Parlaments in westlichen Demokratien - das Recht, über den Haushalt zu beraten und zu beschließen. Wie viel Geld darf die Regierung ausgeben, wie viele Schulden darf sie machen? Ab morgen finden sie wieder statt - die Haushaltsberatungen im Berliner Reichstag. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/12/dlf_20100912_1840_3dd61d56.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sun, 12 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/12/dlf_20100912_1840_3dd61d56.mp3" length="8750560" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/12/dlf_20100912_1840_3dd61d56.mp3</guid>
+            <itunes:author>Birnbaum, Chriistoph</itunes:author>
+            <itunes:duration>00:18:17</itunes:duration>
+        </item>
+        <item>
+            <title>Die Macht der Militärs gerät ins Wanken - Die Türken vor dem Verfassungsreferendum</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1270006/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/59735/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die türkische Armee hat in der Landesverfassung eine machtvolle Ausnahmestellung: Sie führt einen eigenen Geheimdienst, in manchen Regionen des Landes sogar eine eigene Polizei und lange Zeit waren Generäle für die Justiz unantastbar. Diese Privilegien könnten bald dahinschmelzen.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/11/dlf_20100911_1840_5d8bcf5f.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sat, 11 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/11/dlf_20100911_1840_5d8bcf5f.mp3" length="8818992" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/11/dlf_20100911_1840_5d8bcf5f.mp3</guid>
+            <itunes:author>Köhne, Gunnar</itunes:author>
+            <itunes:duration>00:18:25</itunes:duration>
+        </item>
+        <item>
+            <title>Dicke Luft in der Union - Vor der CDU-Präsidiumsklausur ist Parteichefin Merkel in der Kritik</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1270177/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/57378/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Sinkende Umfragewerte, Proteste gegen das Großbauprojekt &quot;Stuttgart 21&quot; in Baden-Württemberg, Dauerstreit mit dem Koalitionspartner FDP. Der Frust sitzt tief - die CDU-Basis ist derzeit nicht gut auf die Parteichefin Angela Merkel zu sprechen.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/10/dlf_20100910_1840_6d9e7fd4.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Fri, 10 Sep 2010 16:40:18 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/10/dlf_20100910_1840_6d9e7fd4.mp3" length="8790704" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/10/dlf_20100910_1840_6d9e7fd4.mp3</guid>
+            <itunes:author>Petermann, Anke ; Knigge, Almuth ; Watzke, Michael</itunes:author>
+            <itunes:duration>00:18:22</itunes:duration>
+        </item>
+        <item>
+            <title>Tiefe Gräben - Der Streit um das geplante islamische Kulturzentrum an Ground Zero</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1269259/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/40304/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Zwei Blocks von Ground Zero entfernt soll ein muslimisches Kulturzentrum entstehen. Der Konflikt beinhaltet unter anderen den Vorwurf, der geplante Bau sei zu nah am Ground Zero und impliziere eine Beleidigung der Opfer des 11. September 2001.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/09/dlf_20100909_1840_795dc5f6.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Thu, 09 Sep 2010 16:40:17 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/09/dlf_20100909_1840_795dc5f6.mp3" length="8802768" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/09/dlf_20100909_1840_795dc5f6.mp3</guid>
+            <itunes:author>Bodewein, Lena</itunes:author>
+            <itunes:duration>00:18:23</itunes:duration>
+        </item>
+        <item>
+            <title>Felder leer, Kasse voll - Die Lebensmittelpreise werden steigen</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1267823/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60287/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die Lebenshaltungskosten steigen in Deutschland. Das Bundesamt für Statistik stellt monatlich den Verbraucherpreisindex vor und es zeigt sich eine schleichende Verteuerung des Warenkorbs. Grund dafür sind die weltweiten Katastrophen. <br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/08/dlf_20100908_1840_f70aadd4.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Wed, 08 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/08/dlf_20100908_1840_f70aadd4.mp3" length="8804640" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/08/dlf_20100908_1840_f70aadd4.mp3</guid>
+            <itunes:author>Birnbaum, Christoph</itunes:author>
+            <itunes:duration>00:18:24</itunes:duration>
+        </item>
+        <item>
+            <title>ELENA - Streit um die Arbeitnehmerdaten</title>
+            <link>http://podcast-mp3.dradio.de/podcast/2010/09/07/dlf_20100907_1840_63e35d9b.mp3</link>
+            <description><![CDATA[<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/07/dlf_20100907_1840_63e35d9b.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Tue, 07 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/07/dlf_20100907_1840_63e35d9b.mp3" length="8796736" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/07/dlf_20100907_1840_63e35d9b.mp3</guid>
+            <itunes:author>Blum, Daniel</itunes:author>
+            <itunes:duration>00:18:23</itunes:duration>
+        </item>
+        <item>
+            <title>Griechenland zwischen Schuldendruck und Sparvorgaben - Wer zahlt die Zeche?</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1265914/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/57730/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die Griechen bekommen die Schuldenlast ihres Landes nun direkt zu spüren und sparen: Viele nehmen wegen der gestiegenen Mineralölsteuer die U-Bahn, Inhaber von Kleinunternehmen bangen wegen der Konsumzurückhaltung ums Überleben. Die Gewerkschaften machen die Politiker für die Misere verantwortlich und kündigen Demonstrationen im Herbst an.<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/06/dlf_20100906_1840_f0cfc1e0.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Mon, 06 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/06/dlf_20100906_1840_f0cfc1e0.mp3" length="8780512" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/06/dlf_20100906_1840_f0cfc1e0.mp3</guid>
+            <itunes:author>Wurzel, Steffen</itunes:author>
+            <itunes:duration>00:18:20</itunes:duration>
+        </item>
+        <item>
+            <title>Das Spiel mit den Medien</title>
+            <link>http://podcast-mp3.dradio.de/podcast/2010/09/05/dlf_20100905_1840_7727546a.mp3</link>
+            <description><![CDATA[<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/05/dlf_20100905_1840_7727546a.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sun, 05 Sep 2010 16:40:16 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/05/dlf_20100905_1840_7727546a.mp3" length="8737040" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/05/dlf_20100905_1840_7727546a.mp3</guid>
+            <itunes:author>Grumbach, Detlef</itunes:author>
+            <itunes:duration>00:18:15</itunes:duration>
+        </item>
+        <item>
+            <title>Bei einer Zwei noch zusätzliches Lernen - Das Geschäft mit der Nachhilfe</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1264393/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/22363/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Nachhilfeinstitute verzeichnen weiterhin steigende Nachfrage nach ihren Leistungen. Ein Trend: Auch gute Schüler wollen so ihre Leistung pushen. Wird so Bildung zu einer Frage des Geldes?<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/04/dlf_20100904_1840_7705750c.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Sat, 04 Sep 2010 16:40:11 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/04/dlf_20100904_1840_7705750c.mp3" length="8848320" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/04/dlf_20100904_1840_7705750c.mp3</guid>
+            <itunes:author>Pfister, Sandra</itunes:author>
+            <itunes:duration>00:18:29</itunes:duration>
+        </item>
+        <item>
+            <title>Belastungsprobe für Politik und Technik - Das Großprojekt Stuttgart 21 in der Kritik</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1264636/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60214/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die Proteste reißen nicht ab. Täglich finden in der baden-württembergischen Hauptstadt Demonstartionen gegen das Grobauprojekt Stutgart 21 statt. Droht der schwarz-gelben Landesregierung bei den Landtagswahlen 2011 das Abstellgleis?<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/03/dlf_20100903_1840_371e2cda.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Fri, 03 Sep 2010 16:40:17 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/03/dlf_20100903_1840_371e2cda.mp3" length="8851440" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/03/dlf_20100903_1840_371e2cda.mp3</guid>
+            <itunes:author>Röhrlich, Dagmar</itunes:author>
+            <itunes:duration>00:18:29</itunes:duration>
+        </item>
+        <item>
+            <title>Regionalmacht und Spielball der Interessen - Die geopolitische Bedeutung Pakistans</title>
+            <link>http://www.dradio.de/dlf/sendungen/hintergrundpolitik/1263381/</link>
+            <description><![CDATA[<img src="http://www.dradio.de/images/60310/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Spenden für Pakistan - viele Menschen haben dabei gemischte Gefühle. Zu groß ist die Angst, den Terrorismus zu unterstützen. Doch inwieweit entspricht unsere Angst der Realität?<br clear="all"><br>Deutschlandfunk, Hintergrund<br><a href="http://podcast-mp3.dradio.de/podcast/2010/09/02/dlf_20100902_1840_33eb77fb.mp3">Direkter Link zur Audiodatei</a><br><p><br></p>]]></description>
+            <author>podcast@dradio.de</author>
+            <pubDate>Thu, 02 Sep 2010 16:40:15 GMT</pubDate>
+            <enclosure url="http://podcast-mp3.dradio.de/podcast/2010/09/02/dlf_20100902_1840_33eb77fb.mp3" length="8730592" type="audio/mpeg" />
+            <guid>http://podcast-mp3.dradio.de/podcast/2010/09/02/dlf_20100902_1840_33eb77fb.mp3</guid>
+            <itunes:author>Esselborn, Priya</itunes:author>
+            <itunes:duration>00:18:14</itunes:duration>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/item_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <include layout="@layout/message_bar"/>
+        <!-- WebViewWithTitle will be added here dynamically -->
+    </LinearLayout>
+    <ProgressBar
+            style="@style/Widget.ProgressBar.Transparent"
+            android:layout_width="fill_parent"
+            android:id="@+id/item_load_progress"
+            android:visibility="gone"/>
+</FrameLayout>

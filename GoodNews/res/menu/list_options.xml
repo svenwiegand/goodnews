@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_show_new"
+            android:title="@string/menu_show_new"
+            android:icon="@drawable/ic_action_show_all"
+            android:visible="false"
+            android:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_show_all"
+            android:title="@string/menu_show_all"
+            android:icon="@drawable/ic_action_show_new"
+            android:visible="false"
+            android:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_mark_read"
+            android:title="@string/menu_mark_read"
+            android:icon="@drawable/ic_action_mark_read"
+            android:showAsAction="always"/>
+    <item
+            android:id="@+id/menu_fetch_old"
+            android:title="@string/menu_fetch_old"
+            android:visible="false"/>
+    <item
+            android:id="@+id/menu_view_preferences"
+            android:title="@string/menu_view_preferences"/>
+    <item
+            android:id="@+id/menu_preferences"
+            android:title="@string/menu_preferences"/>
+</menu>

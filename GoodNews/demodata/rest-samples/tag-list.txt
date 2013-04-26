@@ -1,0 +1,3 @@
+https://www.google.com/reader/api/0/tag/list?output=json
+
+{"tags":[{"id":"user/04563976027116553977/state/com.google/starred","sortid":"C468E9F7"},{"id":"user/04563976027116553977/state/com.google/broadcast","sortid":"69B323EF"},{"id":"user/04563976027116553977/label/Freunde","sortid":"AC673D57"},{"id":"user/04563976027116553977/label/IT News","sortid":"BCA11087"},{"id":"user/04563976027116553977/label/News Allgemein","sortid":"4158E987"},{"id":"user/04563976027116553977/label/Podcasts","sortid":"878ED38C"},{"id":"user/04563976027116553977/label/Softwärentwicklung","sortid":"7C6A0EC3"},{"id":"user/04563976027116553977/label/Todo","sortid":"9548E51A"},{"id":"user/04563976027116553977/state/com.blogger/blogger-following","sortid":"F39CB6DC"}]}

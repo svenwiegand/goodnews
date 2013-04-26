@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="@dimen/dialog_padding"
+   	>
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_large"
+		android:text="@string/rating_request_msg"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+    <Button
+        android:id="@+id/rating_request_rate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_request_rate"/>
+    <Button
+        android:id="@+id/rating_request_later"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_request_later"/>
+    <Button
+        android:id="@+id/rating_request_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_request_no"/>
+</LinearLayout>

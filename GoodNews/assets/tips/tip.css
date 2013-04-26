@@ -1,0 +1,57 @@
+body {
+    color:white;
+    background-color:transparent;
+}
+
+hr {
+    border: 1px solid #00adcc;
+    display: none;
+}
+
+hr.visible {
+    display: block;
+}
+
+h1 {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+img.tiny {
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+img.default {
+    width: 32px;
+    height: 32px;
+}
+
+td.icon {
+    padding-right: 6px;
+}
+
+td.desc {
+    padding: 6px 0;
+}
+
+a {
+    color: #00adcc;
+}
+
+dt {
+    padding-top: 12px;
+    font-weight: bold;
+}
+

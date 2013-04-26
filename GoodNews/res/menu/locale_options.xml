@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/menu_cancel"
+		android:title="@string/locale_cancel"
+		android:icon="@drawable/ic_menu_close_clear_cancel"/>
+	<item
+		android:id="@+id/menu_ok"
+		android:title="@string/locale_ok"
+		android:icon="@drawable/ic_menu_save"/>
+</menu>

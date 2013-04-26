@@ -1,0 +1,232 @@
+<resources>
+    <!-- action bar -->
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="background">@drawable/action_bar_background</item>
+        <item name="android:background">@drawable/action_bar_background</item>
+
+        <item name="backgroundSplit">@drawable/action_bar_bottom_background</item>
+        <item name="android:backgroundSplit">@drawable/action_bar_bottom_background</item>
+
+        <item name="displayOptions">showTitle|showHome</item>
+        <item name="android:displayOptions">showTitle|showHome</item>
+    </style>
+
+    <!-- activity main components -->
+    <style name="Activity" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:background">?activityBackground</item>
+    </style>
+    <style name="Frame">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">20px</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="Frame.Content">
+        <item name="android:background">?attr/listBackgroundColor</item>
+    </style>
+    <style name="Frame.NoContent">
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="ContentMsg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/space</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/space</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="ContentMsg.Info">
+        <item name="android:drawableTop">@drawable/ic_msg_info</item>
+    </style>
+
+    <!-- progress bar -->
+    <style name="Widget.ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_height">4dp</item>
+        <item name="android:padding">0px</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+    </style>
+    <style name="Widget.ProgressBar.Transparent">
+        <item name="android:progressDrawable">@drawable/progress_bar_transparent</item>
+    </style>
+    <style name="Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <!--list view -->
+    <style name="Widget">
+    </style>
+    <style name="Widget.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@color/background_black</item>
+        <item name="android:cacheColorHint">@color/background_black</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:selectableItemBackground">@drawable/list_selector</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="Widget.ListView.Dark">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:cacheColorHint">@color/background_dark</item>
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+        <item name="android:selectableItemBackground">@drawable/list_selector_dark</item>
+    </style>
+    <style name="Widget.ListView.White" parent="@android:style/Widget.ListView.White">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@color/background_white</item>
+        <item name="android:cacheColorHint">@color/background_white</item>
+        <item name="android:listSelector">@drawable/list_selector_white</item>
+        <item name="android:selectableItemBackground">@drawable/list_selector_white</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="Widget.ListView.Light" parent="@style/Widget.ListView.White">
+        <item name="android:background">@color/background_light</item>
+        <item name="android:cacheColorHint">@color/background_light</item>
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+        <item name="android:selectableItemBackground">@drawable/list_selector_light</item>
+    </style>
+
+    <!-- list itme -->
+    <style name="ListItem">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="TextAppearance.ListItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?themeTextColorPrimary</item>
+        <item name="android:textColorHighlight">?themeTextColorPrimary</item>
+    </style>
+    <style name="TextAppearance.ListItem.Emphasized">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.ListItem.Light">
+    </style>
+    <style name="TextAppearance.ListItem.Emphasized.Light">
+    </style>
+    <style name="TextAppearance.ListItem.Secondary" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorSecondary</item>
+    </style>
+    <style name="TextAppearance.ListItem.Secondary.Light">
+    </style>
+
+    <style name="TextAppearance.ListSectionHeader" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/highlight_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.ListSectionHeader.Light">
+    </style>
+    <style name="ListSectionHeader">
+        <item name="android:textAppearance">@style/TextAppearance.ListSectionHeader</item>
+        <item name="android:background">@drawable/header_background</item>
+        <item name="android:padding">@dimen/space</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ListSectionHeader.Dark">
+        <item name="android:background">@drawable/header_background_dark</item>
+    </style>
+    <style name="ListSectionHeader.White">
+        <item name="android:textAppearance">@style/TextAppearance.ListSectionHeader.Light</item>
+        <item name="android:background">@drawable/header_background_white</item>
+    </style>
+    <style name="ListSectionHeader.Light" parent="@style/ListSectionHeader.White">
+        <item name="android:background">@drawable/header_background_light</item>
+    </style>
+
+    <!-- tag list -->
+    <style name="Counter">
+        <item name="android:background">?counterBackground</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">?textColorForHighlightBackground</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- article list item -->
+    <style name="ItemToggleButton">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textOn"/>
+        <item name="android:textOff"/>
+        <item name="android:focusable">false</item>
+        <item name="android:background">@drawable/nothing</item>
+        <item name="android:padding">@dimen/space</item>
+    </style>
+    <style name="ItemToggleButton.Right">
+        <item name="android:paddingRight">@dimen/space_large</item>
+    </style>
+
+    <!-- article -->
+    <style name="ListItemLabel">
+        <item name="android:textAppearance">?textAppearanceListItem</item>
+    </style>
+    <style name="ListItemLabel.WithIcon">
+        <item name="android:drawablePadding">@dimen/space_small</item>
+    </style>
+
+    <style name="Label">
+        <item name="android:textAppearance">@android:style/TextAppearance</item>
+    </style>
+    <style name="Label.Subtitle">
+        <item name="android:textAppearance">?attr/textAppearanceArticleSubtitle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Teaser" parent="Label.Subtitle">
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="TextAppearance.Article.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/highlight_text</item>
+    </style>
+    <style name="TextAppearance.Article.Subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?attr/themeTextColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.TagList" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?textColorForHighlightBackground</item>
+        <item name="android:textSize">@dimen/text_size_extra_small</item>
+    </style>
+
+    <!-- content actions -->
+    <style name="Widget.ContentActionBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/action_bar_background</item>
+    </style>
+    <style name="Widget.ContentActionBarButton">
+        <item name="android:background">@drawable/item_background_light</item>
+        <item name="android:layout_width">100px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:padding">@dimen/space_large</item>
+        <item name="android:drawablePadding">@dimen/space_small</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColorHighlight">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- notifications -->
+    <style name="NotificationTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textAppearance">@style/TextAppearance.Notification.Title</item>
+    </style>
+
+</resources>
