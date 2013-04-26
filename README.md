@@ -26,6 +26,7 @@ I no longer have time to invest coding time into GoodNews, but I would be willin
 
 ## How can I participate?
 Simply go the GitHub way:
+
 1. fork
 2. implement
 3. create pull request
